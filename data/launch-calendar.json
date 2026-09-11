@@ -22,7 +22,8 @@
     {
       "id": "calendar-bmw-5-i5-202602",
       "month": "2026-02",
-      "dateText": "2月（具体日期待补）",
+      "date": "2026-02-02",
+      "dateText": "2月2日",
       "brand": "宝马",
       "model": "2026款宝马5系 / i5",
       "kind": "年款上市",
@@ -47,7 +48,7 @@
     },
     {
       "id": "calendar-voyah-dreamer-collection-202601",
-      "month": "2026-01", "dateText": "1月（具体日期待补）", "brand": "岚图", "model": "梦想家典藏版", "kind": "新增版本", "powertrain": "新能源 MPV", "priceText": "45.99万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202601/1311801.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-01", "detail": "汽车之家上市报道显示，岚图梦想家典藏版已上市，售价45.99万元。", "observation": "具体上市日待补。"
+      "month": "2026-01", "date": "2026-01-14", "dateText": "1月14日", "brand": "岚图", "model": "梦想家 PHEV 典藏版", "kind": "新增版本", "powertrain": "新能源 MPV", "priceText": "45.99万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202601/1311801.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-01-14", "detail": "岚图梦想家PHEV典藏版于1月14日上市，售价45.99万元。", "observation": "上市日已补齐。"
     },
     {
       "id": "calendar-nio-et9-million-202601",
@@ -208,7 +209,8 @@
     {
       "id": "calendar-nio-champion-202606",
       "month": "2026-06",
-      "dateText": "6月（具体日期待补）",
+      "date": "2026-06-15",
+      "dateText": "6月15日",
       "brand": "蔚来",
       "model": "2026款 ET5 / ET5T / EC6 冠军版",
       "kind": "年款上市",
@@ -245,7 +247,8 @@
     {
       "id": "calendar-geely-xingjian7-202606",
       "month": "2026-06",
-      "dateText": "6月（具体日期待补）",
+      "date": "2026-06-10",
+      "dateText": "6月10日",
       "brand": "吉利银河",
       "model": "星舰7 EV 远航家",
       "kind": "新增版本",
@@ -263,7 +266,8 @@
     {
       "id": "calendar-denza-d9-202607",
       "month": "2026-07",
-      "dateText": "7月（具体日期待补）",
+      "date": "2026-07-17",
+      "dateText": "7月17日",
       "brand": "腾势",
       "model": "第二代腾势D9插混闪充豪华型",
       "kind": "新增版本",
@@ -395,20 +399,21 @@
     {
       "id": "calendar-nio-es9-202605-window",
       "month": "2026-05",
-      "dateText": "5月底（具体日期待官宣）",
+      "date": "2026-05-27",
+      "dateText": "5月27日",
       "brand": "蔚来",
       "model": "蔚来 ES9",
-      "kind": "计划上市",
+      "kind": "新车上市",
       "powertrain": "纯电大型 SUV",
-      "priceText": "预售价52.8万—65.8万元；BaaS 42万—55万元",
-      "status": "estimated",
-      "statusLabel": "预计上市",
+      "priceText": "整车49.8万—62.8万元起；BaaS 39万—52万元起",
+      "status": "launched",
+      "statusLabel": "已上市",
       "sourceName": "新浪汽车",
       "sourceUrl": "https://auto.sina.com.cn/newcar/2026-04-24/detail-inhvrnzu4508718.shtml",
       "evidenceLabel": "媒体报道",
-      "publishedAt": "2026-04-24",
-      "detail": "新浪汽车报道，蔚来ES9在北京车展亮相并开启预售，计划于5月底正式上市；原文未给出具体日期。",
-      "observation": "仅展示媒体报道的计划窗口，尚未将其写成已上市。"
+      "publishedAt": "2026-05-27",
+      "detail": "蔚来ES9于5月27日正式上市并开启交付，整车价格49.8万—62.8万元起，BaaS 39万—52万元起。",
+      "observation": "已由预售窗口更新为正式上市口径。"
     },
     {
       "id": "calendar-byd-han-ev-fast-202604",
@@ -440,7 +445,7 @@
     },
     {
       "id": "calendar-tesla-modely-performance-202609",
-      "month": "2026-09", "dateText": "9月（具体日期待补）", "brand": "特斯拉", "model": "Model Y 高性能版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "36.9万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202609/1317103.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-09", "detail": "汽车之家上市报道显示，特斯拉Model Y高性能版已上市，售价36.9万元。", "observation": "具体上市日待补。"
+      "month": "2026-09", "date": "2026-09-11", "dateText": "9月11日", "brand": "特斯拉", "model": "Model Y 全轮驱动高性能版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "36.9万元起", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202609/1317103.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-09-11", "detail": "特斯拉Model Y全轮驱动高性能版于9月11日上市，36.9万元起。", "observation": "上市日已补齐。"
     },
     {
       "id": "calendar-xpeng-p7plus-20260108",
@@ -495,15 +500,15 @@
     },
     {
       "id": "calendar-aito-m6-202608",
-      "month": "2026-08", "dateText": "8月（具体日期待补）", "brand": "鸿蒙智行", "model": "问界 M6 增程版新增车型", "kind": "新增版本", "powertrain": "增程 SUV", "priceText": "23.98万元起", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202608/1316572.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-08", "detail": "汽车之家上市报道显示，问界M6增程版新增车型已上市，23.98万元起。", "observation": "具体上市日待补。"
+      "month": "2026-08", "date": "2026-08-20", "dateText": "8月20日", "brand": "鸿蒙智行", "model": "问界 M6 增程版新增车型", "kind": "新增版本", "powertrain": "增程 SUV", "priceText": "23.98万元起", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202608/1316572.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-08-20", "detail": "问界M6增程版新增Max四驱版、Max+长续航版于8月20日上市，23.98万元起。", "observation": "上市日已补齐。"
     },
     {
       "id": "calendar-fangchengbao-tai3-202608",
-      "month": "2026-08", "dateText": "8月（具体日期待补）", "brand": "比亚迪", "model": "方程豹钛3 510KM 后驱闪充版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "14.38万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202608/1316403.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-08", "detail": "汽车之家上市报道显示，方程豹钛3 510KM后驱闪充版已上市，售价14.38万元。", "observation": "具体上市日待补。"
+      "month": "2026-08", "date": "2026-08-13", "dateText": "8月13日", "brand": "比亚迪", "model": "方程豹钛3 510KM 后驱闪充版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "14.38万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202608/1316403.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-08-13", "detail": "方程豹官方于8月13日宣布加推钛3 510KM后驱闪充版，售价14.38万元。", "observation": "采用官方加推上市日，不使用早期媒体报道日。"
     },
     {
       "id": "calendar-li-i8-rwd-202608",
-      "month": "2026-08", "dateText": "8月（具体日期待补）", "brand": "理想", "model": "理想 i8 后驱长续航版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "30.98万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202608/1316230.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-08", "detail": "汽车之家上市报道显示，理想i8后驱长续航版已上市，售价30.98万元。", "observation": "具体上市日待补。"
+      "month": "2026-08", "date": "2026-08-06", "dateText": "8月6日", "brand": "理想", "model": "理想 i8 后驱长续航版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "30.98万元起", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202608/1316230.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-08-06", "detail": "理想i8后驱长续航版于8月6日上市，30.98万元起。", "observation": "上市日已补齐。"
     },
     {
       "id": "calendar-byd-tai9-q4-2026",
