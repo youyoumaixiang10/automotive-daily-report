@@ -249,7 +249,7 @@
       "列表与原文发布日期不一致",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:53:38.214Z"
+    "fetchedAt": "2026-09-11T08:37:54.112Z"
   },
   "https://www.onvo.cn/news/20260731001": {
     "sourceId": "onvo-about",
@@ -2170,7 +2170,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:54:57.275Z"
+    "fetchedAt": "2026-09-11T08:37:59.578Z"
   },
   "https://www.dongchedi.com/video/7682371674008273432": {
     "sourceId": "dongchedi-news",
@@ -2394,29 +2394,19 @@
     ],
     "industry": false,
     "publishedTime": null,
-    "contentParagraphs": [
-      "公众号手机验证码登录登录/注册密码登录登录即表示你同意用户协议和隐私协议"
-    ],
+    "contentParagraphs": [],
     "author": "",
     "mediaOriginal": false,
-    "linkedSources": [
-      {
-        "title": "用户协议",
-        "url": "https://m.dcdapp.com/motor/mp_node/api/draft/ies-hotsoon-draft/dcd_open_platform/e5fdf397-fba0-479a-a6b5-66296773c6e5.html"
-      },
-      {
-        "title": "隐私协议",
-        "url": "https://m.dcdapp.com/motor/mp_node/api/draft/ies-hotsoon-draft/dcd_open_platform/989e0d20-9cdb-4782-a573-46d828cd5ba1.html"
-      }
-    ],
+    "linkedSources": [],
     "brands": [
       "鸿蒙智行"
     ],
     "evidenceStatus": "media",
     "reviewReasons": [
-      "缺少原文发布日期"
+      "缺少原文发布日期",
+      "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T02:02:53.602Z"
+    "fetchedAt": "2026-09-11T08:37:59.560Z"
   },
   "https://www.dongchedi.com/video/7682729411560522302": {
     "sourceId": "dongchedi-news",
@@ -2517,29 +2507,19 @@
     ],
     "industry": false,
     "publishedTime": null,
-    "contentParagraphs": [
-      "公众号手机验证码登录登录/注册密码登录登录即表示你同意用户协议和隐私协议"
-    ],
+    "contentParagraphs": [],
     "author": "",
     "mediaOriginal": false,
-    "linkedSources": [
-      {
-        "title": "用户协议",
-        "url": "https://m.dcdapp.com/motor/mp_node/api/draft/ies-hotsoon-draft/dcd_open_platform/e5fdf397-fba0-479a-a6b5-66296773c6e5.html"
-      },
-      {
-        "title": "隐私协议",
-        "url": "https://m.dcdapp.com/motor/mp_node/api/draft/ies-hotsoon-draft/dcd_open_platform/989e0d20-9cdb-4782-a573-46d828cd5ba1.html"
-      }
-    ],
+    "linkedSources": [],
     "brands": [
       "吉利银河"
     ],
     "evidenceStatus": "media",
     "reviewReasons": [
-      "缺少原文发布日期"
+      "缺少原文发布日期",
+      "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T02:02:54.754Z"
+    "fetchedAt": "2026-09-11T08:38:04.747Z"
   },
   "https://www.dongchedi.com/video/7682348023632036377": {
     "sourceId": "dongchedi-news",
@@ -2570,7 +2550,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:55:30.386Z"
+    "fetchedAt": "2026-09-11T08:38:10.312Z"
   },
   "https://www.dongchedi.com/video/7682353317758157337": {
     "sourceId": "dongchedi-news",
@@ -2589,29 +2569,19 @@
     ],
     "industry": false,
     "publishedTime": null,
-    "contentParagraphs": [
-      "公众号手机验证码登录登录/注册密码登录登录即表示你同意用户协议和隐私协议"
-    ],
+    "contentParagraphs": [],
     "author": "",
     "mediaOriginal": false,
-    "linkedSources": [
-      {
-        "title": "用户协议",
-        "url": "https://m.dcdapp.com/motor/mp_node/api/draft/ies-hotsoon-draft/dcd_open_platform/e5fdf397-fba0-479a-a6b5-66296773c6e5.html"
-      },
-      {
-        "title": "隐私协议",
-        "url": "https://m.dcdapp.com/motor/mp_node/api/draft/ies-hotsoon-draft/dcd_open_platform/989e0d20-9cdb-4782-a573-46d828cd5ba1.html"
-      }
-    ],
+    "linkedSources": [],
     "brands": [
       "鸿蒙智行"
     ],
     "evidenceStatus": "media",
     "reviewReasons": [
-      "缺少原文发布日期"
+      "缺少原文发布日期",
+      "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T02:02:55.429Z"
+    "fetchedAt": "2026-09-11T08:38:10.240Z"
   },
   "https://weibo.com/1746221281/RhapG7mE1": {
     "sourceId": "byd-weibo",
@@ -3581,7 +3551,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:56:15.480Z"
+    "fetchedAt": "2026-09-11T08:38:13.880Z"
   },
   "https://auto.sina.com.cn/newcar/x/2025-09-19/detail-infqxmrf3855262.shtml": {
     "sourceId": "sina-auto",
@@ -4937,7 +4907,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:56:44.222Z"
+    "fetchedAt": "2026-09-11T08:38:13.791Z"
   },
   "https://auto.gasgoo.com/Hot/35": {
     "sourceId": "gasgoo-auto",
@@ -4984,7 +4954,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:56:56.756Z"
+    "fetchedAt": "2026-09-11T08:38:16.328Z"
   },
   "https://finance.sina.com.cn/roll/2026-09-10/doc-inirihnw5394467.shtml": {
     "sourceId": "sina-auto",
@@ -6530,7 +6500,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:57:12.752Z"
+    "fetchedAt": "2026-09-11T08:38:21.782Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-05-09/doc-inhxhzaz1333283.shtml": {
     "sourceId": "sina-auto",
@@ -7119,7 +7089,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:57:33.439Z"
+    "fetchedAt": "2026-09-11T08:38:21.298Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirihnw5381545.shtml": {
     "sourceId": "sina-auto",
@@ -11030,7 +11000,7 @@
     "industry": false,
     "evidenceStatus": "official",
     "reviewReasons": [],
-    "fetchedAt": "2026-09-11T02:02:33.161Z"
+    "fetchedAt": "2026-09-11T08:37:48.444Z"
   },
   "https://www.autohome.com.cn/news/202609/1317103.html": {
     "sourceId": "autohome-news",
@@ -11091,7 +11061,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:06.446Z"
+    "fetchedAt": "2026-09-11T08:38:24.737Z"
   },
   "https://www.sina.cn/gc/article/niqhscz8358675.html": {
     "sourceId": "sina-auto",
@@ -11151,7 +11121,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:21.619Z"
+    "fetchedAt": "2026-09-11T08:38:24.333Z"
   },
   "https://k.sina.cn/article_7857141524_1d452771401902vg9q.html": {
     "sourceId": "sina-auto",
@@ -11175,7 +11145,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:16.615Z"
+    "fetchedAt": "2026-09-11T08:38:27.551Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirinuu5375654.shtml": {
     "sourceId": "sina-auto",
@@ -11764,7 +11734,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:18.458Z"
+    "fetchedAt": "2026-09-11T08:38:27.949Z"
   },
   "https://auto.caijing.com.cn/2026/0909/5182540.shtml": {
     "sourceId": "caijing-auto",
@@ -12537,7 +12507,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:23.731Z"
+    "fetchedAt": "2026-09-11T08:38:30.500Z"
   },
   "https://k.sina.cn/article_7880068271_1d5b04caf06802hxs6.html": {
     "sourceId": "sina-auto",
@@ -12561,7 +12531,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:24.286Z"
+    "fetchedAt": "2026-09-11T08:38:34.147Z"
   },
   "https://auto.gasgoo.com/new-cars/C-107": {
     "sourceId": "gasgoo-auto",
@@ -12583,7 +12553,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:22.346Z"
+    "fetchedAt": "2026-09-11T08:38:30.715Z"
   },
   "https://k.sina.cn/article_7879848900_1d5acf3c401902qp2e.html": {
     "sourceId": "sina-auto",
@@ -12607,7 +12577,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:26.680Z"
+    "fetchedAt": "2026-09-11T08:38:33.462Z"
   },
   "https://k.sina.cn/article_7880068201_1d5b04c69068023enk.html": {
     "sourceId": "sina-auto",
@@ -12631,7 +12601,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:27.523Z"
+    "fetchedAt": "2026-09-11T08:38:35.721Z"
   },
   "https://auto.sina.com.cn/2026-09-10/detail-inirchmik3337579.d.html?vt=4": {
     "sourceId": "sina-auto",
@@ -12655,7 +12625,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-11T07:58:27.959Z"
+    "fetchedAt": "2026-09-11T08:38:43.287Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexfw8937843.shtml": {
     "sourceId": "sina-auto",
