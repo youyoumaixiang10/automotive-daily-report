@@ -1,0 +1,10 @@
+:root { --accent-deep: #234d85; }
+.nav-link.active { color: var(--accent-deep); background: #eef3fa; }
+.nav-link.active i { color: var(--accent-deep); }
+.lead-section .section-kicker,
+.industry-section .section-kicker { border-bottom-color: var(--accent-deep); }
+.lead-section .section-kicker::before,
+.industry-section .section-kicker::before,
+.lead-card::before,
+.industry-item::before { color: var(--accent-deep); }
+.lead-card .lead-type { color: var(--accent-deep); background: #eef3fa; }

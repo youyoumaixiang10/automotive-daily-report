@@ -1,0 +1,13 @@
+/* Keep headline title and summary in one grid cell so tags cannot create a false blank row. */
+.lead-card,
+.lead-card:first-child { align-items: center; }
+.lead-card .lead-content { grid-column: 3; grid-row: 1; min-width: 0; }
+.lead-card .lead-content h3,
+.lead-card:first-child .lead-content h3 { margin: 0; }
+.lead-card .lead-content p { margin: 5px 0 0; }
+.lead-source,
+.lead-card:first-child .lead-source { grid-row: 1; align-self: center; }
+
+@media (max-width: 800px) {
+  .lead-card .lead-content { grid-column: 3; }
+}

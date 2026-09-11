@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>车讯台 · 风格选择</title>
+    <link rel="stylesheet" href="style-lab.css" />
+  </head>
+  <body>
+    <aside class="control-panel">
+      <a class="lab-logo" href="/">车讯台 <small>STYLE STUDY 01</small></a>
+      <p class="intro">三种适合汽车产品与营销情报站的视觉语言。选择后，右侧会切换成对应的完整首页视图。</p>
+      <div class="style-choices">
+        <button class="choice selected" data-style="editorial">
+          <span class="choice-no">01</span><strong>行业编辑部</strong><em>冷静、有判断的专业媒体</em>
+        </button>
+        <button class="choice" data-style="terminal">
+          <span class="choice-no">02</span><strong>产品情报台</strong><em>高密度、可快速扫读</em>
+        </button>
+        <button class="choice" data-style="signal">
+          <span class="choice-no">03</span><strong>市场信号</strong><em>更锋利的趋势观察界面</em>
+        </button>
+      </div>
+      <div class="selection-note" id="selection-note">
+        <span>01 / 行业编辑部</span>
+        <p>大留白与强标题，把每日信息做成一本值得翻阅的行业晨报。</p>
+      </div>
+    </aside>
+
+    <main class="canvas">
+      <div class="browser-bar"><span></span><span></span><span></span><b>carbrief.cn / daily</b><i>2026.09.10</i></div>
+      <article class="site-preview editorial" id="preview">
+        <header class="preview-header">
+          <div class="preview-logo">车讯台 <small>CAR BRIEF</small></div>
+          <div class="preview-nav"><b>日报</b><span>新车一览</span><span>品牌索引</span></div>
+          <button>订阅日报 <i>↗</i></button>
+        </header>
+
+        <div class="edition-line"><span>2026 / 09 / 10</span><b>星期四 · 第 084 期</b><span>覆盖 15 个重点品牌</span></div>
+        <section class="preview-title">
+          <p class="label">TODAY'S AUTOMOTIVE BRIEF</p>
+          <h1>今天，哪些事<br /><i>会改变牌桌？</i></h1>
+          <p class="title-side">为产品与营销人员筛出<br />值得判断、值得行动的信息。</p>
+        </section>
+
+        <section class="top-story">
+          <div class="top-index">01<br /><small>LEAD</small></div>
+          <div class="top-copy"><p class="label">新品节奏 / MARKET WATCH</p><h2>秋季新车窗口打开，产品上市与传播资源开始正面相撞</h2><p>真正值得跟踪的，不是“谁发了新车”，而是它如何定价、如何讲产品、如何让渠道承接。</p><a href="#">阅读完整摘要 <i>→</i></a></div>
+          <div class="top-visual" aria-hidden="true"><div class="wheel"></div><span>09<br />10</span><b>NEW<br />SEASON</b></div>
+        </section>
+
+        <section class="briefs">
+          <div class="section-head"><span>02</span><b>今日重要摘要</b><small>7 条不可错过的信息</small></div>
+          <div class="brief-grid">
+            <article><span>新车</span><h3>鸿蒙智行新车预告进入关键阶段</h3><p>产品定位、价格区间与配置表述，将决定其上市前的首轮讨论。</p><i>01</i></article>
+            <article><span>促销</span><h3>多家品牌集中更新购车权益</h3><p>权益变化背后，是终端需求、库存与竞争节奏的共同信号。</p><i>02</i></article>
+            <article><span>政策</span><h3>汽车消费政策进入落地观察期</h3><p>同一项政策在不同城市的兑现速度，值得单独追踪。</p><i>03</i></article>
+          </div>
+        </section>
+        <section class="brand-strip"><span>BRAND PULSE</span><b>鸿蒙智行</b><b>比亚迪</b><b>理想</b><b>小米</b><b>特斯拉</b><i>今日 5 个品牌有更新 →</i></section>
+      </article>
+    </main>
+    <script src="style-lab.js"></script>
+  </body>
+</html>

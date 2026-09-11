@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="汽车产品与营销人的每日行业情报" />
+    <title>车讯台 · 汽车行业日报</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="summary.css" />
+    <link rel="stylesheet" href="section-styles.css" />
+    <link rel="stylesheet" href="section-refresh.css" />
+    <link rel="stylesheet" href="accent.css" />
+    <link rel="stylesheet" href="layout-fixes.css" />
+    <link rel="stylesheet" href="date-calendar.css" />
+    <link rel="stylesheet" href="live-data.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#daily" aria-label="车讯台首页">
+        <span class="brand-mark">C</span><span>车讯台</span><em>CAR BRIEF</em>
+      </a>
+      <nav aria-label="主导航">
+        <button class="nav-link active" data-view="daily">日报</button>
+        <button class="nav-link" data-view="calendar">新车一览</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="daily-view view active" id="daily-view">
+        <div class="masthead">
+          <div>
+            <p class="eyebrow">AUTOMOTIVE INTELLIGENCE / DAILY</p>
+            <h1 id="report-heading">汽车行业日报</h1>
+          </div>
+          <div class="date-panel">
+            <button class="date-arrow" id="previous-day" aria-label="前一天">←</button>
+            <div class="date-picker">
+              <button class="date-select-label" id="calendar-toggle" aria-expanded="false" aria-controls="date-popover"><span id="calendar-selected-label"></span><i>⌄</i></button>
+              <div class="date-popover" id="date-popover" hidden>
+                <div class="calendar-toolbar"><button id="calendar-previous-month" aria-label="上个月">‹</button><b id="calendar-month-label"></b><button id="calendar-next-month" aria-label="下个月">›</button></div>
+                <div class="weekday-row"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+                <div class="calendar-grid" id="calendar-grid"></div>
+                <p class="calendar-note"><i></i> 9月1日后可查看；更早记录暂不开放</p>
+              </div>
+            </div>
+            <select id="date-select" aria-label="选择日报日期" hidden></select>
+            <button class="date-arrow" id="next-day" aria-label="后一天">→</button>
+          </div>
+        </div>
+
+        <p class="collection-summary" id="collection-summary" role="status">正在读取日报…</p>
+        <section class="lead-section" aria-labelledby="lead-title">
+          <div class="section-kicker"><span>01</span><h2 id="lead-title">当天重要摘要</h2><p>不能错过的行业变量</p></div>
+          <div class="lead-grid" id="lead-grid"></div>
+        </section>
+
+        <section class="brand-section" aria-labelledby="brand-title">
+          <div class="section-kicker">
+            <span>02</span><h2 id="brand-title">重点品牌动态</h2><p id="brand-count"></p>
+          </div>
+          <div class="brand-jump" id="brand-jump" aria-label="按品牌跳转"></div>
+          <div class="brand-stories" id="brand-stories"></div>
+        </section>
+
+        <section class="industry-section" aria-labelledby="industry-title">
+          <div class="section-kicker"><span>03</span><h2 id="industry-title">行业信息</h2><p>政策 · 市场 · 产业链</p></div>
+          <div class="industry-list" id="industry-list"></div>
+        </section>
+      </section>
+
+      <section class="calendar-view view" id="calendar-view">
+        <div class="calendar-hero">
+          <p class="eyebrow">UPCOMING LAUNCHES</p>
+          <h1>新车一览</h1>
+          <p>以上市为主线，记录已发生与即将发生的产品节点。</p>
+        </div>
+        <div class="month-tabs" id="month-tabs" aria-label="选择月份"></div>
+        <div class="calendar-legend"><span><b class="dot confirmed"></b>已官宣</span><span><b class="dot estimated"></b>预计上市</span><span><b class="dot launched"></b>已上市</span></div>
+        <div class="car-table-wrap">
+          <table>
+            <thead><tr><th>时间</th><th>品牌 / 车型</th><th>新车性质</th><th>动力与级别</th><th>价格信息</th><th>状态</th><th>信息来源</th></tr></thead>
+            <tbody id="car-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>车讯台 / 汽车行业日报</span><span>原文可追溯 · 历史可回看</span></footer>
+
+    <div class="detail-layer" id="detail-layer" aria-hidden="true">
+      <div class="detail-backdrop" data-close-detail></div>
+      <aside class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+        <button class="detail-close" data-close-detail aria-label="关闭详情">×</button>
+        <p class="detail-kicker" id="detail-type"></p>
+        <h2 id="detail-title"></h2>
+        <p class="detail-date" id="detail-date"></p>
+        <div class="detail-block"><h3>信息要点</h3><div id="detail-summary"></div></div>
+        <a class="detail-source" id="detail-source" href="#" target="_blank" rel="noopener noreferrer"></a>
+        <div id="detail-other-sources"></div>
+        <p class="detail-disclaimer">官方发布保留品牌表述边界，媒体报道注明出处；价格、权益与预测以对应版本、有效期和原文状态为准。</p>
+      </aside>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.tag-stack { display: flex; flex-wrap: wrap; gap: 4px; }
+.lead-card .tag-stack { grid-column: 1; margin-top: 2px; }
+
+/* Highlights: one quiet, linear scan. */
+.headline-panel { padding: 17px 18px 18px; background: #fbfcfd; border: 1px solid #edf0f2; border-radius: 9px; }
+.headline-panel .section-title { margin-bottom: 13px; }
+.headline-panel .lead-grid { background: #fff; }
+
+/* Brand updates: a plain brand ledger, deliberately lighter than the other sections. */
+.brand-section { padding: 0; background: transparent; border-radius: 0; }
+.brand-section .brand-stories { border-top: 1px solid #e7eaed; }
+.brand-section .brand-group { margin: 0; padding: 19px 0 7px; background: transparent; border: 0; border-bottom: 1px solid #e7eaed; }
+.brand-section .brand-group:last-child { border-bottom: 0; }
+.brand-section .brand-label { display: flex; flex-direction: column; gap: 4px; padding-left: 2px; }
+.brand-section .brand-label b { font-size: 15px; font-weight: 650; }
+.brand-section .brand-label span { color: #9aa0a8; font-size: 11px; }
+.brand-section .brand-group article { display: block; padding: 0 0 15px; border: 0; }
+.brand-section .brand-group article:last-child { padding-bottom: 6px; }
+.brand-section .detail-trigger:hover .story-content h3 { color: #4c82d8; }
+
+/* Industry: independent topics to compare side by side. */
+.industry-section .section-title { padding-bottom: 10px; border-bottom: 1px solid #e7eaed; }
+.industry-item .tag-stack { min-height: 17px; }
+.industry-item.detail-trigger:hover { border-color: #d2d9e0; box-shadow: 0 3px 10px rgba(35, 45, 58, .035); }
+
+@media (max-width: 800px) {
+  .brand-section .brand-group { padding: 16px 0 5px; }
+}
