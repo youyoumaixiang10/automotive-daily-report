@@ -78,7 +78,8 @@
   {
     "id": "calendar-smart-3-keith-haring-202601",
     "month": "2026-01",
-    "dateText": "1月（具体日期待补）",
+    "date": "2026-01-24",
+    "dateText": "1月24日",
     "brand": "smart",
     "model": "精灵 #3 Keith Haring 艺术特别版",
     "kind": "新增版本",
@@ -89,9 +90,9 @@
     "sourceName": "汽车之家资讯",
     "sourceUrl": "https://www.autohome.com.cn/news/202601/1312017.html",
     "evidenceLabel": "媒体报道",
-    "publishedAt": "2026-01",
-    "detail": "汽车之家上市报道显示，smart精灵#3 Keith Haring艺术特别版已上市，售价18.49万元；当前归档未保留可靠的具体上市日。",
-    "observation": "以月度节点呈现，具体日期待补。"
+    "publishedAt": "2026-01-24",
+    "detail": "汽车之家报道明确写明，smart精灵#3 Keith Haring艺术特别版于1月24日正式上市，售价18.49万元。",
+    "observation": "上市日按原文明确日期记录。"
   },
   {
     "id": "calendar-voyah-dreamer-collection-202601",

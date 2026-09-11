@@ -29,7 +29,7 @@ const [year, month, day] = targetDate.split('-');
 const targetText = `${year}年${Number(month)}月${Number(day)}日`;
 const queries = [...monitoringCoverage.flatMap(item => [
   `${targetText} ${item.brand} 汽车`,
-  `${targetText} ${item.brand} 汽车 上市 发布`
+  `${targetText} ${item.brand} 汽车 上市 发布 改款 年款 新增版本`
 ]), `${targetText} 汽车行业 政策`];
 function destination(href) {
   try {
