@@ -1,9 +1,11 @@
-import { escapeHtml as esc, safeHref, sortedDates, monthWindow } from './data/view-utils.js';
+import { escapeHtml as esc, safeHref, sortedDates } from './data/view-utils.js';
 
 let reportsByDate = {};
 let launchesByMonth = {};
 let selectedDate = '';
-let selectedMonth = monthWindow()[1];
+const calendarYear = new Date().getFullYear();
+const calendarMonths = () => Array.from({ length: 12 }, (_, index) => `${calendarYear}-${String(index + 1).padStart(2, '0')}`);
+let selectedMonth = `${calendarYear}-${String(new Date().getMonth() + 1).padStart(2, '0')}`;
 let calendarMonth = selectedDate.slice(0, 7);
 let detailOpener = null;
 const reportStartDate = '2026-09-01';
@@ -160,8 +162,8 @@ function renderReport() {
 }
 
 function renderCalendar() {
-  const months = monthWindow().map((key, index) => [key, `${Number(key.slice(5))}月 / ${['上月', '当月', '下月'][index]}`]);
-  if (!launchesByMonth[selectedMonth]) selectedMonth = months[1][0];
+  const months = calendarMonths().map(key => [key, `${Number(key.slice(5))}月`]);
+  if (!calendarMonths().includes(selectedMonth)) selectedMonth = months[new Date().getMonth()][0];
   document.querySelector('#month-tabs').innerHTML = months.map(([key, label]) => `<button class="${key === selectedMonth ? 'active' : ''}" data-month="${key}">${label}</button>`).join('');
   const launches = launchesByMonth[selectedMonth] || [];
   document.querySelector('#car-table-body').innerHTML = launches.length ? launches.map(launch => `<tr class="detail-trigger" data-launch-id="${esc(launch.id)}" role="button" tabindex="0" aria-label="查看：${esc(launch.brand)} ${esc(launch.model)}"><td>${esc(launch.dateText)}</td><td><span class="car-name">${esc(launch.brand)} / ${esc(launch.model)}</span></td><td>${esc(launch.kind)}</td><td>${esc(launch.powertrain)}</td><td>${esc(launch.priceText)}</td><td><span class="status ${esc(launch.status)}">${esc(launch.statusLabel)}</span></td><td>${esc(launch.evidenceLabel)}<br>${esc(launch.sourceName)}</td></tr>`).join('') : '<tr><td colspan="7" class="empty-state">该月暂未收录可追溯的新车节点。</td></tr>';
