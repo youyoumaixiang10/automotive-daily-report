@@ -5,6 +5,7 @@ import { extractArticle } from '../scripts/article-extractor.mjs';
 import { identifyBrands } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
 import { createSiteServer } from '../scripts/serve.mjs';
+import { reconcileLaunchCalendar } from '../scripts/reconcile-launch-calendar.mjs';
 
 const record = (number, changes = {}) => ({ title: `测试车型${number}上市`, url: `https://example.com/news/${number}`, sourceName: '测试媒体', sourceId: 'test', evidenceStatus: 'media', publishedAt: '2026-09-09', contentParagraphs: ['这里是可追溯原文中的正文内容。'], brands: ['理想'], reviewReasons: [], ...changes });
 const now = new Date('2026-09-10T12:00:00+08:00');
@@ -193,6 +194,14 @@ test('same model launch reported by multiple verified media sources appears once
   assert.equal(buildReports([a, b], {}, now).reports['2026-09-09'].brands['吉利银河'].length, 1);
   assert.equal(story.sourceLinks.length, 2);
 });
+test('a launch confirmation survives when its daily story merges with a higher-priority source', () => {
+  const official = record(1, { title: '吉利银河TT上市信息发布', evidenceStatus: 'official', sourceType: 'official-social', brands: ['吉利银河'], contentParagraphs: ['吉利银河TT上市信息发布。'] });
+  const confirmation = record(2, { title: '吉利银河TT正式上市', brands: ['吉利银河'], contentParagraphs: ['吉利银河TT正式上市，限时先享价12.99万元起。'] });
+  const notes = { [confirmation.url]: { launches: [{ date: '2026-09-10', brand: '吉利银河', model: '银河TT', kind: '新车上市', powertrain: '纯电轿车', priceText: '限时先享价12.99万元起', status: 'launched' }] } };
+  const { launches } = buildReports([official, confirmation], notes, now);
+  assert.equal(launches[0].status, 'launched');
+  assert.equal(launches[0].sourceUrl, confirmation.url);
+});
 test('repeated official social materials for the same model debut merge into one readable update', () => {
   const a = record(1, {
     title: '品牌官方微博视频', evidenceStatus: 'official', sourceType: 'official-social', brands: ['比亚迪'],
@@ -222,6 +231,14 @@ test('curated calendar keeps a quarter window without inventing an exact launch 
   assert.equal(launches[0].month, '2026-10');
   assert.equal(launches[0].date, undefined);
   assert.doesNotThrow(() => validateReports({}, launches));
+});
+test('calendar status is updated only by a post-launch source for the same model', () => {
+  const calendar = { items: [{ id: 'tt', date: '2026-09-10', month: '2026-09', dateText: '9月10日', brand: '吉利银河', model: '银河TT', kind: '预计上市', powertrain: '纯电轿车', priceText: '预售14.59万元起', status: 'estimated', statusLabel: '预计上市', sourceName: '测试媒体', sourceUrl: 'https://example.com/preview', evidenceLabel: '媒体报道' }] };
+  const articles = [record(1, { title: '吉利银河TT正式上市', publishedAt: '2026-09-10', contentParagraphs: ['吉利银河TT迎来正式上市，上市限时先享价12.99-18.59万元。'] })];
+  const { calendar: next, changed } = reconcileLaunchCalendar(calendar, articles);
+  assert.equal(changed, 1);
+  assert.equal(next.items[0].status, 'launched');
+  assert.equal(next.items[0].priceText, '12.99-18.59万元');
 });
 test('UI escapes imported headline markup and rejects unsafe links', () => {
   assert.equal(escapeHtml('<img src=x onerror="alert(1)">'), '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');

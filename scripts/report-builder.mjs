@@ -229,13 +229,13 @@ export function buildReports(articles, notes, now = new Date()) {
       if (article.evidenceStatus === 'government' || (article.industry && industryTopic && !vehicleTopic)) report.industry.push(story);
       else report.otherBrands.push(story);
     }
-    for (const launch of note.launches || []) {
+    for (const { article: launchArticle, note: launchNote } of group) for (const launch of launchNote.launches || []) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(launch.date)) throw new Error(`上市日期无效：${launch.model}`);
       launches.push({ ...launch, id: `launch-${hash(`${launch.brand}|${launch.model}|${launch.date}`)}`,
         dateText: `${Number(launch.date.slice(5, 7))}月${Number(launch.date.slice(8, 10))}日`,
         statusLabel: { launched: '已上市', confirmed: '已官宣', estimated: '预计上市' }[launch.status],
-        sourceName: story.sourceName, sourceUrl: story.sourceUrl, evidenceLabel: story.evidenceLabel,
-        publishedAt: story.publishedAt, storyId: id, detail: story.detail, observation: story.observation });
+        sourceName: launchArticle.sourceName, sourceUrl: launchArticle.url, evidenceLabel: evidenceLabels[launchArticle.evidenceStatus],
+        publishedAt: launchArticle.publishedAt, storyId: id, detail: launchNote.details?.join('\n\n') || sourceDetails(launchArticle).join('\n\n'), observation: launchNote.observation || followUp(classify(`${launchArticle.title} ${(launchArticle.contentParagraphs || []).join(' ')}`, launchArticle.evidenceStatus)) });
     }
   }
   for (const report of Object.values(reports)) {

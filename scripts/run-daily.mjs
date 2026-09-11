@@ -28,6 +28,7 @@ try {
   }
   await run('enrich-content.mjs');
   try { await run('title-editor.mjs'); } catch (error) { failures.push(error.message); }
+  await run('reconcile-launch-calendar.mjs');
   await run('build-daily-report.mjs');
   await run('validate-content.mjs');
   const sourceResults = ['candidates.json', 'discovery-candidates.json', 'search-candidates.json'].flatMap(file => readJson(new URL(file, dir), {}).sourceResults || []);
