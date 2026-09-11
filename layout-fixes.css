@@ -11,3 +11,10 @@
 @media (max-width: 800px) {
   .lead-card .lead-content { grid-column: 3; }
 }
+
+/* Bilingual AutoPulse brand lockup. */
+.brand { font-weight: 400; font-size: inherit; letter-spacing: 0; }
+.brand-mark { font-weight: 700; }
+.brand-copy { display: flex; min-width: 0; flex-direction: column; gap: 1px; }
+.brand-copy strong { font-size: 18px; font-weight: 680; letter-spacing: -0.045em; line-height: 1.1; }
+.brand-copy em { display: block; color: var(--muted); font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0; line-height: 1.25; white-space: nowrap; }

@@ -1,8 +1,0 @@
-node_modules/
-site/
-runtime/daily.lock
-work/
-outputs/
-.env
-.gh-cli/
-.git-codex/

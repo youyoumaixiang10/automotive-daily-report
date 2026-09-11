@@ -21,5 +21,5 @@ export function createSiteServer(root = new URL('../', import.meta.url)) {
 }
 if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {
   const port = Number(process.env.PORT || 5173);
-  createSiteServer().listen(port, '127.0.0.1', () => console.log(`车讯台：http://localhost:${port}`));
+  createSiteServer().listen(port, '127.0.0.1', () => console.log(`AutoPulse：http://localhost:${port}`));
 }
