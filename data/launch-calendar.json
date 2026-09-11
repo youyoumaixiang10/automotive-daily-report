@@ -433,6 +433,38 @@
       "month": "2026-09", "dateText": "9月（具体日期待补）", "brand": "特斯拉", "model": "Model Y 高性能版", "kind": "新增版本", "powertrain": "纯电 SUV", "priceText": "36.9万元", "status": "launched", "statusLabel": "已上市", "sourceName": "汽车之家资讯", "sourceUrl": "https://www.autohome.com.cn/news/202609/1317103.html", "evidenceLabel": "媒体报道", "publishedAt": "2026-09", "detail": "汽车之家上市报道显示，特斯拉Model Y高性能版已上市，售价36.9万元。", "observation": "具体上市日待补。"
     },
     {
+      "id": "calendar-xpeng-p7plus-20260108",
+      "month": "2026-01", "date": "2026-01-08", "dateText": "1月8日", "brand": "小鹏", "model": "2026款小鹏 P7+", "kind": "年款上市", "powertrain": "纯电 / 超级增程轿车", "priceText": "18.68万—19.88万元", "status": "launched", "statusLabel": "已上市", "sourceName": "小鹏汽车新闻中心", "sourceUrl": "https://www.xiaopeng.com/news/company_news/5529.html", "evidenceLabel": "官方发布", "publishedAt": "2026-01-08", "detail": "小鹏汽车官方发布会于1月8日发布并上市2026款小鹏P7+，提供纯电与超级增程动力。", "observation": "中国市场上市日为1月8日；欧洲发布另作海外节点处理。"
+    },
+    {
+      "id": "calendar-xpeng-g7-erev-20260108",
+      "month": "2026-01", "date": "2026-01-08", "dateText": "1月8日", "brand": "小鹏", "model": "小鹏 G7 超级增程", "kind": "新增动力版本", "powertrain": "超级增程 SUV", "priceText": "19.58万—20.58万元", "status": "launched", "statusLabel": "已上市", "sourceName": "小鹏汽车新闻中心", "sourceUrl": "https://www.xiaopeng.com/news/company_news/5529.html", "evidenceLabel": "官方发布", "publishedAt": "2026-01-08", "detail": "小鹏汽车官方发布会于1月8日发布并上市小鹏G7超级增程版本。", "observation": "与P7+同场发布，按不同车系拆分记录。"
+    },
+    {
+      "id": "calendar-xpeng-g6-20260108",
+      "month": "2026-01", "date": "2026-01-08", "dateText": "1月8日", "brand": "小鹏", "model": "2026款小鹏 G6", "kind": "年款上市", "powertrain": "纯电 SUV", "priceText": "17.68万—18.68万元", "status": "launched", "statusLabel": "已上市", "sourceName": "小鹏汽车新闻中心", "sourceUrl": "https://www.xiaopeng.com/news/company_news/5529.html", "evidenceLabel": "官方发布", "publishedAt": "2026-01-08", "detail": "小鹏汽车官方发布会于1月8日发布并上市2026款小鹏G6。", "observation": "与同场其他车型分列，便于追踪车系变化。"
+    },
+    {
+      "id": "calendar-xpeng-g9-20260108",
+      "month": "2026-01", "date": "2026-01-08", "dateText": "1月8日", "brand": "小鹏", "model": "2026款小鹏 G9", "kind": "年款上市", "powertrain": "纯电 SUV", "priceText": "24.88万—27.88万元", "status": "launched", "statusLabel": "已上市", "sourceName": "小鹏汽车新闻中心", "sourceUrl": "https://www.xiaopeng.com/news/company_news/5529.html", "evidenceLabel": "官方发布", "publishedAt": "2026-01-08", "detail": "小鹏汽车官方发布会于1月8日发布并上市2026款小鹏G9。", "observation": "价格按官方发布会口径记录。"
+    },
+    {
+      "id": "calendar-xpeng-gx-20260520",
+      "month": "2026-05", "date": "2026-05-20", "dateText": "5月20日", "brand": "小鹏", "model": "小鹏 GX", "kind": "新车上市", "powertrain": "纯电 / 超级增程 SUV", "priceText": "限时权益价26.98万元起", "status": "launched", "statusLabel": "已上市", "sourceName": "小鹏汽车新闻中心", "sourceUrl": "https://www.xiaopeng.com/news/company_news/5563.html", "evidenceLabel": "官方发布", "publishedAt": "2026-05-20", "detail": "小鹏汽车官方新闻稿显示，小鹏GX于5月20日正式上市，提供纯电和超级增程两种动力。", "observation": "价格为限时权益价，非永久指导价。"
+    },
+    {
+      "id": "calendar-aito-m9-20260527",
+      "month": "2026-05", "date": "2026-05-27", "dateText": "5月27日", "brand": "鸿蒙智行", "model": "全新一代问界 M9", "kind": "换代上市", "powertrain": "增程 / 纯电大型 SUV", "priceText": "47.98万—65.98万元", "status": "launched", "statusLabel": "已上市", "sourceName": "华为数字能源", "sourceUrl": "https://digitalpower.huawei.com/cn/news/driveone/new-m9", "evidenceLabel": "官方发布", "publishedAt": "2026-05-28", "detail": "华为数字能源新闻稿确认，全新一代问界M9于5月27日正式发布并上市。", "observation": "发布页次日刊发，上市日按活动当天记录。"
+    },
+    {
+      "id": "calendar-onvo-l60-20260611",
+      "month": "2026-06", "date": "2026-06-11", "dateText": "6月11日", "brand": "乐道", "model": "新款乐道 L60", "kind": "改款上市", "powertrain": "纯电中型 SUV", "priceText": "整车19.28万—22.28万元；BaaS 13.58万—16.58万元", "status": "launched", "statusLabel": "已上市", "sourceName": "新浪财经", "sourceUrl": "https://finance.sina.com.cn/stock/t/2026-06-12/doc-inicakuf3779986.shtml", "evidenceLabel": "媒体报道", "publishedAt": "2026-06-12", "detail": "多家报道显示，新款乐道L60于6月11日晚正式上市，提供三款配置。", "observation": "整车购买与BaaS为不同购买口径。"
+    },
+    {
+      "id": "calendar-li-l6-20260716",
+      "month": "2026-07", "date": "2026-07-16", "dateText": "7月16日", "brand": "理想", "model": "新一代理想 L6", "kind": "换代上市", "powertrain": "增程 SUV", "priceText": "24.98万元", "status": "launched", "statusLabel": "已上市", "sourceName": "理想汽车新闻中心", "sourceUrl": "https://www.lixiang.com/news/184.html", "evidenceLabel": "官方发布", "publishedAt": "2026-07-23", "detail": "理想汽车官方新闻稿确认，新一代理想L6于7月16日正式发布并开启定购，全国统一零售价24.98万元。", "observation": "新闻稿晚于发布活动刊发，日期以官方明确写出的发布日为准。"
+    },
+    {
       "id": "calendar-smart-2-debut-20261012",
       "month": "2026-10",
       "date": "2026-10-12",
