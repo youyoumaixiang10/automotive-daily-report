@@ -190,6 +190,25 @@
     "observation": "以月度节点呈现，具体日期待补。"
   },
   {
+    "id": "calendar-xpeng-x9-20260302",
+    "month": "2026-03",
+    "date": "2026-03-02",
+    "dateText": "3月2日",
+    "brand": "小鹏",
+    "model": "2026款小鹏 X9 纯电版",
+    "kind": "年款上市",
+    "powertrain": "纯电 MPV",
+    "priceText": "30.98万—36.98万元",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "小鹏汽车",
+    "sourceUrl": "https://www.xiaopeng.com/x9_2026.html",
+    "evidenceLabel": "官方发布",
+    "publishedAt": "2026-03-02",
+    "detail": "2026款小鹏X9纯电版于3月2日上市，推出五款版型，售价30.98万—36.98万元。",
+    "observation": "包含同场发布的2026款X9增程新增版本信息，按X9车系合并展示。"
+  },
+  {
     "id": "calendar-qiyuan-a06-202603",
     "month": "2026-03",
     "date": "2026-03-03",
@@ -644,6 +663,25 @@
     "publishedAt": "2026-06",
     "detail": "汽车之家上市报道显示，2026款蔚来ET5、ET5T、EC6冠军版已上市，采用电池租用方案的价格20.5万元起。",
     "observation": "具体上市日待补。"
+  },
+  {
+    "id": "calendar-xpeng-mona-l03-20260716",
+    "month": "2026-07",
+    "date": "2026-07-16",
+    "dateText": "7月16日",
+    "brand": "小鹏",
+    "model": "小鹏 MONA L03",
+    "kind": "新车上市",
+    "powertrain": "纯电 / 超级增程 SUV",
+    "priceText": "12.38万—15.68万元",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "小鹏汽车新闻中心",
+    "sourceUrl": "https://www.xiaopeng.com/news/company_news/5579.html",
+    "evidenceLabel": "官方发布",
+    "publishedAt": "2026-07-16",
+    "detail": "小鹏MONA L03于7月16日在慕尼黑全球上市，国内指导价12.38万—15.68万元。",
+    "observation": "7月2日为亮相与预售节点，日历采用7月16日正式上市日。"
   },
   {
     "id": "calendar-li-l6-20260716",
