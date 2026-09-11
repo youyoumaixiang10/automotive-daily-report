@@ -1,0 +1,68 @@
+name: 更新汽车日报
+
+on:
+  schedule:
+    # 00:05 UTC = 08:05 Asia/Shanghai; the report window closes at 08:00.
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  PLAYWRIGHT_BROWSERS_PATH: 0
+  TITLE_EDITOR_ENABLED: true
+  TITLE_MODEL: gpt-5-mini
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+concurrency:
+  group: automotive-daily-report
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: 启动云端无头浏览器
+        run: |
+          npm run start-cloud-browser > "$RUNNER_TEMP/cloud-browser.log" 2>&1 &
+          for attempt in {1..30}; do
+            curl --fail --silent http://127.0.0.1:3456/health && exit 0
+            sleep 1
+          done
+          cat "$RUNNER_TEMP/cloud-browser.log"
+          exit 1
+
+      - name: 采集、核验与生成日报
+        run: npm run run-daily
+        continue-on-error: true
+
+      - run: npm run validate-content
+
+      - name: 保存本轮已核验的数据
+        run: |
+          git config user.name "automotive-daily-bot"
+          git config user.email "automotive-daily-bot@users.noreply.github.com"
+          git add runtime/*.json
+          git diff --cached --quiet || (git commit -m "chore: update automotive daily report" && git push)
+
+      - run: npm run prepare-site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

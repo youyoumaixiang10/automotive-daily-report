@@ -1,0 +1,22 @@
+{
+  "li-auto-news": {
+    "id": "li-auto-news",
+    "fingerprint": "18c6079ff1939e9dd45d448de1481019cb54fc2cde30c50699dcb81e4f20f542",
+    "reachable": true
+  },
+  "onvo-about": {
+    "id": "onvo-about",
+    "fingerprint": "bcbcdad7b747146857c0d5f308ce5e83a89720c03b31f16390c5656325662174",
+    "reachable": true
+  },
+  "avatr-news": {
+    "id": "avatr-news",
+    "fingerprint": "9a54aec8666d2e8d39a8b2d0a991015f44c50ddee8ddcdc3efac7d4c0648c4de",
+    "reachable": true
+  },
+  "miit": {
+    "id": "miit",
+    "fingerprint": "33e948b8b51e45a02a47b80b5ed168cbc4746c82a6d2315f2e1b19223a043bc6",
+    "reachable": true
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "collectedAt": "2026-09-11T07:52:52.718Z",
+  "candidates": [
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "方程豹方程S/方程S GT将于9月16日上市 预订价23万起 轿车+猎装车",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317082.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "多项专属配置 问界M9 Ultimate领世加长版先行者将于9月12日交付",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317077.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317075.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "无人出租车 没有方向盘/踏板 特斯拉Cybercab在中国香港亮相",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317071.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "定位新形态家庭旗舰SUV！理想i9将于9月16日正式发布！",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317065.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "将于9月11日上市 乐道L80「星光设计套装」官图 采用星瀚蓝配色",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317062.html",
+      "candidateBrands": [
+        "乐道"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售32.98万/纯电续航里程为860km 腾势Z9GT闪充尊越型上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317061.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "搭载三电机插混动力！吉利银河战舰700将于9月15日开启预售！",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317054.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米澎程上市第二天“首撞”：客户将油门当刹车 无人受伤",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317052.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预售14.59万起 中大型纯电运动轿车 吉利银河TT将于9月10日上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317035.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增85kWh电池/四季度上市 新款极氪7X申报图曝光",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317047.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新款吉利银河星舰7申报图公布 激光雷达/更大电池/增加四驱",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317046.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "车身尺寸完全看齐银河M9/大五座布局 吉利银河M8申报图曝光",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317045.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "9月底开放预订/11月初交付 自研5C电池+马赫芯片 新款理想i6申报",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317043.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "阿维塔T09申报图 华为乾崑+四激光雷达 插混电池包比纯电车还大？",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317041.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米澎程N90 Max售26.99万起 提供11种空间布局的增程大七座SUV",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317013.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售20.99万起 小米澎程N70上市 面向年轻家庭的增程大五座SUV",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317012.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "经典两座回归！smart精灵#2开启早鸟计划 将于10月巴黎车展首发",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317080.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新宝马X5L/魏牌蓝山领衔 第411批工信部新车汇总 近20款新车",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317068.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2027上海车展将于明年4月23日在国家会展中心（上海）举办",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317063.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米澎程N70上市",
+      "url": "https://www.dongchedi.com/article/7682303309047022105",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "售26.99万元起，小米澎程N90正式上市",
+      "url": "https://www.dongchedi.com/article/7660462481990713918",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "首发试驾小米澎程N90 Max",
+      "url": "https://www.dongchedi.com/video/7682958838894821913",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "实测小米澎程N90！",
+      "url": "https://www.dongchedi.com/article/7682952411494629913",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "实测岚图追光S续航",
+      "url": "https://www.dongchedi.com/video/7682729411560915518",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "问界M7怎么选？",
+      "url": "https://www.dongchedi.com/video/7682371674008273432",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米澎程N70售20.99万起",
+      "url": "https://www.dongchedi.com/article/7682759059695747609",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "特斯拉推送FSD v14.3.9监督版",
+      "url": "https://www.dongchedi.com/article/7682313652146848318",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米YU7 GT对比MAX",
+      "url": "https://www.dongchedi.com/video/7683104007098991129",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "银河TT静态体验",
+      "url": "https://www.dongchedi.com/video/7683094858919199294",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "长安启源Q06驾驶辅助实测！",
+      "url": "https://www.dongchedi.com/video/7683098252577063486",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "启源Q06和海狮06EV",
+      "url": "https://www.dongchedi.com/video/7682729411560522302",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "智界S7和尚界Z7",
+      "url": "https://www.dongchedi.com/video/7682060416537002558",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "详尽体验长安启源Q06",
+      "url": "https://www.dongchedi.com/video/7682310577397695001",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "实拍银河战舰700",
+      "url": "https://www.dongchedi.com/video/7682357687501193753",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "智界R7⭐感坐感享 能收能放",
+      "url": "https://www.dongchedi.com/video/7682353317758157337",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "享界G9为什么让人上头？",
+      "url": "https://www.dongchedi.com/video/7682348023632036377",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "9.99万起比亚迪秦MAX DM-i",
+      "url": "https://www.dongchedi.com/video/7683839356784198206",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "限时12.99万起 “零百”3.8秒/配备激光雷达 一文看懂吉利银河TT",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317101.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "“零百”加速3.5秒 售36.9万 特斯拉Model Y高性能全轮驱动版上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317103.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "无人机功能大升级！方程豹豹8迎来第七次OTA升级！",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317114.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "马赫VLA 2.0上线！理想汽车OTA 8.6、OTA 9.1.1开启推送",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317108.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "限时惊喜价10080元/采用全新配色 乐道L80星光设计套装上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317104.html",
+      "candidateBrands": [
+        "乐道"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "特斯拉焕新款Model Y高性能全轮驱动版上市",
+      "url": "https://www.dongchedi.com/article/7627020016495837721",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    }
+  ],
+  "sourceResults": [
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news//",
+      "status": "ok",
+      "count": 18
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "status": "partial",
+      "collectedAt": "2026-09-11T07:52:48.253Z",
+      "entryUrl": "https://www.dongchedi.com/",
+      "candidateCount": 63,
+      "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
+    }
+  ],
+  "publicationRule": "原文、发布日期与作者校验后，可标注为媒体报道；缺少正文、日期或出处的线索留在待核实队列。"
+}
