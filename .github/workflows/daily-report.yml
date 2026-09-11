@@ -18,7 +18,7 @@ env:
   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
 concurrency:
-  group: automotive-daily-report
+  group: autopulse
   cancel-in-progress: false
 
 jobs:
