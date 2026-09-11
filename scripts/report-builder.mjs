@@ -257,5 +257,18 @@ export function validateReports(reports, launches) {
   }
   for (const launch of launches) {
     if (!launch.sourceUrl || !launch.model || !['launched', 'confirmed', 'estimated'].includes(launch.status)) throw new Error('新车记录缺少来源或状态');
+    if (!/^\d{4}-\d{2}$/.test(launch.month || launch.date?.slice(0, 7) || '')) throw new Error('新车记录缺少有效月份');
+    if (!launch.dateText) throw new Error('新车记录缺少时间说明');
+    if (launch.date && !/^\d{4}-\d{2}-\d{2}$/.test(launch.date)) throw new Error('新车记录日期无效');
   }
+}
+
+export function mergeLaunches(derived, curated) {
+  const byKey = new Map();
+  for (const launch of [...derived, ...curated]) {
+    const month = launch.month || launch.date?.slice(0, 7);
+    const key = `${launch.brand}|${launch.model}|${launch.date || launch.dateText}`;
+    byKey.set(key, { ...launch, month, dateText: launch.dateText || `${Number(launch.date.slice(5, 7))}月${Number(launch.date.slice(8, 10))}日` });
+  }
+  return [...byKey.values()].sort((a, b) => (a.month || '').localeCompare(b.month || '') || (a.date || '9999-12-31').localeCompare(b.date || '9999-12-31') || a.model.localeCompare(b.model, 'zh-CN'));
 }

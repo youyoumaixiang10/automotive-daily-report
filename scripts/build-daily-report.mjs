@@ -1,4 +1,4 @@
-import { buildReports, validateReports } from './report-builder.mjs';
+import { buildReports, mergeLaunches, validateReports } from './report-builder.mjs';
 import { readJson, writeJson } from './content-utils.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
@@ -6,12 +6,14 @@ const articles = Object.values(readJson(new URL('articles.json', dir), {}));
 const modelTitles = readJson(new URL('editorial-titles.json', dir), { items: {} }).items;
 const overrides = readJson(new URL('../data/title-overrides.json', import.meta.url), {});
 const editorialNotes = readJson(new URL('../data/editorial-notes.json', import.meta.url), {});
+const curatedLaunches = readJson(new URL('../data/launch-calendar.json', import.meta.url), { items: [] }).items;
 const notes = { ...Object.fromEntries(Object.entries(modelTitles).map(([url, item]) => [url, { title: item.title }])), ...editorialNotes };
 for (const [url, title] of Object.entries(overrides)) notes[url] = { ...(notes[url] || {}), title };
-const { reports, launches, reviewQueue } = buildReports(articles, notes);
+const { reports, launches: derivedLaunches, reviewQueue } = buildReports(articles, notes);
+const launches = mergeLaunches(derivedLaunches, curatedLaunches);
 validateReports(reports, launches);
 if (!Object.keys(reports).length) throw new Error('没有可发布内容，保留现有日报');
 writeJson(new URL('generated-reports.json', dir), reports);
-writeJson(new URL('generated-launches.json', dir), launches.sort((a, b) => a.date.localeCompare(b.date)));
+writeJson(new URL('generated-launches.json', dir), launches);
 writeJson(new URL('review-queue.json', dir), reviewQueue);
 console.log(`已生成 ${Object.keys(reports).length} 期日报、${launches.length} 条上市记录；${reviewQueue.length} 条待核实。`);

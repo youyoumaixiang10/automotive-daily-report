@@ -1,5 +1,43 @@
 [
   {
+    "id": "calendar-gwm-h10-20260805",
+    "month": "2026-08",
+    "date": "2026-08-05",
+    "dateText": "8月5日",
+    "brand": "长城",
+    "model": "长城H10",
+    "kind": "新车上市",
+    "powertrain": "插混 SUV",
+    "priceText": "预售价21.98万—23.98万元",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202607/1316110.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-07-30",
+    "detail": "汽车之家在上市前报道中披露，长城H10计划于8月5日上市，并给出预售价区间。价格和最终版本以品牌上市公告为准。",
+    "observation": "这是媒体报道的已发生上市节点，适合回看产品定位与预售价口径。"
+  },
+  {
+    "id": "calendar-smart-1-20260806",
+    "month": "2026-08",
+    "date": "2026-08-06",
+    "dateText": "8月6日",
+    "brand": "smart",
+    "model": "全新 smart #1",
+    "kind": "新车上市",
+    "powertrain": "纯电 SUV",
+    "priceText": "以官方公告为准",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "smart 新闻中心",
+    "sourceUrl": "https://media.smart.com/zh-CN-CN/268886-smart-1-8-6-smart/",
+    "evidenceLabel": "官方发布",
+    "publishedAt": "2026-08-03",
+    "detail": "smart 官方新闻中心公布，全新 smart #1 于8月6日正式上市。具体配置、售价与权益应以该品牌当期购车页面为准。",
+    "observation": "记录为官方确认的上市节点。"
+  },
+  {
     "date": "2026-08-08",
     "brand": "阿维塔",
     "model": "阿维塔07L",
@@ -16,7 +54,46 @@
     "publishedAt": "2026-08-08",
     "storyId": "story-043ee8deac14e1aa",
     "detail": "官网列出Elite纯电、Max+纯电和Ultra三电机纯电三个版本。原文另列21.99万—26.99万元的限时权益价，不能与指导价混为一个价格口径。\n\n发布活动结合大五座空间、智能配置与代言人传播。文中购车权益以9月6日（含）前下定为条件；回看本条时应注意该时间限制，当前权益需另查品牌最新公告。",
-    "observation": "产品配置、限时权益和代言人是这次上市的三条传播线；复盘时分别衡量产品认知、成交促进和人群触达。"
+    "observation": "产品配置、限时权益和代言人是这次上市的三条传播线；复盘时分别衡量产品认知、成交促进和人群触达。",
+    "month": "2026-08"
+  },
+  {
+    "id": "calendar-byd-seal06-20260811",
+    "month": "2026-08",
+    "date": "2026-08-11",
+    "dateText": "8月11日",
+    "brand": "比亚迪",
+    "model": "2027款海豹06",
+    "kind": "改款上市",
+    "powertrain": "纯电 / 插混轿车",
+    "priceText": "以品牌公布为准",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202608/1316309.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-08-08",
+    "detail": "汽车之家报道，2027款海豹06纯电与插混车型于8月11日上市。媒体报道中的配置和售价信息应与品牌正式配置表交叉核对。",
+    "observation": "回看时应区分年度改款与全新车系上市。"
+  },
+  {
+    "id": "calendar-voyah-zhuiguang-s-20260815",
+    "month": "2026-08",
+    "date": "2026-08-15",
+    "dateText": "8月15日",
+    "brand": "岚图",
+    "model": "岚图追光S",
+    "kind": "新车上市",
+    "powertrain": "新能源轿车",
+    "priceText": "预售价30.99万元起",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202608/1316144.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-08-01",
+    "detail": "汽车之家在上市前报道中称岚图追光S计划于8月15日正式上市，并披露30.99万元起的预售价。预售价不等同于最终指导价。",
+    "observation": "价格口径保留为预售价，避免与正式上市价格混用。"
   },
   {
     "date": "2026-09-02",
@@ -35,26 +112,8 @@
     "publishedAt": "2026-09-02",
     "storyId": "story-2e25832fc382e4d2",
     "detail": "此次上市信息来自理想汽车媒体中心。官方将升级重点放在座舱豪华感、驾驶灵活性及智能辅助驾驶体验，继续强调家庭用户的大空间需求。\n\n销售节点与价格已在官方原文明确。原文还包含座椅、驾驶与补能等介绍，比较具体配置时应结合所售Home版本，避免把上一代车型的配置或用户数据直接套用到新车。",
-    "observation": "可以从50万元级家庭MPV的价值表达、Home版本配置和试驾转化路径三个方面跟踪。"
-  },
-  {
-    "date": "2026-09-07",
-    "brand": "小米",
-    "model": "澎程N90 Max / 探索版",
-    "kind": "新车上市",
-    "powertrain": "增程 SUV",
-    "priceText": "26.99万 / 29.99万元（媒体报道）",
-    "status": "launched",
-    "id": "launch-675ee8df7b77c820",
-    "dateText": "9月7日",
-    "statusLabel": "已上市",
-    "sourceName": "汽车之家资讯",
-    "sourceUrl": "https://www.autohome.com.cn/news/202609/1317013.html",
-    "evidenceLabel": "媒体报道",
-    "publishedAt": "2026-09-07",
-    "storyId": "story-f2faf72bda3bca37",
-    "detail": "报道将N90描述为增程大七座SUV，介绍车长、空间布局、储物能力及探索版电动升降顶舱。\n\n文中续航数字分别对应CLTC纯电与综合续航，不能混用。当前以媒体原创报道为依据，具体版本及权益需结合品牌配置和购买页面确认。",
-    "observation": "跟踪家庭七座与露营场景在普通版、探索版之间的配置和价格区分。"
+    "observation": "可以从50万元级家庭MPV的价值表达、Home版本配置和试驾转化路径三个方面跟踪。",
+    "month": "2026-09"
   },
   {
     "date": "2026-09-07",
@@ -73,7 +132,28 @@
     "publishedAt": "2026-09-07",
     "storyId": "story-a5e855557891a3cf",
     "detail": "该文将车型定位为面向年轻家庭的增程大五座SUV，并介绍纯电续航和座舱空间。文中最高505公里续航使用CLTC工况。\n\n报道另列10月7日24点前下订的首销权益，部分配置仅适用于Max版本。比较权益时需核对有效期、版本和金融费用，不把权益总值直接理解为现金降价。",
-    "observation": "关注家庭场景配置、双版本价格及限时权益如何共同影响选购。"
+    "observation": "关注家庭场景配置、双版本价格及限时权益如何共同影响选购。",
+    "month": "2026-09"
+  },
+  {
+    "date": "2026-09-07",
+    "brand": "小米",
+    "model": "澎程N90 Max / 探索版",
+    "kind": "新车上市",
+    "powertrain": "增程 SUV",
+    "priceText": "26.99万 / 29.99万元（媒体报道）",
+    "status": "launched",
+    "id": "launch-675ee8df7b77c820",
+    "dateText": "9月7日",
+    "statusLabel": "已上市",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202609/1317013.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-09-07",
+    "storyId": "story-f2faf72bda3bca37",
+    "detail": "报道将N90描述为增程大七座SUV，介绍车长、空间布局、储物能力及探索版电动升降顶舱。\n\n文中续航数字分别对应CLTC纯电与综合续航，不能混用。当前以媒体原创报道为依据，具体版本及权益需结合品牌配置和购买页面确认。",
+    "observation": "跟踪家庭七座与露营场景在普通版、探索版之间的配置和价格区分。",
+    "month": "2026-09"
   },
   {
     "date": "2026-09-09",
@@ -92,7 +172,8 @@
     "publishedAt": "2026-09-09",
     "storyId": "story-4f2f2d1143b5ee52",
     "detail": "报道将9月9日列为新增版本上市日。它介绍了车身配色、座舱、驾驶辅助及电池信息，新版本加入现有Z9GT配置体系。\n\n32.98万元对应这次新增的闪充尊越型；原文另列的26.98万—36.98万元属于现款车系价格范围。续航与配置仍需按该版本及测试工况核对。",
-    "observation": "关注新增版本在现有价格梯度中的位置，避免把单一版本参数用于整个车系。"
+    "observation": "关注新增版本在现有价格梯度中的位置，避免把单一版本参数用于整个车系。",
+    "month": "2026-09"
   },
   {
     "date": "2026-09-10",
@@ -111,7 +192,8 @@
     "publishedAt": "2026-09-09",
     "storyId": "story-eac1fd13352f0510",
     "detail": "报道介绍了中大型纯电轿车定位、800V平台及续航信息。此前三个版本预售价为14.59万—16.99万元，限量Ultra另有20.98万元预售价。\n\n这是一篇上市前预告。即使已到了计划日期，也不能由程序推断发布会已经举行；实际上市状态和正式价格需要新的报道或品牌公告确认。",
-    "observation": "重点核对预售价到正式价格的变化，以及Ultra版本与普通版本之间的差异。"
+    "observation": "重点核对预售价到正式价格的变化，以及Ultra版本与普通版本之间的差异。",
+    "month": "2026-09"
   },
   {
     "date": "2026-09-11",
@@ -130,7 +212,8 @@
     "publishedAt": "2026-09-09",
     "storyId": "story-3a9d49280bfa9c13",
     "detail": "报道提到该车于9月9日开始陆续到店，并给出9月11日的上市计划。这是设计套装节点，不代表整个L80车系首次上市。\n\n文中24.28万—27.98万元以及BaaS方案价格是现款参考，不能写成新套装最终售价。新套装价格及适用配置尚需进一步确认。",
-    "observation": "关注外观主题套装如何结合到店、实车内容与正式发售形成短周期传播。"
+    "observation": "关注外观主题套装如何结合到店、实车内容与正式发售形成短周期传播。",
+    "month": "2026-09"
   },
   {
     "date": "2026-09-16",
@@ -149,6 +232,62 @@
     "publishedAt": "2026-09-10",
     "storyId": "story-46fda27ef50602d9",
     "detail": "报道将方程S系列定位为方程豹首个轿车系列，涵盖纯电轿车及猎装车。它援引品牌消息给出9月16日的上市计划。\n\n目前本条保留媒体原文作为依据，尚未附到对应的品牌上市公告。预订价不能直接视为最终指导价，两款车型的正式版本、价格与权益需在上市时分别核对。",
-    "observation": "关注品牌从SUV向轿车品类延伸的定位表达，以及两种车身形式如何区分人群与卖点。"
+    "observation": "关注品牌从SUV向轿车品类延伸的定位表达，以及两种车身形式如何区分人群与卖点。",
+    "month": "2026-09"
+  },
+  {
+    "id": "calendar-smart-2-debut-20261012",
+    "month": "2026-10",
+    "date": "2026-10-12",
+    "dateText": "10月12日",
+    "brand": "smart",
+    "model": "精灵 #2",
+    "kind": "全球首发",
+    "powertrain": "纯电城市车",
+    "priceText": "价格待公布",
+    "status": "confirmed",
+    "statusLabel": "已官宣",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202609/1316891.html?from=m&platform-key=pc",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-09-01",
+    "detail": "汽车之家援引 smart 官方信息称，精灵 #2 将于10月12日巴黎车展全球首发；正式上市计划为11月中旬。首发与上市是两个不同节点。",
+    "observation": "10月记录的是全球首发，不应误写为10月上市。"
+  },
+  {
+    "id": "calendar-byd-tai9-q4-2026",
+    "month": "2026-10",
+    "dateText": "第四季度（具体日期待官宣）",
+    "brand": "比亚迪",
+    "model": "方程豹钛9",
+    "kind": "计划上市",
+    "powertrain": "插混 SUV",
+    "priceText": "价格待公布",
+    "status": "estimated",
+    "statusLabel": "预计上市",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202609/1317075.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-09-10",
+    "detail": "媒体报道仅给出方程豹钛9第四季度上市计划，尚未公布具体月份或日期。因此将其作为后续窗口展示，不填造具体上市日。",
+    "observation": "等待品牌正式公告确认日期、价格与最终销售配置。"
+  },
+  {
+    "id": "calendar-zeekr-7x-q4-2026",
+    "month": "2026-10",
+    "dateText": "第四季度（具体日期待官宣）",
+    "brand": "极氪",
+    "model": "新款极氪7X",
+    "kind": "计划上市",
+    "powertrain": "纯电 SUV",
+    "priceText": "价格待公布",
+    "status": "estimated",
+    "statusLabel": "预计上市",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202609/1317047.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-09-10",
+    "detail": "媒体报道披露新款极氪7X的申报变化，并称上市计划仅明确到第四季度，未给出具体日期。申报信息不等同最终销售配置。",
+    "observation": "等待品牌确认正式上市日和价格。"
   }
 ]

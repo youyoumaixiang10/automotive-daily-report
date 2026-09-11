@@ -164,7 +164,7 @@ function renderCalendar() {
   if (!launchesByMonth[selectedMonth]) selectedMonth = months[1][0];
   document.querySelector('#month-tabs').innerHTML = months.map(([key, label]) => `<button class="${key === selectedMonth ? 'active' : ''}" data-month="${key}">${label}</button>`).join('');
   const launches = launchesByMonth[selectedMonth] || [];
-  document.querySelector('#car-table-body').innerHTML = launches.length ? launches.map(launch => `<tr class="detail-trigger" data-launch-id="${esc(launch.id)}" role="button" tabindex="0" aria-label="查看：${esc(launch.brand)} ${esc(launch.model)}"><td>${esc(launch.dateText)}</td><td><span class="car-name">${esc(launch.brand)} / ${esc(launch.model)}</span></td><td>${esc(launch.kind)}</td><td>${esc(launch.powertrain)}</td><td>${esc(launch.priceText)}</td><td><span class="status ${esc(launch.status)}">${esc(launch.statusLabel)}</span></td><td>${esc(launch.evidenceLabel)}<br>${esc(launch.sourceName)}</td></tr>`).join('') : '<tr><td colspan="7" class="empty-state">该月暂未收录有明确日期和出处的上市信息。申报、预售、发布会与交付节点仍可在日报查看。</td></tr>';
+  document.querySelector('#car-table-body').innerHTML = launches.length ? launches.map(launch => `<tr class="detail-trigger" data-launch-id="${esc(launch.id)}" role="button" tabindex="0" aria-label="查看：${esc(launch.brand)} ${esc(launch.model)}"><td>${esc(launch.dateText)}</td><td><span class="car-name">${esc(launch.brand)} / ${esc(launch.model)}</span></td><td>${esc(launch.kind)}</td><td>${esc(launch.powertrain)}</td><td>${esc(launch.priceText)}</td><td><span class="status ${esc(launch.status)}">${esc(launch.statusLabel)}</span></td><td>${esc(launch.evidenceLabel)}<br>${esc(launch.sourceName)}</td></tr>`).join('') : '<tr><td colspan="7" class="empty-state">该月暂未收录可追溯的新车节点。</td></tr>';
   document.querySelectorAll('[data-month]').forEach(button => button.addEventListener('click', () => { selectedMonth = button.dataset.month; renderCalendar(); }));
   const launchIndex = new Map(launches.map(launch => [launch.id, launch]));
   document.querySelectorAll('[data-launch-id]').forEach(row => bindDetailTrigger(row, () => {
@@ -218,7 +218,7 @@ async function boot() {
   }
   try {
     const response = await fetch('./runtime/generated-launches.json', { cache: 'no-store' });
-    if (response.ok) for (const launch of await response.json()) (launchesByMonth[launch.date.slice(0, 7)] ||= []).push(launch);
+    if (response.ok) for (const launch of await response.json()) (launchesByMonth[launch.month || launch.date?.slice(0, 7)] ||= []).push(launch);
   } catch { /* The launch calendar can be empty while reports remain readable. */ }
   selectedDate = selectableDates()[0];
   calendarMonth = selectedDate.slice(0, 7);

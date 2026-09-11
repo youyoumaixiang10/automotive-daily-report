@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildReports, classify, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
+import { buildReports, classify, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
 import { extractArticle } from '../scripts/article-extractor.mjs';
 import { identifyBrands } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
@@ -216,6 +216,12 @@ test('calendar never turns a forecast into a completed launch when its planned d
   const notes = { [article.url]: { launches: [{ date: '2026-09-10', brand: '理想', model: '测试车型', status: 'estimated' }] } };
   assert.equal(buildReports([article], notes, now).launches[0].status, 'estimated');
   assert.deepEqual(monthWindow(new Date('2026-12-31T18:00:00Z')), ['2026-12', '2027-01', '2027-02']);
+});
+test('curated calendar keeps a quarter window without inventing an exact launch day', () => {
+  const launches = mergeLaunches([], [{ id: 'calendar-q4', month: '2026-10', dateText: '第四季度（具体日期待官宣）', brand: '极氪', model: '新款极氪7X', kind: '计划上市', powertrain: '纯电 SUV', priceText: '价格待公布', status: 'estimated', statusLabel: '预计上市', sourceName: '测试媒体', sourceUrl: 'https://example.com/q4', evidenceLabel: '媒体报道' }]);
+  assert.equal(launches[0].month, '2026-10');
+  assert.equal(launches[0].date, undefined);
+  assert.doesNotThrow(() => validateReports({}, launches));
 });
 test('UI escapes imported headline markup and rejects unsafe links', () => {
   assert.equal(escapeHtml('<img src=x onerror="alert(1)">'), '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');
