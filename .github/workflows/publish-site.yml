@@ -1,0 +1,37 @@
+name: 发布网站
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '*.css'
+      - 'app.js'
+      - 'data/**'
+      - 'runtime/**'
+      - 'scripts/prepare-site.mjs'
+      - '.github/workflows/publish-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run prepare-site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
