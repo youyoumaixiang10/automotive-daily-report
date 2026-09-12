@@ -1,6 +1,6 @@
 {
-  "collectedAt": "2026-09-11T02:41:41.526Z",
-  "targetDate": "2026-09-10",
+  "collectedAt": "2026-09-12T04:27:05.713Z",
+  "targetDate": "2026-09-11",
   "candidates": [
     {
       "sourceId": "ithome-auto",
@@ -412,23 +412,23 @@
     {
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
-      "status": "partial",
-      "candidateCount": 30,
-      "publicLabel": "已发现 30 条待核验线索"
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
       "url": "https://auto.ifeng.com/",
-      "status": "partial",
-      "candidateCount": 4,
-      "publicLabel": "已发现 4 条待核验线索"
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
     },
     {
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
-      "status": "partial",
-      "candidateCount": 3,
-      "publicLabel": "已发现 3 条待核验线索"
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -440,16 +440,16 @@
     {
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
-      "status": "partial",
-      "candidateCount": 3,
-      "publicLabel": "已发现 3 条待核验线索"
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
-      "status": "partial",
-      "candidateCount": 3,
-      "publicLabel": "已发现 3 条待核验线索"
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -461,9 +461,9 @@
     {
       "sourceId": "caijing-auto",
       "url": "https://auto.caijing.com.cn/",
-      "status": "partial",
-      "candidateCount": 2,
-      "publicLabel": "已发现 2 条待核验线索"
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
     }
   ],
   "publicationRule": "搜索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

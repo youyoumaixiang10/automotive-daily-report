@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-11T07:52:52.718Z",
+  "collectedAt": "2026-09-12T04:26:48.432Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -617,6 +617,40 @@
         "特斯拉"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "天生跑车基因 一文看懂方程豹方程S/方程S GT 将于9月16日上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317126.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "工信部：到2030年自动驾驶汽车实现规模应用！迈向世界汽车强国！",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317123.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "标配二排双零重力旋转座椅 理想i9实车亮相 将于9月16日正式上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317121.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -624,15 +658,15 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 18
+      "count": 16
     },
     {
       "sourceId": "dongchedi-news",
-      "status": "partial",
-      "collectedAt": "2026-09-11T07:52:48.253Z",
+      "status": "failed",
+      "collectedAt": "2026-09-12T04:26:37.215Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 63,
-      "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
+      "candidateCount": 0,
+      "reason": "懂车帝首页缺少公开列表数据"
     }
   ],
   "publicationRule": "原文、发布日期与作者校验后，可标注为媒体报道；缺少正文、日期或出处的线索留在待核实队列。"
