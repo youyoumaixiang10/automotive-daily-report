@@ -1,72 +1,55 @@
 {
-  "startedAt": "2026-09-12T04:25:04.572Z",
-  "completedAt": "2026-09-12T04:30:45.921Z",
+  "startedAt": "2026-09-13T04:37:31.377Z",
+  "completedAt": "2026-09-13T04:42:34.624Z",
   "state": "partial",
-  "failures": [],
+  "failures": [
+    "collect-discovery.mjs 未成功完成（1）"
+  ],
   "enrichmentFailures": [
     {
       "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317075.html",
+      "url": "https://www.autohome.com.cn/news/202609/1317061.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317062.html",
+      "url": "https://www.autohome.com.cn/news/202609/1317054.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317047.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317063.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317121.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "sina-auto",
-      "url": "https://www.sina.cn/gc/article/ninwpna8195209.html",
+      "url": "https://www.autohome.com.cn/news/202609/1317104.html",
       "reason": "The operation was aborted due to timeout"
     }
   ],
   "steps": [
     {
       "script": "collect-pilot.mjs",
-      "completedAt": "2026-09-12T04:26:31.686Z"
-    },
-    {
-      "script": "collect-discovery.mjs",
-      "completedAt": "2026-09-12T04:26:48.449Z"
+      "completedAt": "2026-09-13T04:38:46.721Z"
     },
     {
       "script": "collect-search-discovery.mjs",
-      "completedAt": "2026-09-12T04:27:05.743Z"
+      "completedAt": "2026-09-13T04:39:34.328Z"
     },
     {
       "script": "enrich-content.mjs",
-      "completedAt": "2026-09-12T04:30:45.662Z"
+      "completedAt": "2026-09-13T04:42:34.386Z"
     },
     {
       "script": "title-editor.mjs",
-      "completedAt": "2026-09-12T04:30:45.700Z"
+      "completedAt": "2026-09-13T04:42:34.427Z"
     },
     {
       "script": "reconcile-launch-calendar.mjs",
-      "completedAt": "2026-09-12T04:30:45.752Z"
+      "completedAt": "2026-09-13T04:42:34.471Z"
     },
     {
       "script": "build-daily-report.mjs",
-      "completedAt": "2026-09-12T04:30:45.866Z"
+      "completedAt": "2026-09-13T04:42:34.569Z"
     },
     {
       "script": "validate-content.mjs",
-      "completedAt": "2026-09-12T04:30:45.918Z"
+      "completedAt": "2026-09-13T04:42:34.622Z"
     }
   ],
   "sourceResults": [
@@ -113,43 +96,43 @@
     {
       "sourceId": "byd-news",
       "url": "https://prod.byd.com/cn/news",
-      "checkedAt": "2026-09-12T04:25:13.239Z",
+      "checkedAt": "2026-09-13T04:37:38.231Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 167,
       "recentCount": 0,
       "latestPublishedAt": "2026-09-01",
-      "since": "2026-09-05",
+      "since": "2026-09-06",
       "pageCount": 4
     },
     {
       "sourceId": "deepal-news",
       "url": "https://deepal.com.cn/news",
-      "checkedAt": "2026-09-12T04:25:13.239Z",
+      "checkedAt": "2026-09-13T04:37:38.231Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 47,
       "recentCount": 0,
       "latestPublishedAt": "2026-06-15",
-      "since": "2026-09-05",
+      "since": "2026-09-06",
       "pageCount": 1
     },
     {
       "sourceId": "zeekr-info",
       "url": "https://www.zeekrlife.com/information",
-      "checkedAt": "2026-09-12T04:25:13.239Z",
+      "checkedAt": "2026-09-13T04:37:38.231Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 116,
       "recentCount": 0,
       "latestPublishedAt": "2026-05-19",
-      "since": "2026-09-05",
+      "since": "2026-09-06",
       "pageCount": 6
     },
     {
       "sourceId": "leapmotor-news",
       "url": "https://leapmotor.cn/news/news.html",
-      "checkedAt": "2026-09-12T04:25:13.239Z",
+      "checkedAt": "2026-09-13T04:37:38.231Z",
       "status": "partial",
       "listRead": false,
       "candidateCount": 0,
@@ -159,7 +142,7 @@
     {
       "sourceId": "li-auto-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:25:41.233Z",
+      "collectedAt": "2026-09-13T04:38:04.245Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/lixiangzhizao",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -167,7 +150,7 @@
     {
       "sourceId": "denza-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:25:46.267Z",
+      "collectedAt": "2026-09-13T04:38:09.143Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/2664689831",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -175,7 +158,7 @@
     {
       "sourceId": "byd-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:25:49.511Z",
+      "collectedAt": "2026-09-13T04:38:11.994Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/bydauto",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -183,7 +166,7 @@
     {
       "sourceId": "leapmotor-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:25:52.785Z",
+      "collectedAt": "2026-09-13T04:38:14.701Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/u/5872290888",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -191,7 +174,7 @@
     {
       "sourceId": "nio-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:25:55.941Z",
+      "collectedAt": "2026-09-13T04:38:17.325Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/nextevofficial",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -199,7 +182,7 @@
     {
       "sourceId": "onvo-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:25:59.155Z",
+      "collectedAt": "2026-09-13T04:38:20.007Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7892483716",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -207,7 +190,7 @@
     {
       "sourceId": "xiaomi-auto-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:02.369Z",
+      "collectedAt": "2026-09-13T04:38:22.651Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7871239944",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -215,7 +198,7 @@
     {
       "sourceId": "voyah-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:05.547Z",
+      "collectedAt": "2026-09-13T04:38:25.298Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7351024207",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -223,7 +206,7 @@
     {
       "sourceId": "avatr-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:08.760Z",
+      "collectedAt": "2026-09-13T04:38:27.941Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/avatr",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -231,7 +214,7 @@
     {
       "sourceId": "deepal-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:12.032Z",
+      "collectedAt": "2026-09-13T04:38:30.668Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/7751244203",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -239,7 +222,7 @@
     {
       "sourceId": "tesla-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:15.293Z",
+      "collectedAt": "2026-09-13T04:38:33.357Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/teslaofficial",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -247,7 +230,7 @@
     {
       "sourceId": "zeekr-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:18.531Z",
+      "collectedAt": "2026-09-13T04:38:36.078Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7576049404",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -255,7 +238,7 @@
     {
       "sourceId": "galaxy-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:21.959Z",
+      "collectedAt": "2026-09-13T04:38:38.770Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7794864065",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -263,7 +246,7 @@
     {
       "sourceId": "changan-qiyuan-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:25.149Z",
+      "collectedAt": "2026-09-13T04:38:41.398Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3194397971",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
@@ -271,7 +254,7 @@
     {
       "sourceId": "hima-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:28.365Z",
+      "collectedAt": "2026-09-13T04:38:44.059Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3032210184",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
