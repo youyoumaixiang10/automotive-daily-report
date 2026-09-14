@@ -1,16 +1,51 @@
 {
-  "completedAt": "2026-09-14T07:57:35.526Z",
-  "fetched": 35,
-  "cached": 367,
+  "completedAt": "2026-09-14T10:44:39.023Z",
+  "fetched": 142,
+  "cached": 253,
   "failures": [
     {
       "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317122.html",
+      "url": "https://www.autohome.com.cn/news/202609/1317077.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "chezhitong-auto",
-      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317065.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317080.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317068.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317063.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317101.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317114.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317104.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317132.html",
       "reason": "The operation was aborted due to timeout"
     }
   ]

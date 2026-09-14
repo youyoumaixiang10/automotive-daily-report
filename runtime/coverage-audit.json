@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-14T07:57:42.376Z",
+  "checkedAt": "2026-09-14T10:44:41.562Z",
   "passed": false,
   "summary": {
     "completeBrands": 0,
@@ -7,7 +7,7 @@
     "healthyMedia": 2,
     "totalMedia": 17,
     "policyHealthy": true,
-    "unresolvedCandidates": 441
+    "unresolvedCandidates": 440
   },
   "brands": [
     {
@@ -31,7 +31,7 @@
           "id": "hima-weibo",
           "sourceId": "hima-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:32.111Z",
+          "collectedAt": "2026-09-14T10:40:34.892Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3032210184",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -56,7 +56,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -78,7 +78,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-14T07:52:54.878Z",
+          "checkedAt": "2026-09-14T10:37:38.238Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
@@ -93,7 +93,7 @@
           "id": "byd-weibo",
           "sourceId": "byd-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:53:42.643Z",
+          "collectedAt": "2026-09-14T10:38:42.923Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/bydauto",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -118,7 +118,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -140,7 +140,7 @@
           "id": "leapmotor-news",
           "sourceId": "leapmotor-news",
           "url": "https://leapmotor.cn/news/news.html",
-          "checkedAt": "2026-09-14T07:52:54.878Z",
+          "checkedAt": "2026-09-14T10:37:38.238Z",
           "status": "partial",
           "listRead": false,
           "candidateCount": 0,
@@ -153,7 +153,7 @@
           "id": "leapmotor-weibo",
           "sourceId": "leapmotor-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:53:51.782Z",
+          "collectedAt": "2026-09-14T10:38:52.273Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/u/5872290888",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -178,7 +178,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -211,7 +211,7 @@
           "id": "nio-weibo",
           "sourceId": "nio-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:00.776Z",
+          "collectedAt": "2026-09-14T10:39:01.372Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/nextevofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -236,7 +236,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -269,7 +269,7 @@
           "id": "onvo-weibo",
           "sourceId": "onvo-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:09.836Z",
+          "collectedAt": "2026-09-14T10:39:10.635Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7892483716",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -294,7 +294,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -327,7 +327,7 @@
           "id": "li-auto-weibo",
           "sourceId": "li-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:53:23.109Z",
+          "collectedAt": "2026-09-14T10:38:20.568Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/lixiangzhizao",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -352,7 +352,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -374,7 +374,7 @@
           "id": "zeekr-info",
           "sourceId": "zeekr-info",
           "url": "https://www.zeekrlife.com/information",
-          "checkedAt": "2026-09-14T07:52:54.878Z",
+          "checkedAt": "2026-09-14T10:37:38.238Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 116,
@@ -389,7 +389,7 @@
           "id": "zeekr-weibo",
           "sourceId": "zeekr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:05.268Z",
+          "collectedAt": "2026-09-14T10:40:07.395Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7576049404",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -414,7 +414,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -442,7 +442,7 @@
           "id": "xiaomi-auto-weibo",
           "sourceId": "xiaomi-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:18.792Z",
+          "collectedAt": "2026-09-14T10:39:19.932Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7871239944",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -467,7 +467,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -495,7 +495,7 @@
           "id": "voyah-weibo",
           "sourceId": "voyah-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:27.854Z",
+          "collectedAt": "2026-09-14T10:39:29.284Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7351024207",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -520,7 +520,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -557,7 +557,7 @@
           "id": "avatr-weibo",
           "sourceId": "avatr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:37.943Z",
+          "collectedAt": "2026-09-14T10:39:39.292Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/avatr",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -582,7 +582,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -604,7 +604,7 @@
           "id": "deepal-news",
           "sourceId": "deepal-news",
           "url": "https://deepal.com.cn/news",
-          "checkedAt": "2026-09-14T07:52:54.878Z",
+          "checkedAt": "2026-09-14T10:37:38.238Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 47,
@@ -623,7 +623,7 @@
           "id": "deepal-weibo",
           "sourceId": "deepal-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:47.320Z",
+          "collectedAt": "2026-09-14T10:39:48.840Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/7751244203",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -648,7 +648,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -674,7 +674,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-14T07:52:54.878Z",
+          "checkedAt": "2026-09-14T10:37:38.238Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
@@ -689,7 +689,7 @@
           "id": "denza-weibo",
           "sourceId": "denza-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:53:33.660Z",
+          "collectedAt": "2026-09-14T10:38:33.790Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/2664689831",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -714,7 +714,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -742,7 +742,7 @@
           "id": "galaxy-weibo",
           "sourceId": "galaxy-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:14.189Z",
+          "collectedAt": "2026-09-14T10:40:16.534Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7794864065",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -767,7 +767,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -795,7 +795,7 @@
           "id": "tesla-weibo",
           "sourceId": "tesla-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:54:56.278Z",
+          "collectedAt": "2026-09-14T10:39:58.160Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/teslaofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -820,7 +820,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -852,7 +852,7 @@
           "id": "changan-qiyuan-weibo",
           "sourceId": "changan-qiyuan-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:23.183Z",
+          "collectedAt": "2026-09-14T10:40:25.676Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3194397971",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -877,7 +877,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T07:55:42.479Z",
+          "collectedAt": "2026-09-14T10:40:45.426Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -907,7 +907,7 @@
       "name": "懂车帝资讯",
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-14T07:55:42.479Z",
+      "collectedAt": "2026-09-14T10:40:45.426Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
