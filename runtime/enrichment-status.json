@@ -1,6 +1,17 @@
 {
-  "completedAt": "2026-09-14T10:55:11.636Z",
-  "fetched": 74,
-  "cached": 330,
-  "failures": []
+  "completedAt": "2026-09-14T11:30:47.510Z",
+  "fetched": 112,
+  "cached": 338,
+  "failures": [
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/passion.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation."
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.predsmp.voyah.com.cn/app.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    }
+  ]
 }

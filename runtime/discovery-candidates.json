@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T10:52:53.547Z",
+  "collectedAt": "2026-09-14T11:26:53.723Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -881,27 +881,37 @@
         "特斯拉"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "提供星玫粉可选/内饰设计焕然一新 智界R7焕新款全新配色官图发布",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317163.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout"
+      "status": "ok",
+      "count": 16
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout"
+      "status": "ok",
+      "count": 0
     },
     {
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-14T10:52:23.275Z",
+      "collectedAt": "2026-09-14T11:26:42.463Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
