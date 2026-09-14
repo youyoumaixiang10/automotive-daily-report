@@ -1,16 +1,251 @@
 {
-  "completedAt": "2026-09-14T04:21:36.338Z",
-  "fetched": 165,
-  "cached": 373,
+  "completedAt": "2026-09-14T04:40:42.485Z",
+  "fetched": 292,
+  "cached": 412,
   "failures": [
-    {
-      "sourceId": "chezhitong-auto",
-      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
-      "reason": "The operation was aborted due to timeout"
-    },
     {
       "sourceId": "avatr-news",
       "url": "https://security.avatr.com/",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "onvo-weibo",
+      "url": "https://www.weibo.com/onvo",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "nio-official",
+      "url": "https://pd.nio.com/firefly/home",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "li-auto-weibo",
+      "url": "https://weibo.com/6001272153/",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/u/7576049404?sudaref=www.google.com",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-info",
+      "url": "https://www.zeekrlife.com/zh-cn/",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/5342309295063732",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-info",
+      "url": "https://www.zeekrlife.com/zh-cn/zeekr009",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://www.weibo.com/ttarticle/p/show?id=2309405226774303997964",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Aninxzpp6673122",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://www.weibo.com/ttarticle/p/show?id=2309405293443525247021",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-info",
+      "url": "https://www.zeekrlife.com/legalDeclaration",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://www.weibo.com/ttarticle/p/show?id=2309405289139611763227",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/5339304655324891",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://www.weibo.com/ttarticle/p/show?id=2309405286453604647259",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/5330365510059049",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Anirmvzz2337680",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/5338707839681860",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-info",
+      "url": "https://www.zeekrlife.com/collection",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/5341961784394279",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-weibo",
+      "url": "https://weibo.com/2/detail/5339435226894146",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-info",
+      "url": "https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/pdf/esg/%E6%9E%81%E6%B0%AA2023%E5%B9%B4%E7%8E%AF%E5%A2%83%E3%80%81%E7%A4%BE%E4%BC%9A%E5%92%8C%E6%B2%BB%E7%90%86%EF%BC%88ESG%EF%BC%89%E6%8A%A5%E5%91%8A-EN.pdf",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "url": "https://www.weibo.com/xiaomikeji?tabtype=newVideo",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "url": "https://weibo.com/2/detail/5341012530300661",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "url": "https://weibo.com/leijun",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "url": "https://weibo.com/p/1005051749127163/weibo?from=page_100505_home&mod=weibomore&wvr=5.1",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "url": "https://www.weibo.com/xiaomisns",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "zeekr-info",
+      "url": "https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/pdf/esg/%E8%91%A3%E4%BA%8B%E4%BC%9A%E5%A4%9A%E5%85%83%E5%8C%96%E6%94%BF%E7%AD%96%20BOARD%20DIVERSITY%20POLICY%20%28CN%29%2020240929.pdf",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.predsmp.voyah.com.cn/app.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/passion.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.predsmp.voyah.com.cn/dreamer.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/service.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/prospectus.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/dreamriver.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/ir.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/free%2B.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "voyah-official",
+      "url": "https://m.dsmp.voyah.com.cn/dreamer-champion.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/5334379317430748",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/5334344085801701",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Anirensh4074353",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Anirmfea2262302",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Anirensh8906279",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/5335777435456227",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Anirensh4074297",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "deepal-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Anirfcpy3865895",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "galaxy-weibo",
+      "url": "https://weibo.com/2/detail/5339772357968594",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "galaxy-weibo",
+      "url": "https://weibo.com/2/detail/5339772555363192",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "tesla-weibo",
+      "url": "https://weibo.com/2/detail/5340683357127978",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "changan-qiyuan-weibo",
+      "url": "https://weibo.com/2/detail/comos%3Aniqxiqt0980878",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
     }
   ]
