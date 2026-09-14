@@ -41,5 +41,11 @@ export const sourceRegistry = [
   { id: 'ithome-auto', name: 'IT之家', brands: [], category: '科技媒体候选', sourceType: 'vertical-media', url: 'https://www.ithome.com/', method: 'browser-search', status: 'pilot' },
   { id: 'gasgoo-auto', name: '盖世汽车', brands: [], category: '汽车行业媒体候选', sourceType: 'vertical-media', url: 'https://auto.gasgoo.com/', method: 'browser-search', status: 'pilot' },
   { id: 'chezhitong-auto', name: '车质网', brands: [], category: '汽车行业媒体候选', sourceType: 'vertical-media', url: 'https://www.12365auto.com/', method: 'browser-search', status: 'pilot' }
-  ,{ id: 'caijing-auto', name: '财经汽车', brands: [], category: '财经媒体候选', sourceType: 'vertical-media', url: 'https://auto.caijing.com.cn/', method: 'browser-search', status: 'pilot' }
+  ,{ id: 'caijing-auto', name: '财经汽车', brands: [], category: '财经媒体候选', sourceType: 'vertical-media', url: 'https://auto.caijing.com.cn/', method: 'browser-search', status: 'pilot' },
+  { id: 'xchuxing-auto', name: '新出行', brands: [], category: '新能源汽车媒体候选', sourceType: 'vertical-media', url: 'https://www.xchuxing.com/', method: 'browser-search', status: 'pilot' },
+  { id: 'nbd-auto', name: '每日经济新闻', brands: [], category: '财经媒体候选', sourceType: 'vertical-media', url: 'https://www.nbd.com.cn/', hosts: ['www.nbd.com.cn', 'm.nbd.com.cn'], method: 'browser-search', status: 'pilot' },
+  { id: 'pcauto-news', name: '太平洋汽车', brands: [], category: '垂直媒体候选', sourceType: 'vertical-media', url: 'https://www.pcauto.com.cn/', hosts: ['www.pcauto.com.cn', 'price.pcauto.com.cn'], method: 'browser-search', status: 'pilot' },
+  { id: 'sohu-auto', name: '搜狐汽车', brands: [], category: '综合媒体候选', sourceType: 'vertical-media', url: 'https://auto.sohu.com/', hosts: ['auto.sohu.com', 'www.sohu.com', 'db.m.auto.sohu.com'], method: 'browser-search', status: 'pilot' },
+  { id: 'netease-auto', name: '网易汽车', brands: [], category: '综合媒体候选', sourceType: 'vertical-media', url: 'https://auto.163.com/', hosts: ['auto.163.com', 'www.163.com'], method: 'browser-search', status: 'pilot' },
+  { id: 'news18a-auto', name: '网通社', brands: [], category: '垂直媒体候选', sourceType: 'vertical-media', url: 'https://auto.news18a.com/', hosts: ['auto.news18a.com', 'www.news18a.com'], method: 'browser-search', status: 'pilot' }
 ];

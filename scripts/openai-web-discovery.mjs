@@ -2,7 +2,7 @@ import { monitoringCoverage } from '../data/monitoring-coverage.js';
 import { sourceRegistry } from '../data/sources.js';
 import { issueSearchDates } from './content-utils.mjs';
 
-const searchableSources = sourceRegistry.filter(source => ['official', 'government', 'vertical-media'].includes(source.sourceType));
+const searchableSources = sourceRegistry.filter(source => ['official', 'official-social', 'government', 'vertical-media'].includes(source.sourceType));
 
 function sourceHosts(source) {
   return (source.hosts || [new URL(source.url).hostname]).map(host => host.replace(/^www\./u, ''));
@@ -10,11 +10,12 @@ function sourceHosts(source) {
 
 export const allowedDomains = [...new Set(searchableSources.flatMap(sourceHosts))];
 
-export function registeredSourceForUrl(value) {
+export function registeredSourceForUrl(value, brand = null) {
   try {
     const host = new URL(value).hostname.replace(/^www\./u, '');
-    return searchableSources.find(source => sourceHosts(source).some(candidate =>
-      host === candidate || host.endsWith(`.${candidate}`) || candidate.endsWith(`.${host}`))) || null;
+    const matching = searchableSources.filter(source => sourceHosts(source).some(candidate =>
+      host === candidate || host.endsWith(`.${candidate}`) || candidate.endsWith(`.${host}`)));
+    return matching.find(source => brand && source.brands.includes(brand)) || matching[0] || null;
   } catch { return null; }
 }
 
@@ -34,14 +35,20 @@ export function discoveryJobs(now = new Date()) {
 }
 
 export function responseSources(response) {
-  return (response?.output || []).flatMap(item => item?.type === 'web_search_call' ? (item.action?.sources || []) : [])
-    .map(source => ({ url: source.url || '', title: source.title || '' }))
-    .filter(source => source.url);
+  const consulted = (response?.output || []).flatMap(item => item?.type === 'web_search_call' ? (item.action?.sources || []) : []);
+  const cited = (response?.output || []).flatMap(item => item?.type === 'message' ? (item.content || []) : [])
+    .flatMap(content => content.annotations || [])
+    .filter(annotation => annotation.type === 'url_citation');
+  const sources = [...consulted, ...cited].map(source => ({
+    url: source.url || source.url_citation?.url || '',
+    title: source.title || source.url_citation?.title || ''
+  })).filter(source => source.url);
+  return [...new Map(sources.map(source => [source.url, source])).values()];
 }
 
 export function candidatesFromResponse(response, job) {
   return responseSources(response).flatMap(item => {
-    const source = registeredSourceForUrl(item.url);
+    const source = registeredSourceForUrl(item.url, job.brand);
     if (!source) return [];
     return [{
       sourceId: source.id,
@@ -70,7 +77,7 @@ export async function searchJob(job, options = {}) {
         type: 'web_search',
         filters: { allowed_domains: allowedDomains },
         user_location: { type: 'approximate', country: 'CN', city: 'Shanghai', region: 'Shanghai' },
-        search_context_size: 'low'
+        search_context_size: 'medium'
       }],
       tool_choice: 'auto',
       include: ['web_search_call.action.sources'],

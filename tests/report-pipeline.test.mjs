@@ -24,14 +24,16 @@ test('web discovery runs one auditable job for every focus brand plus industry',
 test('web discovery accepts only registered sources and exposes complete consulted URLs', () => {
   assert.ok(allowedDomains.includes('auto.sina.com.cn'));
   assert.equal(registeredSourceForUrl('https://auto.sina.com.cn/newcar/a.html').id, 'sina-auto');
+  assert.equal(registeredSourceForUrl('https://weibo.com/teslaofficial/status/1', '特斯拉').id, 'tesla-weibo');
   assert.equal(registeredSourceForUrl('https://unknown.example/a'), null);
   const response = { output: [{ type: 'web_search_call', action: { sources: [
     { url: 'https://auto.sina.com.cn/newcar/a.html', title: '可信原文' },
     { url: 'https://unknown.example/a', title: '未知来源' }
-  ] } }] };
+  ] } }, { type: 'message', content: [{ annotations: [{ type: 'url_citation', url: 'https://auto.sina.com.cn/newcar/a.html', title: '核验后的标题' }] }] }] };
   const items = candidatesFromResponse(response, { id: 'brand:理想', brand: '理想' });
   assert.equal(items.length, 1);
   assert.equal(items[0].sourceId, 'sina-auto');
+  assert.equal(items[0].title, '核验后的标题');
   assert.equal(items[0].discoveryBrand, '理想');
 });
 
