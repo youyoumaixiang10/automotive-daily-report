@@ -3523,7 +3523,7 @@
     ]
   },
   {
-    "title": "阿维塔 — 官方车型及价格页面（页面显示发布时间）",
+    "title": "阿维塔官网发布 AVATR VISION“情感新奢 生而全球”内容页",
     "sourceName": "阿维塔新闻中心",
     "url": "https://www.avatr.com/news?id=98be3cb57fde1dd760dad4eed5ae6cbb",
     "reasons": [
@@ -4271,6 +4271,16 @@
     "title": "汽车行业相关信息",
     "sourceName": "每日经济新闻",
     "url": "https://www.nbd.com.cn/columns/3/page/11.html/?_=1720061766188%0A",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "日照岚图泰山最新优惠行情，本地最低报价37.99万元起",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/hq/1471929.html",
     "reasons": [
       "缺少原文发布日期",
       "正文尚未读取成功",

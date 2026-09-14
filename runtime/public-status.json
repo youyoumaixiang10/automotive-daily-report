@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-09-14T04:49:57.972Z",
+  "completedAt": "2026-09-14T04:59:45.828Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -295,15 +295,15 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "ok",
-      "label": "已读 14 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "brands": [],
-      "status": "ok",
-      "label": "已读 0 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "dongchedi-news",
