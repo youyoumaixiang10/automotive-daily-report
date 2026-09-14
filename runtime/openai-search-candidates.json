@@ -1,167 +1,147 @@
 {
-  "collectedAt": "2026-09-14T04:58:19.190Z",
-  "discoveryVersion": 5,
+  "collectedAt": "2026-09-14T07:55:58.722Z",
+  "discoveryVersion": 6,
   "targetDates": [
     "2026-09-13",
     "2026-09-14"
   ],
-  "providerStatus": "completed",
+  "providerStatus": "partial",
   "model": "gpt-5.5",
   "queryRuns": [
     {
       "id": "brand:蔚来",
       "brand": "蔚来",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0e6dcfcef6c869d2016aa77e9f6e6087d2b88972480f2168b7"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:鸿蒙智行",
       "brand": "鸿蒙智行",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_05b2c774afc84027016aa77e9f5ed087d2836943bed1eee578"
-    },
-    {
-      "id": "brand:比亚迪",
-      "brand": "比亚迪",
-      "status": "completed",
-      "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_099ca7ae96c6d341016aa77e9f7bac87d28296e7d0dd6cf1a9"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:零跑",
       "brand": "零跑",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0cb5e4f69e0ba375016aa77e9f832487d29d57b9c613c9df9c"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:乐道",
       "brand": "乐道",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0a5516a88c25e7de016aa77ea979f487d2aa5d5f84dd881fb7"
-    },
-    {
-      "id": "brand:极氪",
-      "brand": "极氪",
-      "status": "completed",
-      "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0075aec0653b0998016aa77eacc38887d282b88f4dc78a4d84"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:理想",
       "brand": "理想",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0dbe7cb85f3c22b0016aa77eabaf3487d2bc61cfb73a3c6ef8"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
-      "id": "brand:小米",
-      "brand": "小米",
-      "status": "completed",
+      "id": "brand:比亚迪",
+      "brand": "比亚迪",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0b22de0cff8da19a016aa77eb08ea887d28673886b811cb4cd"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
-      "id": "brand:岚图",
-      "brand": "岚图",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_0d03b64c4c25b376016aa77eb76cf487d2ba4224e450c67073"
-    },
-    {
-      "id": "brand:深蓝",
-      "brand": "深蓝",
-      "status": "completed",
+      "id": "brand:极氪",
+      "brand": "极氪",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0953d40554b893bc016aa77ebde04c87d29488a99b03171c1c"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:阿维塔",
       "brand": "阿维塔",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_0446dd36b9ad7a07016aa77ebb3f0c87d2a7f7bb2fc465f06c"
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
-      "id": "brand:腾势",
-      "brand": "腾势",
-      "status": "completed",
+      "id": "brand:岚图",
+      "brand": "岚图",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_01954c368f1be011016aa77ec2903887d2bcf58b98c6195829"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "id": "brand:深蓝",
+      "brand": "深蓝",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "id": "brand:小米",
+      "brand": "小米",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:吉利银河",
       "brand": "吉利银河",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0139210fe9fd77c7016aa77ec87db887d280fe75e78e7b443c"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "id": "brand:腾势",
+      "brand": "腾势",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "id": "media-sweep:2",
+      "brand": null,
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:特斯拉",
       "brand": "特斯拉",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_007ac4e438ba2f12016aa77ecd50fc87d286327949cf62a172"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:启源",
       "brand": "启源",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0031f258b91860a0016aa77ecfb41087d28b36d2dfb2e60760"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "industry",
       "brand": null,
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_01eb4cf01aa0cd1e016aa77ed628ac87d29d814c6d60fe4a1e"
-    }
-  ],
-  "candidates": [
-    {
-      "sourceId": "pcauto-news",
-      "sourceName": "太平洋汽车",
-      "sourceType": "vertical-media",
-      "title": "日照岚图泰山最新优惠行情，本地最低报价37.99万元起",
-      "url": "https://www.pcauto.com.cn/hq/1471929.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 03:06:05",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:岚图",
-      "discoveryBrand": "岚图"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
-      "sourceId": "avatr-news",
-      "sourceName": "阿维塔新闻中心",
-      "sourceType": "official",
-      "title": "阿维塔官网发布 AVATR VISION“情感新奢 生而全球”内容页",
-      "url": "https://www.avatr.com/news?id=98be3cb57fde1dd760dad4eed5ae6cbb",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026 年 9 月 13 日",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:阿维塔",
-      "discoveryBrand": "阿维塔"
+      "id": "media-sweep:3",
+      "brand": null,
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "id": "media-sweep:1",
+      "brand": null,
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     }
   ],
+  "candidates": [],
   "publicationRule": "网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。"
 }

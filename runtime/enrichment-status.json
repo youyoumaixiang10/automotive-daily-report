@@ -1,6 +1,17 @@
 {
-  "completedAt": "2026-09-14T04:59:42.364Z",
-  "fetched": 38,
+  "completedAt": "2026-09-14T07:57:35.526Z",
+  "fetched": 35,
   "cached": 367,
-  "failures": []
+  "failures": [
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317122.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "chezhitong-auto",
+      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ]
 }
