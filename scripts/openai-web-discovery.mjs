@@ -57,9 +57,14 @@ export function structuredArticles(response) {
   } catch { return []; }
 }
 
+export function hasStructuredOutput(response) {
+  return (response?.output || []).some(item => item?.type === 'message' &&
+    (item.content || []).some(content => content.type === 'output_text'));
+}
+
 export function candidatesFromResponse(response, job) {
   const structured = structuredArticles(response);
-  const discovered = structured.length ? structured.map(item => ({
+  const discovered = hasStructuredOutput(response) ? structured.map(item => ({
     url: item.url, title: item.title, publishedAt: item.published_at
   })) : responseSources(response);
   return discovered.flatMap(item => {
@@ -120,7 +125,7 @@ export async function searchJob(job, options = {}) {
           }
         }
       },
-      max_output_tokens: 1200,
+      max_output_tokens: 1800,
       store: false,
       input: job.prompt
     }),

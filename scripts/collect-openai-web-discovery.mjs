@@ -1,10 +1,10 @@
 import { issueSearchDates, readJson, writeJson } from './content-utils.mjs';
-import { candidatesFromResponse, discoveryJobs, searchJob } from './openai-web-discovery.mjs';
+import { candidatesFromResponse, discoveryJobs, hasStructuredOutput, searchJob, structuredArticles } from './openai-web-discovery.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
 const file = new URL('openai-search-candidates.json', dir);
 const previous = readJson(file, { candidates: [] });
-const discoveryVersion = 3;
+const discoveryVersion = 4;
 const jobs = discoveryJobs();
 const targetDates = issueSearchDates();
 const sameIssue = previous.discoveryVersion === discoveryVersion && JSON.stringify(previous.targetDates || []) === JSON.stringify(targetDates);
@@ -21,23 +21,32 @@ if (!process.env.OPENAI_API_KEY) {
   process.exit(0);
 }
 
-for (const job of jobs) {
-  if (priorRuns.get(job.id)?.status === 'completed') continue;
-  try {
-    const response = await searchJob(job);
-    const candidates = candidatesFromResponse(response, job);
-    collected.push(...candidates);
-    const run = { id: job.id, brand: job.brand, status: 'completed', sourceCount: candidates.length, responseId: response.id };
-    const index = queryRuns.findIndex(item => item.id === job.id);
-    if (index === -1) queryRuns.push(run); else queryRuns[index] = run;
-  } catch (error) {
-    const run = { id: job.id, brand: job.brand, status: 'failed', sourceCount: 0, reason: error.message };
-    const index = queryRuns.findIndex(item => item.id === job.id);
-    if (index === -1) queryRuns.push(run); else queryRuns[index] = run;
+const pendingJobs = jobs.filter(job => priorRuns.get(job.id)?.status !== 'completed');
+let nextJob = 0;
+function saveRun(run) {
+  const index = queryRuns.findIndex(item => item.id === run.id);
+  if (index === -1) queryRuns.push(run); else queryRuns[index] = run;
+}
+async function worker() {
+  while (nextJob < pendingJobs.length) {
+    const job = pendingJobs[nextJob++];
+    try {
+      const response = await searchJob(job);
+      if (response.status !== 'completed' || !hasStructuredOutput(response)) {
+        throw new Error(`网页检索未返回完整结构化结果（${response.status || 'unknown'}）`);
+      }
+      const candidates = candidatesFromResponse(response, job);
+      collected.push(...candidates);
+      saveRun({ id: job.id, brand: job.brand, status: 'completed', sourceCount: candidates.length, structuredCount: structuredArticles(response).length, responseId: response.id });
+    } catch (error) {
+      saveRun({ id: job.id, brand: job.brand, status: 'failed', sourceCount: 0, reason: error.message });
+    }
   }
 }
+await Promise.all(Array.from({ length: Math.min(4, pendingJobs.length || 1) }, worker));
 
-const candidates = [...new Map([...(previous.candidates || []), ...collected].map(item => [item.url, item])).values()];
+const retained = sameIssue ? (previous.candidates || []) : [];
+const candidates = [...new Map([...retained, ...collected].map(item => [item.url, item])).values()];
 const failed = queryRuns.filter(run => run.status === 'failed');
 writeJson(file, {
   collectedAt: new Date().toISOString(), discoveryVersion, targetDates, providerStatus: failed.length ? 'partial' : 'completed',
