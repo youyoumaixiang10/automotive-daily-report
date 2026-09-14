@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-09-14T02:29:37.813Z",
+  "completedAt": "2026-09-14T02:45:13.401Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -295,8 +295,8 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "ok",
-      "label": "已读 15 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "autohome-industry",
@@ -316,8 +316,8 @@
       "id": "sina-auto",
       "name": "新浪汽车",
       "brands": [],
-      "status": "no-recent-updates",
-      "label": "未发现待核验线索"
+      "status": "partial",
+      "label": "已发现 21 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -330,8 +330,8 @@
       "id": "yiche-news",
       "name": "易车",
       "brands": [],
-      "status": "no-recent-updates",
-      "label": "未发现待核验线索"
+      "status": "partial",
+      "label": "已发现 2 条待核验线索"
     },
     {
       "id": "cailianpress-auto",
@@ -344,8 +344,8 @@
       "id": "ithome-auto",
       "name": "IT之家",
       "brands": [],
-      "status": "no-recent-updates",
-      "label": "未发现待核验线索"
+      "status": "partial",
+      "label": "已发现 5 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -365,8 +365,8 @@
       "id": "caijing-auto",
       "name": "财经汽车",
       "brands": [],
-      "status": "no-recent-updates",
-      "label": "未发现待核验线索"
+      "status": "partial",
+      "label": "已发现 1 条待核验线索"
     }
   ]
 }

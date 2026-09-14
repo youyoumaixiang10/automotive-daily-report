@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T02:25:35.992Z",
+  "collectedAt": "2026-09-14T02:42:25.571Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -705,13 +705,14 @@
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "ok",
-      "count": 15
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-14T02:25:24.851Z",
+      "collectedAt": "2026-09-14T02:41:55.603Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
