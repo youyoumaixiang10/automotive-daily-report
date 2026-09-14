@@ -4,7 +4,7 @@ import { candidatesFromResponse, discoveryJobs, searchJob } from './openai-web-d
 const dir = new URL('../runtime/', import.meta.url);
 const file = new URL('openai-search-candidates.json', dir);
 const previous = readJson(file, { candidates: [] });
-const discoveryVersion = 2;
+const discoveryVersion = 3;
 const jobs = discoveryJobs();
 const targetDates = issueSearchDates();
 const sameIssue = previous.discoveryVersion === discoveryVersion && JSON.stringify(previous.targetDates || []) === JSON.stringify(targetDates);

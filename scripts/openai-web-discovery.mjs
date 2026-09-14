@@ -26,11 +26,11 @@ export function discoveryJobs(now = new Date()) {
     id: `brand:${brand}`,
     brand,
     aliases,
-    prompt: `检索 ${window} 发布的中国汽车新闻，完整检查品牌“${brand}”及别名“${aliases.join('、')}”。重点寻找：新车上市、预售、改款、年款、新增版本、申报、技术发布、价格与促销权益、营销传播、品牌活动、销量、交付、重大回应。只采用品牌官网或已限定的可信媒体原文。请进行网页检索，并用极短文字说明是否找到相关原文；不要把旧闻当作本窗口新闻。`
+    prompt: `检索 ${window} 发布的中国汽车新闻，完整检查品牌“${brand}”及别名“${aliases.join('、')}”。重点寻找：新车上市、预售、改款、年款、新增版本、申报、技术发布、价格与促销权益、营销传播、品牌活动、销量、交付、重大回应。只返回品牌官网、官方自媒体或已限定可信媒体中，页面明确显示在该时间窗口发布的具体文章或帖子；车型页、频道页、搜索页和旧闻不要返回。每条写明事实型标题、原文 URL 和页面显示的发布时间，没有符合项则返回空数组。`
   }));
   return [...brandJobs, {
     id: 'industry', brand: null, aliases: [],
-    prompt: `检索 ${window} 发布的中国汽车行业重要信息。重点寻找国家政策与监管、行业协会数据、召回、重大产业事件、供应链、出口与关税、充换电和动力电池。只采用政府、行业或已限定的可信媒体原文。请进行网页检索，并用极短文字说明是否找到相关原文；不要把车型普通新闻误作行业新闻，也不要把旧闻当作本窗口新闻。`
+    prompt: `检索 ${window} 发布的中国汽车行业重要信息。重点寻找国家政策与监管、行业协会数据、召回、重大产业事件、供应链、出口与关税、充换电和动力电池。只返回政府、行业机构或已限定可信媒体中，页面明确显示在该时间窗口发布的具体文章；频道页、搜索页、车型普通新闻和旧闻不要返回。每条写明事实型标题、原文 URL 和页面显示的发布时间，没有符合项则返回空数组。`
   }];
 }
 
@@ -46,8 +46,23 @@ export function responseSources(response) {
   return [...new Map(sources.map(source => [source.url, source])).values()];
 }
 
+export function structuredArticles(response) {
+  const text = (response?.output || []).flatMap(item => item?.type === 'message' ? (item.content || []) : [])
+    .filter(content => content.type === 'output_text')
+    .map(content => content.text || '')
+    .join('');
+  try {
+    const parsed = JSON.parse(text);
+    return Array.isArray(parsed.articles) ? parsed.articles : [];
+  } catch { return []; }
+}
+
 export function candidatesFromResponse(response, job) {
-  return responseSources(response).flatMap(item => {
+  const structured = structuredArticles(response);
+  const discovered = structured.length ? structured.map(item => ({
+    url: item.url, title: item.title, publishedAt: item.published_at
+  })) : responseSources(response);
+  return discovered.flatMap(item => {
     const source = registeredSourceForUrl(item.url, job.brand);
     if (!source) return [];
     return [{
@@ -57,6 +72,7 @@ export function candidatesFromResponse(response, job) {
       title: item.title || `${job.brand || '汽车行业'}相关信息`,
       url: item.url,
       publishedAt: null,
+      discoveryPublishedAt: item.publishedAt || null,
       discoveryProvider: 'openai-web-search',
       discoveryQuery: job.id,
       discoveryBrand: job.brand
@@ -81,7 +97,30 @@ export async function searchJob(job, options = {}) {
       }],
       tool_choice: 'auto',
       include: ['web_search_call.action.sources'],
-      max_output_tokens: 240,
+      text: {
+        verbosity: 'low',
+        format: {
+          type: 'json_schema', name: 'automotive_news_discovery', strict: true,
+          schema: {
+            type: 'object', additionalProperties: false, required: ['articles'],
+            properties: {
+              articles: {
+                type: 'array', maxItems: 12,
+                items: {
+                  type: 'object', additionalProperties: false,
+                  required: ['title', 'url', 'published_at'],
+                  properties: {
+                    title: { type: 'string' },
+                    url: { type: 'string' },
+                    published_at: { type: 'string' }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      max_output_tokens: 1200,
       store: false,
       input: job.prompt
     }),

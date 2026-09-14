@@ -6,7 +6,7 @@ import { identifyBrands, issueSearchDates } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
 import { createSiteServer } from '../scripts/serve.mjs';
 import { reconcileLaunchCalendar } from '../scripts/reconcile-launch-calendar.mjs';
-import { allowedDomains, candidatesFromResponse, discoveryJobs, registeredSourceForUrl } from '../scripts/openai-web-discovery.mjs';
+import { allowedDomains, candidatesFromResponse, discoveryJobs, registeredSourceForUrl, structuredArticles } from '../scripts/openai-web-discovery.mjs';
 
 const record = (number, changes = {}) => ({ title: `测试车型${number}上市`, url: `https://example.com/news/${number}`, sourceName: '测试媒体', sourceId: 'test', evidenceStatus: 'media', publishedAt: '2026-09-09', contentParagraphs: ['这里是可追溯原文中的正文内容。'], brands: ['理想'], reviewReasons: [], ...changes });
 const now = new Date('2026-09-10T12:00:00+08:00');
@@ -35,6 +35,18 @@ test('web discovery accepts only registered sources and exposes complete consult
   assert.equal(items[0].sourceId, 'sina-auto');
   assert.equal(items[0].title, '核验后的标题');
   assert.equal(items[0].discoveryBrand, '理想');
+});
+test('web discovery prefers structured article results over unrelated consulted pages', () => {
+  const payload = JSON.stringify({ articles: [{ title: '小米汽车发布新车预告', url: 'https://www.ithome.com/1/002/003.htm', published_at: '2026-09-13 20:00' }] });
+  const response = { output: [
+    { type: 'web_search_call', action: { sources: [{ url: 'https://www.xiaomiev.com/' }] } },
+    { type: 'message', content: [{ type: 'output_text', text: payload, annotations: [] }] }
+  ] };
+  assert.equal(structuredArticles(response).length, 1);
+  const items = candidatesFromResponse(response, { id: 'brand:小米', brand: '小米' });
+  assert.equal(items.length, 1);
+  assert.equal(items[0].title, '小米汽车发布新车预告');
+  assert.equal(items[0].discoveryPublishedAt, '2026-09-13 20:00');
 });
 
 test('important news is unbounded and dates are sorted independently of insertion order', () => {
