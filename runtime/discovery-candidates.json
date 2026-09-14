@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-12T04:26:48.432Z",
+  "collectedAt": "2026-09-14T02:25:35.992Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -651,6 +651,54 @@
         "理想"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "加长L113 比例更修长低趴！疑似全新蔚来ET5T最新谍照曝光",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317143.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "终于要来了？特斯拉官宣新一代Roadster将于10月1日首秀",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317135.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售价64.98万元起 问界M9 Ultimate领世加长版先行者开启交付",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317133.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售20.99万元起 最高综合续航1705km 小米澎程首批车主交付",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317132.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -658,12 +706,12 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 16
+      "count": 15
     },
     {
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-12T04:26:37.215Z",
+      "collectedAt": "2026-09-14T02:25:24.851Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"

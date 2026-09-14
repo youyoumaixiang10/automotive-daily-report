@@ -1,21 +1,36 @@
 {
-  "completedAt": "2026-09-13T04:42:34.334Z",
-  "fetched": 90,
+  "completedAt": "2026-09-14T02:29:37.530Z",
+  "fetched": 91,
   "cached": 253,
   "failures": [
     {
       "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317061.html",
+      "url": "https://www.autohome.com.cn/news/202609/1317035.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317054.html",
+      "url": "https://www.autohome.com.cn/news/202609/1317043.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317041.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news/202609/1317104.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317121.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "sina-auto",
+      "url": "https://www.sina.cn/gc/article/ninwpna8195209.html",
       "reason": "The operation was aborted due to timeout"
     }
   ]
