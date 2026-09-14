@@ -43,7 +43,7 @@ async function worker() {
     }
   }
 }
-await Promise.all(Array.from({ length: Math.min(4, pendingJobs.length || 1) }, worker));
+await Promise.all(Array.from({ length: Math.min(6, pendingJobs.length || 1) }, worker));
 
 const retained = sameIssue ? (previous.candidates || []) : [];
 const candidates = [...new Map([...retained, ...collected].map(item => [item.url, item])).values()];

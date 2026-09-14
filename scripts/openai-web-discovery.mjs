@@ -95,12 +95,12 @@ export function hasStructuredOutput(response) {
 
 export function candidatesFromResponse(response, job) {
   const structured = structuredArticles(response);
-  const discovered = structured.length ? structured.map(item => ({
+  const discovered = (structured.length ? structured.map(item => ({
     url: item.url, title: item.title, publishedAt: item.published_at
   })) : responseSources(response).filter(item => {
     const source = registeredSourceForUrl(item.url, job.brand);
     return source && isSpecificContentUrl(item.url, source);
-  });
+  })).slice(0, structured.length ? 12 : 4);
   return discovered.flatMap(item => {
     const source = registeredSourceForUrl(item.url, job.brand);
     if (!source) return [];
@@ -163,7 +163,7 @@ export async function searchJob(job, options = {}) {
       store: false,
       input: job.prompt
     }),
-    signal: AbortSignal.timeout(options.timeoutMs || 90000)
+    signal: AbortSignal.timeout(options.timeoutMs || 45000)
   });
   if (!response.ok) {
     const message = await response.text();

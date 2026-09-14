@@ -56,7 +56,7 @@ async function worker() {
     }
   }
 }
-await Promise.all(Array.from({ length: 3 }, worker));
+await Promise.all(Array.from({ length: 6 }, worker));
 writeJson(cacheFile, cache);
 writeJson(new URL('enrichment-status.json', dir), { completedAt: new Date().toISOString(), fetched, cached: candidates.length - fetched - failures.length, failures });
 console.log(`原文处理：新读取 ${fetched} 篇，失败 ${failures.length} 篇；保留上次成功结果。`);

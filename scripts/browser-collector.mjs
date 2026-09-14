@@ -1,5 +1,5 @@
 async function createBrowserPage(url) {
-  const created = await fetch('http://localhost:3456/new', { method: 'POST', body: url, signal: AbortSignal.timeout(30000) });
+  const created = await fetch('http://localhost:3456/new', { method: 'POST', body: url, signal: AbortSignal.timeout(18000) });
   const { targetId } = await created.json();
   if (!targetId) throw new Error('无法创建新闻读取页面');
   return targetId;
