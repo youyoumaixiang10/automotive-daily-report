@@ -139,6 +139,18 @@ test('verified media stories fall back to a concise factual headline when the le
   assert.equal(report.brands['蔚来'][0].title, '疑似全新蔚来ET5T谍照曝光');
   assert.equal(report.brands['特斯拉'][0].title, '特斯拉官宣新一代Roadster将于10月1日首秀');
 });
+test('a clickbait price headline is rewritten from the verified offer details', () => {
+  const article = record(20, {
+    title: '部分车主1天亏1万？特斯拉也有无奈',
+    brands: ['特斯拉'],
+    contentParagraphs: [
+      '9月7日一早，“特斯拉降价”的话题便冲上各大社交媒体的热搜榜首位。',
+      '当天，特斯拉宣布开启限时优惠活动：9月30日前下单并提车Model 3/Model Y，可分别享受5000元和1万元优惠。'
+    ]
+  });
+  const story = buildReports([article], {}, now).reports['2026-09-09'].brands['特斯拉'][0];
+  assert.equal(story.title, '特斯拉Model 3/Model Y限时优惠至9月30日，最高优惠1万元');
+});
 test('multiple reports about the same model debut merge and media names stay out of the title', () => {
   const sina = record(1, {
     title: '特斯拉新车发布会官宣！终于来了_新浪科技_新浪网', brands: ['特斯拉'],

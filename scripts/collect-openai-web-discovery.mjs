@@ -11,6 +11,7 @@ const sameIssue = previous.discoveryVersion === discoveryVersion && JSON.stringi
 const priorRuns = sameIssue ? new Map((previous.queryRuns || []).map(run => [run.id, run])) : new Map();
 const queryRuns = sameIssue ? [...(previous.queryRuns || [])] : [];
 const collected = [];
+let fatalReason = '';
 
 if (!process.env.OPENAI_API_KEY) {
   writeJson(file, {
@@ -28,7 +29,7 @@ function saveRun(run) {
   if (index === -1) queryRuns.push(run); else queryRuns[index] = run;
 }
 async function worker() {
-  while (nextJob < pendingJobs.length) {
+  while (nextJob < pendingJobs.length && !fatalReason) {
     const job = pendingJobs[nextJob++];
     try {
       const response = await searchJob(job);
@@ -40,10 +41,16 @@ async function worker() {
       saveRun({ id: job.id, brand: job.brand, status: 'completed', sourceCount: candidates.length, structuredCount: structuredArticles(response).length, responseId: response.id });
     } catch (error) {
       saveRun({ id: job.id, brand: job.brand, status: 'failed', sourceCount: 0, reason: error.message });
+      if (/insufficient_quota|credit_balance_exhausted|no credits remaining/iu.test(error.message)) fatalReason = error.message;
     }
   }
 }
 await Promise.all(Array.from({ length: Math.min(6, pendingJobs.length || 1) }, worker));
+if (fatalReason) {
+  for (const job of pendingJobs.slice(nextJob)) {
+    saveRun({ id: job.id, brand: job.brand, status: 'failed', sourceCount: 0, reason: 'OpenAI API 余额不足，本轮未继续请求' });
+  }
+}
 
 const retained = sameIssue ? (previous.candidates || []) : [];
 const candidates = [...new Map([...retained, ...collected].map(item => [item.url, item])).values()];

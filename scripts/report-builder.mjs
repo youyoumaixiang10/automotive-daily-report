@@ -108,6 +108,8 @@ function contentTitle(article) {
   const raw = (article.contentParagraphs || []).map(cleanText).filter(Boolean).join(' ');
   if (!raw) return '';
   const source = article.sourceType === 'official-social' ? socialPresentationText(raw) : raw;
+  const teslaOffer = source.match(/特斯拉宣布开启限时优惠活动[\s\S]{0,80}?(\d{1,2}月\d{1,2}日)前下单并提车\s*(Model 3\/Model Y)[\s\S]{0,60}?分别享受(\d+(?:\.\d+)?(?:万)?元)和(\d+(?:\.\d+)?(?:万)?元)优惠/u);
+  if (teslaOffer) return `特斯拉${teslaOffer[2]}限时优惠至${teslaOffer[1]}，最高优惠${teslaOffer[4]}`;
   if (/丝路驾行挑战/u.test(source) && /(?:签约|合作签约)/u.test(source)) {
     const vehicleCount = source.match(/(?:提供|将提供)\s*(\d+)台车/u)?.[1];
     return `蔚来签约2026丝路驾行挑战${vehicleCount ? `，将提供${vehicleCount}台车及技术支持` : ''}`;
@@ -116,7 +118,7 @@ function contentTitle(article) {
     .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence));
   let title = candidates.map((sentence, index) => ({
     sentence,
-    score: (/(?:上市|发布|发布会|预售|车展|价格|交付|合作|签约|回应|推出|上线|展示|举办)/u.test(sentence) ? 2 : 0)
+    score: (/(?:上市|发布|发布会|预售|车展|价格|交付|合作|签约|回应|推出|上线|展示|举办|宣布|优惠|降价)/u.test(sentence) ? 2 : 0)
       + (article.brands || []).reduce((score, brand) => score + (sentence.includes(brand) ? 2 : 0), 0)
       - index * 0.1
   })).sort((a, b) => b.score - a.score)[0]?.sentence || '';
