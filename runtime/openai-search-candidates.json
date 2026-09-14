@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T10:40:59.963Z",
+  "collectedAt": "2026-09-14T10:52:56.159Z",
   "discoveryVersion": 6,
   "targetDates": [
     "2026-09-13",
@@ -55,91 +55,91 @@
       "brand": "极氪",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:阿维塔",
       "brand": "阿维塔",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:岚图",
       "brand": "岚图",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:深蓝",
       "brand": "深蓝",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:小米",
       "brand": "小米",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:吉利银河",
       "brand": "吉利银河",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:腾势",
       "brand": "腾势",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "media-sweep:2",
       "brand": null,
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:特斯拉",
       "brand": "特斯拉",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:启源",
       "brand": "启源",
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "industry",
       "brand": null,
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "media-sweep:3",
       "brand": null,
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "media-sweep:1",
       "brand": null,
       "status": "failed",
       "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     }
   ],
   "candidates": [],
