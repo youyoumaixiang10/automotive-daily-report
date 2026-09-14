@@ -46,7 +46,7 @@ function socialPresentationText(text) {
   return cleanText(text).replace(/#([^#\n]+)#/gu, '$1 ').replace(/\s{2,}/gu, ' ').trim();
 }
 function mediaPresentationTitle(title) {
-  const mediaNames = '新浪财经|新浪网|新浪汽车|网通社|凤凰网汽车|凤凰网|汽车之家|懂车帝|易车网|IT之家|财联社|观点网';
+  const mediaNames = '新浪财经|新浪科技|新浪网|新浪汽车|网通社|凤凰网汽车|凤凰网|汽车之家|懂车帝|易车网|IT之家|财联社|观点网';
   return cleanText(title)
     .replace(new RegExp(`^[【[]\\s*(?:${mediaNames})(?:快报|报道|资讯)?\\s*[】]\\s*`, 'u'), '')
     .replace(new RegExp(`(?:\\s*[_|｜]\\s*(?:${mediaNames}))+\\s*$`, 'u'), '')
@@ -124,6 +124,11 @@ function contentTitle(article) {
     .replace(/^我们从(?:官方|相关渠道)?(?:获悉|了解到)[，,\s]*/u, '')
     .replace(/^有网友(?:爆料|拍摄|发现)了?[，,\s]*/u, '')
     .replace(/的?最新谍照$/u, '谍照曝光')
+    .replace(/终于(?:正式)?官宣了?/u, '官宣')
+    .replace(/将会在当地时间/u, '将于')
+    .replace(/全新\s+Roadster\s+跑车/u, '全新Roadster')
+    .replace(/(\d)\s*月\s*(\d)\s*日/u, '$1月$2日')
+    .replace(/晚上发布$/u, '发布')
     .trim();
   if (!title || /^(?:原文介绍|报道称)/u.test(title)) return '';
   return title.length <= 42 ? title : '';
@@ -162,10 +167,13 @@ function eventKey(article, note) {
   const socialText = article.sourceType === 'official-social' ? socialPresentationText(text) : '';
   const socialDebut = socialText.match(/首发\s*((?:[\u4e00-\u9fff]{1,8})?[A-Za-z]{1,4}\d{1,3}[A-Za-z]{0,4}(?:\s*(?:纯电|插混|增程|GT|Ultra|Max))?)/u);
   if (socialDebut && article.brands?.length) return `${article.brands[0]}|${socialDebut[1].toLowerCase().replace(/\s+/gu, '')}|首发`;
-  const event = text.match(/上市|预售|发布会|交付|回购/u)?.[0];
+  const rawEvent = text.match(/上市|预售|发布会|首秀|亮相|发布|交付|回购/u)?.[0];
+  const event = /发布会|首秀|亮相|发布/u.test(rawEvent || '') ? '发布' : rawEvent;
   const brand = article.brands?.find(item => new RegExp(`${item.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&')}\\s*[A-Za-z]{1,4}\\d{0,3}`, 'u').test(text));
   const brandedModel = brand && text.match(new RegExp(`${brand.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&')}\\s*[A-Za-z]{1,4}\\d{0,3}(?:\\s*(?:GT|Ultra))?`, 'u'))?.[0];
-  const model = brandedModel || text.match(/[\u4e00-\u9fff]{1,8}[A-Za-z]{1,4}\d{0,3}(?:\s*(?:GT|Ultra))?/u)?.[0]
+  const roadster = text.match(/(?:新一代|全新)?\s*Roadster/iu)?.[0];
+  const model = roadster ? 'Roadster'
+    : brandedModel || text.match(/[\u4e00-\u9fff]{1,8}[A-Za-z]{1,4}\d{0,3}(?:\s*(?:GT|Ultra))?/u)?.[0]
     || text.match(/Model\s*[3YXS]|Cybercab/iu)?.[0];
   return event && model && article.brands?.length ? `${brand || article.brands[0]}|${model.toLowerCase().replace(/\s+/gu, '')}|${event}` : article.url;
 }

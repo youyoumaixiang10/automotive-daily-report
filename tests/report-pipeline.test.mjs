@@ -84,6 +84,20 @@ test('verified media stories fall back to a concise factual headline when the le
   assert.equal(report.brands['蔚来'][0].title, '疑似全新蔚来ET5T谍照曝光');
   assert.equal(report.brands['特斯拉'][0].title, '特斯拉官宣新一代Roadster将于10月1日首秀');
 });
+test('multiple reports about the same model debut merge and media names stay out of the title', () => {
+  const sina = record(1, {
+    title: '特斯拉新车发布会官宣！终于来了_新浪科技_新浪网', brands: ['特斯拉'],
+    contentParagraphs: ['特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。']
+  });
+  const autohome = record(2, {
+    title: '终于要来了？特斯拉官宣新一代Roadster将于10月1日首秀', brands: ['特斯拉'],
+    contentParagraphs: ['日前，我们从相关渠道了解到，特斯拉官宣新一代Roadster将于10月1日首秀。']
+  });
+  const stories = buildReports([autohome, sina], {}, now).reports['2026-09-09'].brands['特斯拉'];
+  assert.equal(stories.length, 1);
+  assert.equal(stories[0].sourceLinks.length, 2);
+  assert.ok(!/新浪/u.test(stories[0].title));
+});
 test('title quality guard rejects raw source copy and accepts a factual editorial title', () => {
   assert.deepEqual(titleQualityIssues('日前，我们从工信部目录中发现了新车申报图…'), ['标题过长或截断', '标题使用原文叙述口吻']);
   assert.deepEqual(titleQualityIssues('品牌官方微博视频'), ['标题包含来源或载体']);

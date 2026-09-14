@@ -4,43 +4,7 @@
     "windowLabel": "9月13日 08:00 — 9月14日 08:00",
     "highlights": [
       {
-        "id": "story-6e68bfd4c72bf9f2",
-        "tags": [
-          "新车",
-          "市场"
-        ],
-        "title": "特斯拉新车发布会官宣 终于来了_新浪科技",
-        "summary": "媒体报道：特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。 Roadster 跑车的部分设计。 包括尾部贯穿式的长条形尾灯，面积非常大的后扰流板，车尾…",
-        "detail": "特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。\n\nRoadster 跑车的部分设计。\n\n包括尾部贯穿式的长条形尾灯，面积非常大的后扰流板，车尾部整体线条比较硬朗，重点是还有四个冷气推进器。",
-        "details": [
-          "特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。",
-          "Roadster 跑车的部分设计。",
-          "包括尾部贯穿式的长条形尾灯，面积非常大的后扰流板，车尾部整体线条比较硬朗，重点是还有四个冷气推进器。"
-        ],
-        "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-        "sourceName": "新浪汽车",
-        "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
-        "publishedAt": "2026-09-13",
-        "issueDate": "2026-09-14",
-        "publishedTime": "2026-09-13T10:10:45+08:00",
-        "brands": [
-          "特斯拉"
-        ],
-        "evidenceStatus": "media",
-        "evidenceLabel": "媒体报道",
-        "editorialStatus": "source-record",
-        "sourceLinks": [
-          {
-            "name": "新浪汽车",
-            "url": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
-            "publishedAt": "2026-09-13",
-            "label": "媒体报道"
-          }
-        ],
-        "important": true
-      },
-      {
-        "id": "story-f515a17d3472a750",
+        "id": "story-327cda4bfa6c0ba3",
         "tags": [
           "新车",
           "营销传播"
@@ -71,6 +35,12 @@
             "url": "https://www.autohome.com.cn/news/202609/1317135.html",
             "publishedAt": "2026-09-13",
             "label": "媒体报道"
+          },
+          {
+            "name": "新浪汽车",
+            "url": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
+            "publishedAt": "2026-09-13",
+            "label": "媒体报道"
           }
         ],
         "important": true
@@ -79,7 +49,7 @@
     "brands": {
       "蔚来": [
         {
-          "id": "story-ed83f28e07ea43c9",
+          "id": "story-af0e854b036079a2",
           "tags": [
             "新车"
           ],
@@ -116,43 +86,7 @@
       ],
       "特斯拉": [
         {
-          "id": "story-6e68bfd4c72bf9f2",
-          "tags": [
-            "新车",
-            "市场"
-          ],
-          "title": "特斯拉新车发布会官宣 终于来了_新浪科技",
-          "summary": "媒体报道：特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。 Roadster 跑车的部分设计。 包括尾部贯穿式的长条形尾灯，面积非常大的后扰流板，车尾…",
-          "detail": "特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。\n\nRoadster 跑车的部分设计。\n\n包括尾部贯穿式的长条形尾灯，面积非常大的后扰流板，车尾部整体线条比较硬朗，重点是还有四个冷气推进器。",
-          "details": [
-            "特斯拉终于正式官宣了全新 Roadster 跑车，将会在当地时间 10 月 1 日晚上发布。",
-            "Roadster 跑车的部分设计。",
-            "包括尾部贯穿式的长条形尾灯，面积非常大的后扰流板，车尾部整体线条比较硬朗，重点是还有四个冷气推进器。"
-          ],
-          "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-          "sourceName": "新浪汽车",
-          "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
-          "publishedAt": "2026-09-13",
-          "issueDate": "2026-09-14",
-          "publishedTime": "2026-09-13T10:10:45+08:00",
-          "brands": [
-            "特斯拉"
-          ],
-          "evidenceStatus": "media",
-          "evidenceLabel": "媒体报道",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
-            {
-              "name": "新浪汽车",
-              "url": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
-              "publishedAt": "2026-09-13",
-              "label": "媒体报道"
-            }
-          ],
-          "important": true
-        },
-        {
-          "id": "story-f515a17d3472a750",
+          "id": "story-327cda4bfa6c0ba3",
           "tags": [
             "新车",
             "营销传播"
@@ -183,6 +117,12 @@
               "url": "https://www.autohome.com.cn/news/202609/1317135.html",
               "publishedAt": "2026-09-13",
               "label": "媒体报道"
+            },
+            {
+              "name": "新浪汽车",
+              "url": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
+              "publishedAt": "2026-09-13",
+              "label": "媒体报道"
             }
           ],
           "important": true
@@ -191,7 +131,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-13": {
     "dateLabel": "2026年9月13日",
@@ -348,7 +288,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-12": {
     "dateLabel": "2026年9月12日",
@@ -424,7 +364,7 @@
         "important": true
       },
       {
-        "id": "story-0f5d1270fe089c4a",
+        "id": "story-141c23127a9d2484",
         "tags": [
           "新车"
         ],
@@ -642,7 +582,7 @@
       ],
       "理想": [
         {
-          "id": "story-0f5d1270fe089c4a",
+          "id": "story-141c23127a9d2484",
           "tags": [
             "新车"
           ],
@@ -677,7 +617,7 @@
           "important": true
         },
         {
-          "id": "story-617e2597d03faf67",
+          "id": "story-bf90f6edb37d8b52",
           "tags": [
             "品牌动态"
           ],
@@ -1026,7 +966,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-11": {
     "dateLabel": "2026年9月11日",
@@ -1120,7 +1060,7 @@
         "important": true
       },
       {
-        "id": "story-13ef2a2d5367a983",
+        "id": "story-2d5352c69ae5fd09",
         "tags": [
           "营销传播"
         ],
@@ -1155,7 +1095,7 @@
         "important": true
       },
       {
-        "id": "story-e4879a418e211f80",
+        "id": "story-cd6011fe3f9e76ea",
         "tags": [
           "新车",
           "营销传播"
@@ -1261,7 +1201,7 @@
         "important": true
       },
       {
-        "id": "story-1657760cd71872cf",
+        "id": "story-cfffc34952fcfe34",
         "tags": [
           "新车",
           "营销传播"
@@ -1340,7 +1280,7 @@
         "important": true
       },
       {
-        "id": "story-35dc98f92367d2b4",
+        "id": "story-8afae1e760e2c754",
         "tags": [
           "新车"
         ],
@@ -1368,36 +1308,7 @@
             "url": "https://weibo.com/6001272153/RhrxoBtxF",
             "publishedAt": "2026-09-10",
             "label": "官方发布"
-          }
-        ],
-        "important": true
-      },
-      {
-        "id": "story-8f694edbc8458c8b",
-        "tags": [
-          "市场"
-        ],
-        "title": "李想称理想 i9 为第二代纯电平台首发旗舰，9月16日发布",
-        "summary": "媒体报道：2026年9月10日，理想汽车CEO李想发文表示，理想i9是理想汽车第二代纯电平台的首发旗舰车型。李想在文中披露了以下数据：理想i6连续7个月位居20万元以上所有车型销量前三；在全国最…",
-        "detail": "2026年9月10日，理想汽车CEO李想发文表示，理想i9是理想汽车第二代纯电平台的首发旗舰车型。李想在文中披露了以下数据：理想i6连续7个月位居20万元以上所有车型销量前三；在全国最繁忙的18条国家级高速上，平均每122公里设有一座理想5C超充站；理想汽车近三年研发投入每年均在百亿元以上；理想i9的风阻系数为0.215。理想i9将于9月16日19:30发布。该车型已列入工信部7月发布的第409批《道路机动车辆生产企业及产品公告》。公告信息显示，理想i9车身尺寸为5225×1970×1752mm，轴距为3168mm…\n\n“特别声明：以上作品内容(包括在内的视频、图片或音频)为凤凰网旗下自媒体平台“大风号”用户上传并发布，本平台仅提供信息存储空间服务。\n\nNotice: The content above (including the videos, pictures and audios if any) is uploaded and posted by the user of Dafeng Hao, which is a social media platform and merely provides information storage space services.”",
-        "details": [
-          "2026年9月10日，理想汽车CEO李想发文表示，理想i9是理想汽车第二代纯电平台的首发旗舰车型。李想在文中披露了以下数据：理想i6连续7个月位居20万元以上所有车型销量前三；在全国最繁忙的18条国家级高速上，平均每122公里设有一座理想5C超充站；理想汽车近三年研发投入每年均在百亿元以上；理想i9的风阻系数为0.215。理想i9将于9月16日19:30发布。该车型已列入工信部7月发布的第409批《道路机动车辆生产企业及产品公告》。公告信息显示，理想i9车身尺寸为5225×1970×1752mm，轴距为3168mm…",
-          "“特别声明：以上作品内容(包括在内的视频、图片或音频)为凤凰网旗下自媒体平台“大风号”用户上传并发布，本平台仅提供信息存储空间服务。",
-          "Notice: The content above (including the videos, pictures and audios if any) is uploaded and posted by the user of Dafeng Hao, which is a social media platform and merely provides information storage space services.”"
-        ],
-        "observation": "核对统计周期与口径，将单月数据和累计数据分别比较。",
-        "sourceName": "凤凰网汽车",
-        "sourceUrl": "https://auto.ifeng.com/c/8wIqaUUyNFn",
-        "publishedAt": "2026-09-10",
-        "issueDate": "2026-09-11",
-        "publishedTime": "2026-09-10T11:36:09+08:00",
-        "brands": [
-          "理想"
-        ],
-        "evidenceStatus": "media",
-        "evidenceLabel": "媒体报道",
-        "editorialStatus": "source-record",
-        "sourceLinks": [
+          },
           {
             "name": "凤凰网汽车",
             "url": "https://auto.ifeng.com/c/8wIqaUUyNFn",
@@ -1618,7 +1529,7 @@
       ],
       "零跑": [
         {
-          "id": "story-1657760cd71872cf",
+          "id": "story-cfffc34952fcfe34",
           "tags": [
             "新车",
             "营销传播"
@@ -1937,7 +1848,7 @@
           "important": true
         },
         {
-          "id": "story-13ef2a2d5367a983",
+          "id": "story-2d5352c69ae5fd09",
           "tags": [
             "营销传播"
           ],
@@ -1972,7 +1883,7 @@
           "important": true
         },
         {
-          "id": "story-35dc98f92367d2b4",
+          "id": "story-8afae1e760e2c754",
           "tags": [
             "新车"
           ],
@@ -2000,36 +1911,7 @@
               "url": "https://weibo.com/6001272153/RhrxoBtxF",
               "publishedAt": "2026-09-10",
               "label": "官方发布"
-            }
-          ],
-          "important": true
-        },
-        {
-          "id": "story-8f694edbc8458c8b",
-          "tags": [
-            "市场"
-          ],
-          "title": "李想称理想 i9 为第二代纯电平台首发旗舰，9月16日发布",
-          "summary": "媒体报道：2026年9月10日，理想汽车CEO李想发文表示，理想i9是理想汽车第二代纯电平台的首发旗舰车型。李想在文中披露了以下数据：理想i6连续7个月位居20万元以上所有车型销量前三；在全国最…",
-          "detail": "2026年9月10日，理想汽车CEO李想发文表示，理想i9是理想汽车第二代纯电平台的首发旗舰车型。李想在文中披露了以下数据：理想i6连续7个月位居20万元以上所有车型销量前三；在全国最繁忙的18条国家级高速上，平均每122公里设有一座理想5C超充站；理想汽车近三年研发投入每年均在百亿元以上；理想i9的风阻系数为0.215。理想i9将于9月16日19:30发布。该车型已列入工信部7月发布的第409批《道路机动车辆生产企业及产品公告》。公告信息显示，理想i9车身尺寸为5225×1970×1752mm，轴距为3168mm…\n\n“特别声明：以上作品内容(包括在内的视频、图片或音频)为凤凰网旗下自媒体平台“大风号”用户上传并发布，本平台仅提供信息存储空间服务。\n\nNotice: The content above (including the videos, pictures and audios if any) is uploaded and posted by the user of Dafeng Hao, which is a social media platform and merely provides information storage space services.”",
-          "details": [
-            "2026年9月10日，理想汽车CEO李想发文表示，理想i9是理想汽车第二代纯电平台的首发旗舰车型。李想在文中披露了以下数据：理想i6连续7个月位居20万元以上所有车型销量前三；在全国最繁忙的18条国家级高速上，平均每122公里设有一座理想5C超充站；理想汽车近三年研发投入每年均在百亿元以上；理想i9的风阻系数为0.215。理想i9将于9月16日19:30发布。该车型已列入工信部7月发布的第409批《道路机动车辆生产企业及产品公告》。公告信息显示，理想i9车身尺寸为5225×1970×1752mm，轴距为3168mm…",
-            "“特别声明：以上作品内容(包括在内的视频、图片或音频)为凤凰网旗下自媒体平台“大风号”用户上传并发布，本平台仅提供信息存储空间服务。",
-            "Notice: The content above (including the videos, pictures and audios if any) is uploaded and posted by the user of Dafeng Hao, which is a social media platform and merely provides information storage space services.”"
-          ],
-          "observation": "核对统计周期与口径，将单月数据和累计数据分别比较。",
-          "sourceName": "凤凰网汽车",
-          "sourceUrl": "https://auto.ifeng.com/c/8wIqaUUyNFn",
-          "publishedAt": "2026-09-10",
-          "issueDate": "2026-09-11",
-          "publishedTime": "2026-09-10T11:36:09+08:00",
-          "brands": [
-            "理想"
-          ],
-          "evidenceStatus": "media",
-          "evidenceLabel": "媒体报道",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
+            },
             {
               "name": "凤凰网汽车",
               "url": "https://auto.ifeng.com/c/8wIqaUUyNFn",
@@ -2419,7 +2301,7 @@
       ],
       "阿维塔": [
         {
-          "id": "story-e4879a418e211f80",
+          "id": "story-cd6011fe3f9e76ea",
           "tags": [
             "新车",
             "营销传播"
@@ -2799,7 +2681,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-10": {
     "dateLabel": "2026年9月10日",
@@ -2842,7 +2724,7 @@
         "important": true
       },
       {
-        "id": "story-e524c7ac924add53",
+        "id": "story-bf3b948ece626847",
         "tags": [
           "新车"
         ],
@@ -3011,7 +2893,7 @@
         "important": true
       },
       {
-        "id": "story-55161c5ef71dcc9f",
+        "id": "story-e36521c79f1cf2de",
         "tags": [
           "新车",
           "营销传播"
@@ -3148,7 +3030,7 @@
         "important": true
       },
       {
-        "id": "story-c9addbc4bf3a8ca4",
+        "id": "story-ef02653491b22e8d",
         "tags": [
           "新车"
         ],
@@ -3903,7 +3785,7 @@
       ],
       "阿维塔": [
         {
-          "id": "story-e524c7ac924add53",
+          "id": "story-bf3b948ece626847",
           "tags": [
             "新车"
           ],
@@ -3938,7 +3820,7 @@
           "important": true
         },
         {
-          "id": "story-c9addbc4bf3a8ca4",
+          "id": "story-ef02653491b22e8d",
           "tags": [
             "新车"
           ],
@@ -4133,7 +4015,7 @@
       ],
       "吉利银河": [
         {
-          "id": "story-e524c7ac924add53",
+          "id": "story-bf3b948ece626847",
           "tags": [
             "新车"
           ],
@@ -4240,7 +4122,7 @@
           "important": true
         },
         {
-          "id": "story-55161c5ef71dcc9f",
+          "id": "story-e36521c79f1cf2de",
           "tags": [
             "新车",
             "营销传播"
@@ -4346,7 +4228,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-09": {
     "dateLabel": "2026年9月9日",
@@ -5588,7 +5470,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-08": {
     "dateLabel": "2026年9月8日",
@@ -5728,7 +5610,7 @@
         "important": true
       },
       {
-        "id": "story-0e4496ba4258774e",
+        "id": "story-2d26c78ebf10b001",
         "tags": [
           "新车"
         ],
@@ -6302,7 +6184,7 @@
           "important": true
         },
         {
-          "id": "story-0e4496ba4258774e",
+          "id": "story-2d26c78ebf10b001",
           "tags": [
             "新车"
           ],
@@ -6782,7 +6664,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-07": {
     "dateLabel": "2026年9月7日",
@@ -7230,7 +7112,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-06": {
     "dateLabel": "2026年9月6日",
@@ -7649,7 +7531,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-05": {
     "dateLabel": "2026年9月5日",
@@ -7755,7 +7637,7 @@
         "important": true
       },
       {
-        "id": "story-a3dd36ef67a9bd87",
+        "id": "story-0584abb805f67d18",
         "tags": [
           "新车",
           "营销传播"
@@ -8231,7 +8113,7 @@
           "important": false
         },
         {
-          "id": "story-07875d06e4e917f5",
+          "id": "story-fa5023267cd143cb",
           "tags": [
             "品牌动态"
           ],
@@ -8266,7 +8148,7 @@
       ],
       "特斯拉": [
         {
-          "id": "story-a3dd36ef67a9bd87",
+          "id": "story-0584abb805f67d18",
           "tags": [
             "新车",
             "营销传播"
@@ -8340,7 +8222,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-04": {
     "dateLabel": "2026年9月4日",
@@ -8552,7 +8434,7 @@
           "important": true
         },
         {
-          "id": "story-5b2d0e8a64d0ef49",
+          "id": "story-26a3ae25446e0160",
           "tags": [
             "品牌动态"
           ],
@@ -8790,7 +8672,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-03": {
     "dateLabel": "2026年9月3日",
@@ -8896,7 +8778,7 @@
         "important": true
       },
       {
-        "id": "story-f34213d5ef018007",
+        "id": "story-20e30012494eb28e",
         "tags": [
           "新车"
         ],
@@ -9136,7 +9018,7 @@
           "important": true
         },
         {
-          "id": "story-f34213d5ef018007",
+          "id": "story-20e30012494eb28e",
           "tags": [
             "新车"
           ],
@@ -9411,7 +9293,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-02": {
     "dateLabel": "2026年9月2日",
@@ -10312,7 +10194,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-09-01": {
     "dateLabel": "2026年9月1日",
@@ -10396,7 +10278,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-29": {
     "dateLabel": "2026年8月29日",
@@ -10476,7 +10358,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-28": {
     "dateLabel": "2026年8月28日",
@@ -10592,7 +10474,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-21": {
     "dateLabel": "2026年8月21日",
@@ -10671,7 +10553,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-20": {
     "dateLabel": "2026年8月20日",
@@ -10716,7 +10598,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-17": {
     "dateLabel": "2026年8月17日",
@@ -10801,7 +10683,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-16": {
     "dateLabel": "2026年8月16日",
@@ -10846,7 +10728,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-15": {
     "dateLabel": "2026年8月15日",
@@ -10891,7 +10773,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-13": {
     "dateLabel": "2026年8月13日",
@@ -10968,7 +10850,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-12": {
     "dateLabel": "2026年8月12日",
@@ -11061,7 +10943,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-08": {
     "dateLabel": "2026年8月8日",
@@ -11146,7 +11028,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-04": {
     "dateLabel": "2026年8月4日",
@@ -11191,7 +11073,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-02": {
     "dateLabel": "2026年8月2日",
@@ -11274,7 +11156,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-08-01": {
     "dateLabel": "2026年8月1日",
@@ -11356,7 +11238,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-07-31": {
     "dateLabel": "2026年7月31日",
@@ -11479,7 +11361,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-07-29": {
     "dateLabel": "2026年7月29日",
@@ -11524,7 +11406,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-05-10": {
     "dateLabel": "2026年5月10日",
@@ -11650,14 +11532,14 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-04-25": {
     "dateLabel": "2026年4月25日",
     "windowLabel": "4月24日 08:00 — 4月25日 08:00",
     "highlights": [
       {
-        "id": "story-d2ff92bcd7f4bf7e",
+        "id": "story-7af6cfa1f1bca351",
         "tags": [
           "新车",
           "营销传播"
@@ -11696,7 +11578,7 @@
     "brands": {
       "蔚来": [
         {
-          "id": "story-d2ff92bcd7f4bf7e",
+          "id": "story-7af6cfa1f1bca351",
           "tags": [
             "新车",
             "营销传播"
@@ -11735,7 +11617,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-02-05": {
     "dateLabel": "2026年2月5日",
@@ -11820,7 +11702,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-01-30": {
     "dateLabel": "2026年1月30日",
@@ -11829,7 +11711,7 @@
     "brands": {
       "岚图": [
         {
-          "id": "story-279d07e3412833b4",
+          "id": "story-b9a85e395d0665f3",
           "tags": [
             "新车"
           ],
@@ -11867,14 +11749,14 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2026-01-21": {
     "dateLabel": "2026年1月21日",
     "windowLabel": "1月20日 08:00 — 1月21日 08:00",
     "highlights": [
       {
-        "id": "story-9a784f4133432baf",
+        "id": "story-faa1e6483b936d40",
         "tags": [
           "新车",
           "市场",
@@ -11915,7 +11797,7 @@
     "brands": {
       "蔚来": [
         {
-          "id": "story-9a784f4133432baf",
+          "id": "story-faa1e6483b936d40",
           "tags": [
             "新车",
             "市场",
@@ -11955,7 +11837,7 @@
       ],
       "乐道": [
         {
-          "id": "story-9a784f4133432baf",
+          "id": "story-faa1e6483b936d40",
           "tags": [
             "新车",
             "市场",
@@ -11996,7 +11878,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   },
   "2025-09-20": {
     "dateLabel": "2025年9月20日",
@@ -12122,6 +12004,6 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-09-14T02:45:13.277Z"
+    "updatedAt": "2026-09-14T02:49:16.936Z"
   }
 }
