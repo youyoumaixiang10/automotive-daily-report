@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-14T04:40:48.429Z",
+  "checkedAt": "2026-09-14T04:49:57.962Z",
   "passed": false,
   "summary": {
     "completeBrands": 0,
@@ -16,8 +16,9 @@
         "id": "brand:鸿蒙智行",
         "brand": "鸿蒙智行",
         "status": "completed",
-        "sourceCount": 24,
-        "responseId": "resp_0533dc8623964601016aa7782ead3887d1a1b918f1ae24c55d"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0b0384a7567ebc03016aa77c70735c87d1a630534eaeaca94a"
       },
       "state": "partial",
       "officialStatuses": [
@@ -31,7 +32,7 @@
           "id": "hima-weibo",
           "sourceId": "hima-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:12.646Z",
+          "collectedAt": "2026-09-14T04:47:21.534Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3032210184",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -56,7 +57,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -69,8 +70,9 @@
         "id": "brand:比亚迪",
         "brand": "比亚迪",
         "status": "completed",
-        "sourceCount": 13,
-        "responseId": "resp_025b8219d2bf5ba0016aa7783b8f1c87d18388e88a5915c5b2"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_01786052645544a2016aa77c7070b487d18dbee315c964451b"
       },
       "state": "partial",
       "officialStatuses": [
@@ -78,7 +80,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-14T04:25:52.862Z",
+          "checkedAt": "2026-09-14T04:44:39.762Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
@@ -93,7 +95,7 @@
           "id": "byd-weibo",
           "sourceId": "byd-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:24.093Z",
+          "collectedAt": "2026-09-14T04:45:29.292Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/bydauto",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -118,7 +120,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -131,8 +133,9 @@
         "id": "brand:零跑",
         "brand": "零跑",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_040a9a0cd2aae6ce016aa77844159087d1824e8f11fa9d950d"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_07bec57ca1a181b5016aa77c70f8ac87d1ab0f41ca9fe5f249"
       },
       "state": "partial",
       "officialStatuses": [
@@ -140,12 +143,12 @@
           "id": "leapmotor-news",
           "sourceId": "leapmotor-news",
           "url": "https://leapmotor.cn/news/news.html",
-          "checkedAt": "2026-09-14T04:25:52.862Z",
+          "checkedAt": "2026-09-14T04:44:39.762Z",
           "status": "partial",
           "listRead": false,
           "candidateCount": 0,
           "publicLabel": "官网新闻列表暂不可读 · 官方微博仍持续采集",
-          "error": "The operation was aborted due to timeout"
+          "error": "page.evaluate: TypeError: Failed to fetch\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:5:28)\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:19:3)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
         }
       ],
       "socialStatuses": [
@@ -153,7 +156,7 @@
           "id": "leapmotor-weibo",
           "sourceId": "leapmotor-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:33.135Z",
+          "collectedAt": "2026-09-14T04:45:38.601Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/u/5872290888",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -178,7 +181,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -191,8 +194,9 @@
         "id": "brand:蔚来",
         "brand": "蔚来",
         "status": "completed",
-        "sourceCount": 22,
-        "responseId": "resp_0418385047144b88016aa7784d491487d19e6fda2f90313ee3"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0cafea8f74940bc5016aa77c70723887d1a54540c08f067e85"
       },
       "state": "partial",
       "officialStatuses": [
@@ -211,7 +215,7 @@
           "id": "nio-weibo",
           "sourceId": "nio-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:42.069Z",
+          "collectedAt": "2026-09-14T04:45:47.839Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/nextevofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -236,7 +240,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -249,8 +253,9 @@
         "id": "brand:乐道",
         "brand": "乐道",
         "status": "completed",
-        "sourceCount": 15,
-        "responseId": "resp_00fe3227450d9019016aa77856ec0487d1b2a27383544ee6f2"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_03b418e835e19ca6016aa77c75e66887d1a8987f3993aa8380"
       },
       "state": "partial",
       "officialStatuses": [
@@ -269,7 +274,7 @@
           "id": "onvo-weibo",
           "sourceId": "onvo-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:51.015Z",
+          "collectedAt": "2026-09-14T04:45:57.142Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7892483716",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -294,7 +299,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -307,8 +312,9 @@
         "id": "brand:理想",
         "brand": "理想",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_01475d502f2f14d2016aa7785eb11487d1ae7f802174f9b4e3"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_008acc874b86fc68016aa77c76832087d1a45137109578e38d"
       },
       "state": "partial",
       "officialStatuses": [
@@ -327,7 +333,7 @@
           "id": "li-auto-weibo",
           "sourceId": "li-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:01.914Z",
+          "collectedAt": "2026-09-14T04:45:09.090Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/lixiangzhizao",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -352,7 +358,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -365,8 +371,9 @@
         "id": "brand:极氪",
         "brand": "极氪",
         "status": "completed",
-        "sourceCount": 25,
-        "responseId": "resp_0cd57ed0123a742c016aa77869d0d887d1875159d997a2bb41"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0d5f2d7a4ccddd84016aa77c78887487d18abd3383d6295085"
       },
       "state": "partial",
       "officialStatuses": [
@@ -374,7 +381,7 @@
           "id": "zeekr-info",
           "sourceId": "zeekr-info",
           "url": "https://www.zeekrlife.com/information",
-          "checkedAt": "2026-09-14T04:25:52.862Z",
+          "checkedAt": "2026-09-14T04:44:39.762Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 116,
@@ -389,7 +396,7 @@
           "id": "zeekr-weibo",
           "sourceId": "zeekr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:28:45.948Z",
+          "collectedAt": "2026-09-14T04:46:53.876Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7576049404",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -414,7 +421,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -427,8 +434,9 @@
         "id": "brand:小米",
         "brand": "小米",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_0b7ad8d230d4937f016aa77877a89887d1b3dba9eaed75ca54"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_066da65481529eca016aa77c78d12087d187c42e9546351ea2"
       },
       "state": "partial",
       "officialStatuses": [
@@ -442,7 +450,7 @@
           "id": "xiaomi-auto-weibo",
           "sourceId": "xiaomi-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:59.951Z",
+          "collectedAt": "2026-09-14T04:46:06.301Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7871239944",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -467,7 +475,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -480,8 +488,9 @@
         "id": "brand:岚图",
         "brand": "岚图",
         "status": "completed",
-        "sourceCount": 29,
-        "responseId": "resp_02ab1642b33e51c0016aa77880b83887d1af2cde7331851891"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_02b9e19a43fb4f47016aa77c7bf80487d1b9a02080d54602b4"
       },
       "state": "partial",
       "officialStatuses": [
@@ -495,7 +504,7 @@
           "id": "voyah-weibo",
           "sourceId": "voyah-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:28:08.850Z",
+          "collectedAt": "2026-09-14T04:46:15.478Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7351024207",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -520,7 +529,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -533,8 +542,9 @@
         "id": "brand:阿维塔",
         "brand": "阿维塔",
         "status": "completed",
-        "sourceCount": 1,
-        "responseId": "resp_0c675161cb20c546016aa7788d9b9087d184a335ebe2455332"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_03650d7a60f9b9c0016aa77c7fc2b887d180fe5765a1e33212"
       },
       "state": "partial",
       "officialStatuses": [
@@ -557,7 +567,7 @@
           "id": "avatr-weibo",
           "sourceId": "avatr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:28:18.568Z",
+          "collectedAt": "2026-09-14T04:46:25.893Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/avatr",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -582,7 +592,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -595,8 +605,9 @@
         "id": "brand:深蓝",
         "brand": "深蓝",
         "status": "completed",
-        "sourceCount": 14,
-        "responseId": "resp_0596e175c1c10b36016aa7789efa9887d1bb5f5db191923587"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0f397b3f9d9b4ed2016aa77c80be8887d1bd8e0cdea6bef073"
       },
       "state": "partial",
       "officialStatuses": [
@@ -604,7 +615,7 @@
           "id": "deepal-news",
           "sourceId": "deepal-news",
           "url": "https://deepal.com.cn/news",
-          "checkedAt": "2026-09-14T04:25:52.862Z",
+          "checkedAt": "2026-09-14T04:44:39.762Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 47,
@@ -623,7 +634,7 @@
           "id": "deepal-weibo",
           "sourceId": "deepal-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:28:27.723Z",
+          "collectedAt": "2026-09-14T04:46:35.357Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/7751244203",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -648,7 +659,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -661,8 +672,9 @@
         "id": "brand:腾势",
         "brand": "腾势",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_04b5a8e0df797d05016aa778a97ec887d18979c1b138afdf1b"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0d71d51c999d910c016aa77c81164c87d189932bda6309704f"
       },
       "state": "partial",
       "officialStatuses": [
@@ -674,7 +686,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-14T04:25:52.862Z",
+          "checkedAt": "2026-09-14T04:44:39.762Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
@@ -689,7 +701,7 @@
           "id": "denza-weibo",
           "sourceId": "denza-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:27:15.148Z",
+          "collectedAt": "2026-09-14T04:45:20.014Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/2664689831",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -714,7 +726,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -727,8 +739,9 @@
         "id": "brand:吉利银河",
         "brand": "吉利银河",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_0914d508d1f1aee6016aa778b0c44487d1a32ec2c6d3454b17"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_08211458f0c03124016aa77c85b3c487d1bbd708721059f64a"
       },
       "state": "partial",
       "officialStatuses": [
@@ -742,7 +755,7 @@
           "id": "galaxy-weibo",
           "sourceId": "galaxy-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:28:54.871Z",
+          "collectedAt": "2026-09-14T04:47:03.049Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7794864065",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -767,7 +780,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -780,8 +793,9 @@
         "id": "brand:特斯拉",
         "brand": "特斯拉",
         "status": "completed",
-        "sourceCount": 14,
-        "responseId": "resp_05ca303675a993b4016aa778ba2c1087d1aed0b1839fb63287"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0c24d9938b8d4a05016aa77c87d92487d1a83cb39d972d3fde"
       },
       "state": "partial",
       "officialStatuses": [
@@ -795,7 +809,7 @@
           "id": "tesla-weibo",
           "sourceId": "tesla-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:28:36.718Z",
+          "collectedAt": "2026-09-14T04:46:44.638Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/teslaofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -820,7 +834,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -833,8 +847,9 @@
         "id": "brand:启源",
         "brand": "启源",
         "status": "completed",
-        "sourceCount": 15,
-        "responseId": "resp_0aa52b9f9581a7c3016aa778bfd45c87d1a886ad1a644f13f1"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0ad6f5891379a570016aa77c8aec2c87d19d1092ad274e1492"
       },
       "state": "partial",
       "officialStatuses": [
@@ -852,7 +867,7 @@
           "id": "changan-qiyuan-weibo",
           "sourceId": "changan-qiyuan-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:03.757Z",
+          "collectedAt": "2026-09-14T04:47:12.310Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3194397971",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -877,7 +892,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-14T04:29:22.462Z",
+          "collectedAt": "2026-09-14T04:47:31.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -907,7 +922,7 @@
       "name": "懂车帝资讯",
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-14T04:29:22.462Z",
+      "collectedAt": "2026-09-14T04:47:31.370Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
@@ -1055,116 +1070,132 @@
     "providerStatus": "completed",
     "queryRuns": [
       {
-        "id": "brand:鸿蒙智行",
-        "brand": "鸿蒙智行",
-        "status": "completed",
-        "sourceCount": 24,
-        "responseId": "resp_0533dc8623964601016aa7782ead3887d1a1b918f1ae24c55d"
-      },
-      {
         "id": "brand:比亚迪",
         "brand": "比亚迪",
         "status": "completed",
-        "sourceCount": 13,
-        "responseId": "resp_025b8219d2bf5ba0016aa7783b8f1c87d18388e88a5915c5b2"
-      },
-      {
-        "id": "brand:零跑",
-        "brand": "零跑",
-        "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_040a9a0cd2aae6ce016aa77844159087d1824e8f11fa9d950d"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_01786052645544a2016aa77c7070b487d18dbee315c964451b"
       },
       {
         "id": "brand:蔚来",
         "brand": "蔚来",
         "status": "completed",
-        "sourceCount": 22,
-        "responseId": "resp_0418385047144b88016aa7784d491487d19e6fda2f90313ee3"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0cafea8f74940bc5016aa77c70723887d1a54540c08f067e85"
+      },
+      {
+        "id": "brand:鸿蒙智行",
+        "brand": "鸿蒙智行",
+        "status": "completed",
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0b0384a7567ebc03016aa77c70735c87d1a630534eaeaca94a"
+      },
+      {
+        "id": "brand:零跑",
+        "brand": "零跑",
+        "status": "completed",
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_07bec57ca1a181b5016aa77c70f8ac87d1ab0f41ca9fe5f249"
       },
       {
         "id": "brand:乐道",
         "brand": "乐道",
         "status": "completed",
-        "sourceCount": 15,
-        "responseId": "resp_00fe3227450d9019016aa77856ec0487d1b2a27383544ee6f2"
-      },
-      {
-        "id": "brand:理想",
-        "brand": "理想",
-        "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_01475d502f2f14d2016aa7785eb11487d1ae7f802174f9b4e3"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_03b418e835e19ca6016aa77c75e66887d1a8987f3993aa8380"
       },
       {
         "id": "brand:极氪",
         "brand": "极氪",
         "status": "completed",
-        "sourceCount": 25,
-        "responseId": "resp_0cd57ed0123a742c016aa77869d0d887d1875159d997a2bb41"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0d5f2d7a4ccddd84016aa77c78887487d18abd3383d6295085"
+      },
+      {
+        "id": "brand:理想",
+        "brand": "理想",
+        "status": "completed",
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_008acc874b86fc68016aa77c76832087d1a45137109578e38d"
       },
       {
         "id": "brand:小米",
         "brand": "小米",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_0b7ad8d230d4937f016aa77877a89887d1b3dba9eaed75ca54"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_066da65481529eca016aa77c78d12087d187c42e9546351ea2"
       },
       {
         "id": "brand:岚图",
         "brand": "岚图",
         "status": "completed",
-        "sourceCount": 29,
-        "responseId": "resp_02ab1642b33e51c0016aa77880b83887d1af2cde7331851891"
-      },
-      {
-        "id": "brand:阿维塔",
-        "brand": "阿维塔",
-        "status": "completed",
-        "sourceCount": 1,
-        "responseId": "resp_0c675161cb20c546016aa7788d9b9087d184a335ebe2455332"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_02b9e19a43fb4f47016aa77c7bf80487d1b9a02080d54602b4"
       },
       {
         "id": "brand:深蓝",
         "brand": "深蓝",
         "status": "completed",
-        "sourceCount": 14,
-        "responseId": "resp_0596e175c1c10b36016aa7789efa9887d1bb5f5db191923587"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0f397b3f9d9b4ed2016aa77c80be8887d1bd8e0cdea6bef073"
       },
       {
-        "id": "brand:腾势",
-        "brand": "腾势",
+        "id": "brand:阿维塔",
+        "brand": "阿维塔",
         "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_04b5a8e0df797d05016aa778a97ec887d18979c1b138afdf1b"
-      },
-      {
-        "id": "brand:吉利银河",
-        "brand": "吉利银河",
-        "status": "completed",
-        "sourceCount": 12,
-        "responseId": "resp_0914d508d1f1aee6016aa778b0c44487d1a32ec2c6d3454b17"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_03650d7a60f9b9c0016aa77c7fc2b887d180fe5765a1e33212"
       },
       {
         "id": "brand:特斯拉",
         "brand": "特斯拉",
         "status": "completed",
-        "sourceCount": 14,
-        "responseId": "resp_05ca303675a993b4016aa778ba2c1087d1aed0b1839fb63287"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0c24d9938b8d4a05016aa77c87d92487d1a83cb39d972d3fde"
+      },
+      {
+        "id": "brand:腾势",
+        "brand": "腾势",
+        "status": "completed",
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0d71d51c999d910c016aa77c81164c87d189932bda6309704f"
       },
       {
         "id": "brand:启源",
         "brand": "启源",
         "status": "completed",
-        "sourceCount": 15,
-        "responseId": "resp_0aa52b9f9581a7c3016aa778bfd45c87d1a886ad1a644f13f1"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0ad6f5891379a570016aa77c8aec2c87d19d1092ad274e1492"
+      },
+      {
+        "id": "brand:吉利银河",
+        "brand": "吉利银河",
+        "status": "completed",
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_08211458f0c03124016aa77c85b3c487d1bbd708721059f64a"
       },
       {
         "id": "industry",
         "brand": null,
         "status": "completed",
-        "sourceCount": 39,
-        "responseId": "resp_09d103860aa6d54d016aa778c72ab487d1a948f6c9dae6a9db"
+        "sourceCount": 0,
+        "structuredCount": 0,
+        "responseId": "resp_0efeb88af0d0dfc0016aa77c90059087d1818d096d78777e4a"
       }
     ]
   },

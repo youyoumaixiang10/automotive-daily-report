@@ -254,7 +254,7 @@
       "列表与原文发布日期不一致",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:09.891Z"
+    "fetchedAt": "2026-09-14T04:49:08.382Z"
   },
   "https://www.onvo.cn/news/20260731001": {
     "sourceId": "onvo-about",
@@ -3605,7 +3605,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:07.799Z"
+    "fetchedAt": "2026-09-14T04:49:09.039Z"
   },
   "https://auto.sina.com.cn/newcar/x/2025-09-19/detail-infqxmrf3855262.shtml": {
     "sourceId": "sina-auto",
@@ -4009,7 +4009,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:07.896Z"
+    "fetchedAt": "2026-09-14T04:49:09.130Z"
   },
   "https://auto.gasgoo.com/Hot/35": {
     "sourceId": "gasgoo-auto",
@@ -4056,7 +4056,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:09.678Z"
+    "fetchedAt": "2026-09-14T04:49:10.866Z"
   },
   "https://finance.sina.com.cn/roll/2026-09-10/doc-inirihnw5394467.shtml": {
     "sourceId": "sina-auto",
@@ -5690,7 +5690,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:14.654Z"
+    "fetchedAt": "2026-09-14T04:49:16.141Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-05-09/doc-inhxhzaz1333283.shtml": {
     "sourceId": "sina-auto",
@@ -6307,7 +6307,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:14.344Z"
+    "fetchedAt": "2026-09-14T04:49:16.279Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirihnw5381545.shtml": {
     "sourceId": "sina-auto",
@@ -10435,7 +10435,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:14.927Z"
+    "fetchedAt": "2026-09-14T04:49:16.762Z"
   },
   "https://www.sina.cn/gc/article/niqhscz8358675.html": {
     "sourceId": "sina-auto",
@@ -10495,7 +10495,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:17.135Z"
+    "fetchedAt": "2026-09-14T04:49:19.145Z"
   },
   "https://k.sina.cn/article_7857141524_1d452771401902vg9q.html": {
     "sourceId": "sina-auto",
@@ -10519,7 +10519,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:17.588Z"
+    "fetchedAt": "2026-09-14T04:49:19.590Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirinuu5375654.shtml": {
     "sourceId": "sina-auto",
@@ -11059,28 +11059,23 @@
     "sourceId": "sina-auto",
     "sourceName": "新浪汽车",
     "sourceType": "vertical-media",
-    "title": "岚图相关信息",
+    "title": "新车上市_即将上市新车型 - 新浪汽车",
     "url": "https://auto.sina.com.cn/newcar/",
     "publishedAt": null,
-    "discoveryPublishedAt": null,
-    "discoveryProvider": "openai-web-search",
-    "discoveryQuery": "brand:岚图",
-    "discoveryBrand": "岚图",
+    "discoveryQuery": "2026年9月10日 深蓝 汽车 上市 发布",
     "publishedTime": null,
     "contentParagraphs": [],
     "author": "",
     "mediaOriginal": false,
     "linkedSources": [],
-    "brands": [
-      "岚图"
-    ],
+    "brands": [],
     "industry": false,
     "evidenceStatus": "media",
     "reviewReasons": [
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:18.169Z"
+    "fetchedAt": "2026-09-14T04:49:20.487Z"
   },
   "https://auto.caijing.com.cn/2026/0909/5182540.shtml": {
     "sourceId": "caijing-auto",
@@ -11310,7 +11305,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:20.478Z"
+    "fetchedAt": "2026-09-14T04:49:22.631Z"
   },
   "https://k.sina.cn/article_7880068271_1d5b04caf06802hxs6.html": {
     "sourceId": "sina-auto",
@@ -11334,7 +11329,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:20.989Z"
+    "fetchedAt": "2026-09-14T04:49:23.730Z"
   },
   "https://auto.gasgoo.com/new-cars/C-107": {
     "sourceId": "gasgoo-auto",
@@ -11356,7 +11351,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:18.756Z"
+    "fetchedAt": "2026-09-14T04:49:21.127Z"
   },
   "https://k.sina.cn/article_7879848900_1d5acf3c401902qp2e.html": {
     "sourceId": "sina-auto",
@@ -11380,7 +11375,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:21.681Z"
+    "fetchedAt": "2026-09-14T04:49:23.937Z"
   },
   "https://k.sina.cn/article_7880068201_1d5b04c69068023enk.html": {
     "sourceId": "sina-auto",
@@ -11404,7 +11399,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:22.943Z"
+    "fetchedAt": "2026-09-14T04:49:25.118Z"
   },
   "https://auto.sina.com.cn/2026-09-10/detail-inirchmik3337579.d.html?vt=4": {
     "sourceId": "sina-auto",
@@ -11428,7 +11423,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:30.534Z"
+    "fetchedAt": "2026-09-14T04:49:26.502Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexfw8937843.shtml": {
     "sourceId": "sina-auto",
@@ -17889,7 +17884,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:24.269Z"
+    "fetchedAt": "2026-09-14T04:49:26.349Z"
   },
   "https://finance.sina.com.cn/roll/2026-01-20/doc-inhhxkqx7250261.shtml": {
     "sourceId": "sina-auto",
@@ -19503,7 +19498,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:25.761Z"
+    "fetchedAt": "2026-09-14T04:49:28.142Z"
   },
   "https://k.sina.cn/article_7879776496_1d5abd8f0068018wbu.html": {
     "sourceId": "sina-auto",
@@ -19527,7 +19522,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:27.409Z"
+    "fetchedAt": "2026-09-14T04:49:29.390Z"
   },
   "https://k.sina.cn/article_7857141524_1d452771401903f0gq.html": {
     "sourceId": "sina-auto",
@@ -19551,7 +19546,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:28.662Z"
+    "fetchedAt": "2026-09-14T04:49:29.811Z"
   },
   "https://www.ithome.com/0/875/139.htm": {
     "sourceId": "ithome-auto",
@@ -19893,7 +19888,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:30.187Z"
+    "fetchedAt": "2026-09-14T04:49:31.356Z"
   },
   "https://k.sina.cn/article_7857141524_1d45277140190252ls.html": {
     "sourceId": "sina-auto",
@@ -19916,7 +19911,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:31.562Z"
+    "fetchedAt": "2026-09-14T04:49:32.284Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml": {
     "sourceId": "sina-auto",
@@ -21683,7 +21678,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:39.559Z"
+    "fetchedAt": "2026-09-14T04:49:43.145Z"
   },
   "https://k.sina.cn/article_7880068201_1d5b04c69068026svs.html": {
     "sourceId": "sina-auto",
@@ -21707,7 +21702,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:33.347Z"
+    "fetchedAt": "2026-09-14T04:49:35.183Z"
   },
   "https://k.sina.cn/article_7879848955_1d5acf3fb06803awji.html": {
     "sourceId": "sina-auto",
@@ -21731,7 +21726,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:34.189Z"
+    "fetchedAt": "2026-09-14T04:49:35.148Z"
   },
   "https://auto.ifeng.com/c/8vrFtjIUzmS": {
     "sourceId": "ifeng-auto",
@@ -22456,7 +22451,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:36.103Z"
+    "fetchedAt": "2026-09-14T04:49:38.078Z"
   },
   "https://k.sina.cn/article_7879996096_1d5af32c006801kule.html": {
     "sourceId": "sina-auto",
@@ -22480,7 +22475,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:37.806Z"
+    "fetchedAt": "2026-09-14T04:49:38.354Z"
   },
   "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihi6880029.shtml": {
     "sourceId": "sina-auto",
@@ -23303,7 +23298,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:38.958Z"
+    "fetchedAt": "2026-09-14T04:49:41.042Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-12/doc-inirqfie6532278.shtml": {
     "sourceId": "sina-auto",
@@ -23522,7 +23517,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:40.400Z"
+    "fetchedAt": "2026-09-14T04:49:41.293Z"
   },
   "https://finance.sina.com.cn/stock/relnews/hk/2026-09-08/doc-inirayqy9534445.shtml": {
     "sourceId": "sina-auto",
@@ -24332,7 +24327,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:41.770Z"
+    "fetchedAt": "2026-09-14T04:49:43.989Z"
   },
   "https://auto.ifeng.com/c/8lnBgP4v6QE": {
     "sourceId": "ifeng-auto",
@@ -25612,7 +25607,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:42.831Z"
+    "fetchedAt": "2026-09-14T04:49:44.674Z"
   },
   "https://finance.sina.com.cn/7x24/2026-09-10/doc-inirihnu8617428.shtml": {
     "sourceId": "sina-auto",
@@ -25672,7 +25667,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:42.495Z"
+    "fetchedAt": "2026-09-14T04:49:45.411Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-05/doc-iniqutzk3466348.shtml": {
     "sourceId": "sina-auto",
@@ -25891,7 +25886,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:45.704Z"
+    "fetchedAt": "2026-09-14T04:49:46.947Z"
   },
   "https://k.sina.cn/article_7857201856_1d45362c001908nawa.html": {
     "sourceId": "sina-auto",
@@ -25912,7 +25907,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:45.367Z"
+    "fetchedAt": "2026-09-14T04:49:47.531Z"
   },
   "https://finance.sina.com.cn/roll/2026-08-19/doc-ininvfss8306534.shtml": {
     "sourceId": "sina-auto",
@@ -26704,7 +26699,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:48.222Z"
+    "fetchedAt": "2026-09-14T04:49:49.873Z"
   },
   "https://k.sina.cn/article_7857141524_1d4527714019028ezs.html": {
     "sourceId": "sina-auto",
@@ -26727,7 +26722,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T04:33:45.768Z"
+    "fetchedAt": "2026-09-14T04:49:48.390Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-iniruare7301140.shtml": {
     "sourceId": "sina-auto",

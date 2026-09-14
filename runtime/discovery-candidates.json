@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T04:29:33.609Z",
+  "collectedAt": "2026-09-14T04:47:43.150Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -887,7 +887,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-14T04:29:22.462Z",
+      "collectedAt": "2026-09-14T04:47:31.370Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
