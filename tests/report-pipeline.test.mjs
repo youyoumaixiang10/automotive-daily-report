@@ -153,6 +153,17 @@ test('source-record details keep enough verified source context to be useful on 
   assert.equal(story.details.length, 2);
   assert.match(story.detail, /第二段说明/);
 });
+test('media boilerplate is excluded from summaries and detail points', () => {
+  const article = record(1, { contentParagraphs: [
+    '疑似全新蔚来ET5T谍照曝光，新车视觉上更加修长低趴。',
+    '友情提示：如果您有新车谍照，请点击编辑头像私信给我们。',
+    '新车预计采用三激光雷达感知方案，并基于第三代纯电平台打造。'
+  ] });
+  const story = buildReports([article], {}, now).reports['2026-09-09'].brands['理想'][0];
+  assert.ok(!story.summary.includes('友情提示'));
+  assert.ok(!story.detail.includes('私信给我们'));
+  assert.equal(story.details.length, 2);
+});
 test('official social posts use a readable list title while preserving original source text in detail', () => {
   const article = record(1, {
     sourceType: 'official-social',

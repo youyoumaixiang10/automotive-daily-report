@@ -38,8 +38,14 @@ function followUp(tags) {
   if (tags.includes('市场')) return '核对统计周期与口径，将单月数据和累计数据分别比较。';
   return '关注这次信息面向的人群、活动节点与后续官方更新。';
 }
+function isEditorialBoilerplate(paragraph) {
+  return /^(?:友情提示|温馨提示|相关阅读|更多精彩内容|点击编辑头像|扫一扫|关注我们)|如果您有(?:新车)?(?:谍照|爆料)/u.test(paragraph);
+}
+function usefulSourceParagraphs(article) {
+  return (article.contentParagraphs || []).map(cleanText).filter(paragraph => paragraph && !isEditorialBoilerplate(paragraph));
+}
 function sourceDetails(article) {
-  const paragraphs = (article.contentParagraphs || []).map(cleanText).filter(Boolean).slice(0, 3);
+  const paragraphs = usefulSourceParagraphs(article).slice(0, 3);
   return paragraphs.map(paragraph => `${paragraph.slice(0, 260)}${paragraph.length > 260 ? '…' : ''}`);
 }
 function socialPresentationText(text) {
@@ -148,7 +154,7 @@ function displayTitle(article) {
   return contentTitle(article) || factualMediaHeadline(article.title);
 }
 function sourceSummary(article, evidenceLabel) {
-  const sourceText = (article.contentParagraphs || []).map(cleanText).filter(Boolean).join(' ');
+  const sourceText = usefulSourceParagraphs(article)[0] || '';
   const text = article.sourceType === 'official-social' ? socialPresentationText(sourceText || article.title) : sourceText || article.title;
   return `${evidenceLabel}：${text.slice(0, 92)}${text.length > 92 ? '…' : ''}`;
 }
