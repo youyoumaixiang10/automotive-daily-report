@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T04:06:30.691Z",
+  "collectedAt": "2026-09-14T04:18:10.669Z",
   "targetDates": [
     "2026-09-13",
     "2026-09-14"
@@ -851,6 +851,48 @@
     {
       "sourceId": "caijing-auto",
       "url": "https://auto.caijing.com.cn/",
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
+    },
+    {
+      "sourceId": "xchuxing-auto",
+      "url": "https://www.xchuxing.com/",
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
+    },
+    {
+      "sourceId": "nbd-auto",
+      "url": "https://www.nbd.com.cn/",
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "url": "https://www.pcauto.com.cn/",
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "url": "https://auto.sohu.com/",
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
+    },
+    {
+      "sourceId": "netease-auto",
+      "url": "https://auto.163.com/",
+      "status": "no-recent-updates",
+      "candidateCount": 0,
+      "publicLabel": "未发现待核验线索"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/",
       "status": "no-recent-updates",
       "candidateCount": 0,
       "publicLabel": "未发现待核验线索"

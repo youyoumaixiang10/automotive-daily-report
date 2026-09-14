@@ -1,5 +1,6 @@
 {
-  "collectedAt": "2026-09-14T04:05:56.527Z",
+  "collectedAt": "2026-09-14T04:17:38.122Z",
+  "discoveryVersion": 2,
   "targetDates": [
     "2026-09-13",
     "2026-09-14"
@@ -11,113 +12,113 @@
       "id": "brand:鸿蒙智行",
       "brand": "鸿蒙智行",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_055c03306a0eafc9016aa77269506087d0866e93802ec4f0b0"
+      "sourceCount": 13,
+      "responseId": "resp_0308378cc9028dba016aa7751eafa087d2938538ac58a2907f"
     },
     {
       "id": "brand:比亚迪",
       "brand": "比亚迪",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_08dd3aa380c7aedb016aa7726c3f5887d0a0ef12323caf5af5"
+      "sourceCount": 13,
+      "responseId": "resp_0fc855feccbdf914016aa775241df887d2b22a1d6d55c6eedd"
     },
     {
       "id": "brand:零跑",
       "brand": "零跑",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_0540658d7d1df881016aa7726f83f487d08e69b2951eaeceef"
+      "sourceCount": 12,
+      "responseId": "resp_02bfe4d9ae81cb73016aa77528ce9c87d2abc4a6a6fbee06a3"
     },
     {
       "id": "brand:蔚来",
       "brand": "蔚来",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_0cb051d3ddd7e968016aa77272d40487d08f0b28119b1af633"
+      "sourceCount": 15,
+      "responseId": "resp_06493beb3b14866f016aa7752da21887d2806ade52939e14e6"
     },
     {
       "id": "brand:乐道",
       "brand": "乐道",
       "status": "completed",
-      "sourceCount": 15,
-      "responseId": "resp_0ba5a0396c14ffc0016aa77276ad2487d08b88fbb3d6365b16"
+      "sourceCount": 14,
+      "responseId": "resp_0636caff1609346b016aa7753267d487d296a2973bf6456934"
     },
     {
       "id": "brand:理想",
       "brand": "理想",
       "status": "completed",
       "sourceCount": 0,
-      "responseId": "resp_0567898e18bf2f84016aa7727bd51887d097575e92a17d33a5"
+      "responseId": "resp_04b82084b1ed98e6016aa77537152487d2ba5fdc54a729d690"
     },
     {
       "id": "brand:极氪",
       "brand": "极氪",
       "status": "completed",
       "sourceCount": 0,
-      "responseId": "resp_05ee9cf2bfc627e9016aa7727f7be087d0b135fbec66e2e113"
+      "responseId": "resp_0807acb63f8b74b8016aa7753a676087d2b1a660efba201d25"
     },
     {
       "id": "brand:小米",
       "brand": "小米",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_0be06bdea7093183016aa772830a7487d0ba96e67354887731"
+      "sourceCount": 12,
+      "responseId": "resp_08fd0243f21d037f016aa7753dbf8887d2874d2e064af19ac7"
     },
     {
       "id": "brand:岚图",
       "brand": "岚图",
       "status": "completed",
       "sourceCount": 0,
-      "responseId": "resp_0d3e481ee1b59d69016aa772876c7887d0a7edfa6ff47c2da6"
+      "responseId": "resp_02250f2e5d3ae2e7016aa77542cb4087d29ca8664d18e8f5db"
     },
     {
       "id": "brand:阿维塔",
       "brand": "阿维塔",
       "status": "completed",
-      "sourceCount": 12,
-      "responseId": "resp_0c01003a1166e1bc016aa7728b64dc87d0a1308bf17234e917"
+      "sourceCount": 0,
+      "responseId": "resp_07f61bcc92374b68016aa77545cab887d2b0f7f643dc908abc"
     },
     {
       "id": "brand:深蓝",
       "brand": "深蓝",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_0b359a5d4e4e36a5016aa7729026c087d098271e8e1e6e0c5a"
+      "sourceCount": 14,
+      "responseId": "resp_04ba1dff9b183d4f016aa77549a0a887d2b51e38eadfd1028d"
     },
     {
       "id": "brand:腾势",
       "brand": "腾势",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_0ac5ea746d60eb1a016aa77294ba1c87d090a322b08c59529f"
+      "sourceCount": 13,
+      "responseId": "resp_04eca318132f589a016aa7754e0c1487d2a85b38ed7e1a933b"
     },
     {
       "id": "brand:吉利银河",
       "brand": "吉利银河",
       "status": "completed",
       "sourceCount": 0,
-      "responseId": "resp_0aac056f85fe3720016aa77298273487d0a606eb208bc24fce"
+      "responseId": "resp_0f1fcf8350a7b738016aa77552c94087d28d0aa601b4766840"
     },
     {
       "id": "brand:特斯拉",
       "brand": "特斯拉",
       "status": "completed",
-      "sourceCount": 0,
-      "responseId": "resp_071c9d4b43410bd7016aa7729b4d1087d08f721508f8659642"
+      "sourceCount": 14,
+      "responseId": "resp_03644c2bb1ac8935016aa77556977087d2be7b2e9fdca145e3"
     },
     {
       "id": "brand:启源",
       "brand": "启源",
       "status": "completed",
       "sourceCount": 0,
-      "responseId": "resp_06aa910b2fdd3d32016aa7729e16b887d0b27e7b6259a3c552"
+      "responseId": "resp_095f489e63d4aba9016aa7755b32a487d292ea1596141614f1"
     },
     {
       "id": "industry",
       "brand": null,
       "status": "completed",
       "sourceCount": 0,
-      "responseId": "resp_081627a553443965016aa772a2017c87d0ac5de40e4b776d8b"
+      "responseId": "resp_071d891230bd4983016aa7755ec60087d2a7507ced7e4d2c14"
     }
   ],
   "candidates": [
@@ -417,6 +418,1260 @@
       "discoveryProvider": "openai-web-search",
       "discoveryQuery": "brand:阿维塔",
       "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://www.autohome.com.cn/price/bc/brandid_509",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://car.autohome.com.cn/price/list-0_0-0-0_0-0-0-1-0-0-609-0-0-0-0-0-0-1.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.autohome.com.cn/info/25306609",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://www.autohome.com.cn/news/202606/1315011.html?from=m&platform-key=pc",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://www.autohome.com.cn/price/brandid_609",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://www.autohome.com.cn/news/202609/1317077.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/25327470",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/22306203",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/25587004",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.autohome.com.cn/info/25057882",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/24490270",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/24504252",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:鸿蒙智行",
+      "discoveryBrand": "鸿蒙智行"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://nfiles3four.autohome.com.cn/zixunmofang/files/139af7a3fa1f4f7eb13a071d7d06e86c.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/cn/dynasty-home",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/fr/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪相关信息",
+      "url": "https://car.autohome.com.cn/price/list-1_26-101-0_0-0-0-0-0-4-75-0-0-0-0-0-0-1.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/fr/journees-portes-ouvertes",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/cn/news",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪相关信息",
+      "url": "https://www.autohome.com.cn/price/brandid_75?pvareaid=6863193",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/jp/lineup/atto3",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/de/roadshow-dolphin-g-dm-i",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/cn/brand-center/branded-videos-and-events",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪相关信息",
+      "url": "https://www.autohome.com.cn/news/202608/1316818.html?from=m&platform-key=pc",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/cn/ocean-home/models/haibao/26-haibao-06-dm-i-lvxing",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪相关信息",
+      "url": "https://dealer.autohome.com.cn/2140224/news_1563412728.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪相关信息",
+      "url": "https://prod.byd.com/material/byd-site/za/product/atto8/details/atto-8-specsheet.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:比亚迪",
+      "discoveryBrand": "比亚迪"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://cn.leapmotor.cn/news/news-detail.html?id=488",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/news/news.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/C11.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://www.leapmotor.cn/home.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/D99.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://www.leapmotor.cn/D19.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/tech-info.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/B10.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/download/new.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://www.leapmotor.cn/B01.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "leapmotor-news",
+      "sourceName": "零跑汽车资讯新闻",
+      "sourceType": "official",
+      "title": "零跑相关信息",
+      "url": "https://leapmotor.cn/B01-selling.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:零跑",
+      "discoveryBrand": "零跑"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://ir.nio.com/zh-hans/news-events/events/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://www.nio.com/news",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://www.nio.com/news/20260527001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://cdn-demo.nio.com/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://ir.nio.com/news-releases/news-release-details/nio-inc-reports-unaudited-first-quarter-2026-financial-results",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://ir.nio.com/zh-hans/node/11996/pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://account.nio.com/login",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://ir.nio.com/zh-hans/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://phone.nio.com/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "蔚来相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/25145806",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "蔚来相关信息",
+      "url": "https://car.autohome.com.cn/price/brand-284-464-2-0-1.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "蔚来相关信息",
+      "url": "https://www.autohome.com.cn/news/202604/1313301.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://ir.nio.com/zh-hant/search?page=1%2C0%2C0%2C0%2C0%2C0&query=NIO+Inc.+Announces+Appointment",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://ir.nio.com/static-files/ef9be403-0dc8-4d17-a6b1-bbfb70002757",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "蔚来相关信息",
+      "url": "https://www.nio.com/cdn-static/luban/nextjs/images/bf990d389d9a18fe9f93fc8c86ccc3ac8284cd6b114938b46447cd3f37213561/esg/NIO-2022-ESG-Report-Traditional-Chinese.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:蔚来",
+      "discoveryBrand": "蔚来"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/l80",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/?trk=public_post_main-feed-card-text",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260421001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260123001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20250919001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "乐道相关信息",
+      "url": "https://ir.autohome.com.cn/static-files/76ccd427-1d96-41e9-af38-667f3632ac66",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260116001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60/index.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "sourceName": "小米汽车官方微博",
+      "sourceType": "official-social",
+      "title": "小米相关信息",
+      "url": "https://weibo.com/2/detail/5338276601004197",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/26353783",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "xiaomi-auto-weibo",
+      "sourceName": "小米汽车官方微博",
+      "sourceType": "official-social",
+      "title": "小米相关信息",
+      "url": "https://weibo.com/2/detail/5340539761197733",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://www.ithome.com/0/999/486.htm",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://www.ithome.com/0/930/773.htm",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://www.ithome.com/0/999/409.htm",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/25031928",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/26398291",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://www.ithome.com/0/999/555.htm",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/24772478",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/24668168",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/24667836",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:小米",
+      "discoveryBrand": "小米"
+    },
+    {
+      "sourceId": "deepal-news",
+      "sourceName": "深蓝汽车资讯",
+      "sourceType": "official",
+      "title": "深蓝相关信息",
+      "url": "https://deepal.com.cn/app-download",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://www.autohome.com.cn/price/bc/brandid_530",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://car.autohome.com.cn/price/brand-530.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://www.autohome.com.cn/spec/76918/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://www.autohome.com.cn/7979/price.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://www.autohome.com.cn/price/brandid_530",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://car.autohome.com.cn/price/list-0-0-0_0-0-0-0-0-701-530-21_3_15-0-0-0-0-0-1.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "deepal-news",
+      "sourceName": "深蓝汽车资讯",
+      "sourceType": "official",
+      "title": "深蓝相关信息",
+      "url": "https://cotools.deepal.com.cn/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://car.autohome.com.cn/price/list-9_0-0-0-0-101-0-0-701-530-0-0-0-0-0-0-1.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://chejiahao.autohome.com.cn/info/25205757",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://dealer.autohome.com.cn/2139719/news_1555950947.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝相关信息",
+      "url": "https://chejiahao.m.autohome.com.cn/info/21545594",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "deepal-news",
+      "sourceName": "深蓝汽车资讯",
+      "sourceType": "official",
+      "title": "深蓝相关信息",
+      "url": "https://www.deepal.com.cn/202501161716/%E8%90%A5%E4%B8%9A%E6%89%A7%E7%85%A7.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:深蓝",
+      "discoveryBrand": "深蓝"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "腾势相关信息",
+      "url": "https://www.autohome.com.cn/price/brandid_161",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail1",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/index.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail21.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail37.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail20.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail43.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/product-detail/z9gt",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail46.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/denza-voice/detail38.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/cn/manual/privacy-policy",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "denza-official",
+      "sourceName": "腾势官网",
+      "sourceType": "official",
+      "title": "腾势相关信息",
+      "url": "https://www.denza.com/material/denzaph/d9/D9BROCHURE.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:腾势",
+      "discoveryBrand": "腾势"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/campaign/sales-promo-overview",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "特斯拉相关信息",
+      "url": "https://club.m.autohome.com.cn/bbs/thread/0b0594efcb374a29/115762168-1.html",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/updates?redirect=no",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/support/ordering-new-vehicle",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/support",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/updates/success",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/roadster",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "特斯拉相关信息",
+      "url": "https://www.autohome.com.cn/price/brandid_133/555-x-x-x-1",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/legal/additional-resources",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/inventory/new/my?FleetSalesRegions=Bei+Jing+%E5%8C%97%E4%BA%AC&Province=%E5%8C%97%E4%BA%AC&TRIM=MYRWD&TitleSubtype=BRANDNEW&arrangeby=relevance&range=0&zip=",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/findus/list/services/China",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/configurator/api/v4/files/4186f495-860f-4b5b-a6f9-1d4db5ebba4b",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
+    },
+    {
+      "sourceId": "tesla-home",
+      "sourceName": "特斯拉中国官网",
+      "sourceType": "official",
+      "title": "特斯拉相关信息",
+      "url": "https://www.tesla.cn/configurator/api/v4/files/ee2f3812-4aa3-4412-b3c3-b6e079b9891c",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:特斯拉",
+      "discoveryBrand": "特斯拉"
     }
   ],
   "publicationRule": "网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。"

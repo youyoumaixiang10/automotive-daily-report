@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-09-14T04:07:46.564Z",
+  "completedAt": "2026-09-14T04:21:40.804Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -364,6 +364,48 @@
     {
       "id": "caijing-auto",
       "name": "财经汽车",
+      "brands": [],
+      "status": "no-recent-updates",
+      "label": "未发现待核验线索"
+    },
+    {
+      "id": "xchuxing-auto",
+      "name": "新出行",
+      "brands": [],
+      "status": "no-recent-updates",
+      "label": "未发现待核验线索"
+    },
+    {
+      "id": "nbd-auto",
+      "name": "每日经济新闻",
+      "brands": [],
+      "status": "no-recent-updates",
+      "label": "未发现待核验线索"
+    },
+    {
+      "id": "pcauto-news",
+      "name": "太平洋汽车",
+      "brands": [],
+      "status": "no-recent-updates",
+      "label": "未发现待核验线索"
+    },
+    {
+      "id": "sohu-auto",
+      "name": "搜狐汽车",
+      "brands": [],
+      "status": "no-recent-updates",
+      "label": "未发现待核验线索"
+    },
+    {
+      "id": "netease-auto",
+      "name": "网易汽车",
+      "brands": [],
+      "status": "no-recent-updates",
+      "label": "未发现待核验线索"
+    },
+    {
+      "id": "news18a-auto",
+      "name": "网通社",
       "brands": [],
       "status": "no-recent-updates",
       "label": "未发现待核验线索"

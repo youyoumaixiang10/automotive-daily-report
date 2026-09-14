@@ -1,8 +1,13 @@
 {
-  "completedAt": "2026-09-14T04:07:41.570Z",
-  "fetched": 63,
-  "cached": 363,
+  "completedAt": "2026-09-14T04:21:36.338Z",
+  "fetched": 165,
+  "cached": 373,
   "failures": [
+    {
+      "sourceId": "chezhitong-auto",
+      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
     {
       "sourceId": "avatr-news",
       "url": "https://security.avatr.com/",
