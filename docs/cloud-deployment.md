@@ -8,7 +8,7 @@
 
 1. 将此目录推送到一个 GitHub 仓库。
 2. 在仓库 Settings → Pages 中将 Source 设为 GitHub Actions。
-3. 在仓库 Settings → Secrets and variables → Actions 中新增 `OPENAI_API_KEY`。它只用于把已核验正文改写为日报标题，不参与采集或发布。
+3. `OPENAI_API_KEY` 仅用于把已核验正文改写为日报标题，不参与新闻发现。当前仓库尚未接入稳定的搜索 API；在完成搜索服务接入并配置相应密钥前，自动任务只能发布已读取到的内容，不能承诺全面覆盖。
 4. 在 Actions 页面手动运行一次“更新汽车日报”，确认 Pages 地址生成。
 
 之后不需要打开电脑；GitHub 的定时任务会自行运行。需要补跑时，也可在 Actions 页面手动触发该工作流。

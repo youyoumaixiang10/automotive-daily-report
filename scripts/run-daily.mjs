@@ -31,6 +31,7 @@ try {
   await run('reconcile-launch-calendar.mjs');
   await run('build-daily-report.mjs');
   await run('validate-content.mjs');
+  await run('check-coverage.mjs');
   const sourceResults = ['candidates.json', 'discovery-candidates.json', 'search-candidates.json'].flatMap(file => readJson(new URL(file, dir), {}).sourceResults || []);
   const sourceMap = new Map(sourceResults.map(result => [result.sourceId, result]));
   const sources = sourceRegistry.map(source => {

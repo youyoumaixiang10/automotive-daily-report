@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T03:25:39.670Z",
+  "collectedAt": "2026-09-14T03:07:33.883Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -886,11 +886,11 @@
     },
     {
       "sourceId": "dongchedi-news",
-      "status": "failed",
-      "collectedAt": "2026-09-14T03:25:28.363Z",
+      "status": "partial",
+      "collectedAt": "2026-09-14T03:07:18.538Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 0,
-      "reason": "懂车帝首页缺少公开列表数据"
+      "candidateCount": 64,
+      "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
   "publicationRule": "原文、发布日期与作者校验后，可标注为媒体报道；缺少正文、日期或出处的线索留在待核实队列。"

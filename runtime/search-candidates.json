@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T03:26:07.922Z",
+  "collectedAt": "2026-09-14T03:16:26.897Z",
   "targetDates": [
     "2026-09-13",
     "2026-09-14"
@@ -802,23 +802,23 @@
     {
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 40,
+      "publicLabel": "已发现 40 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
       "url": "https://auto.ifeng.com/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 4,
+      "publicLabel": "已发现 4 条待核验线索"
     },
     {
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 6,
+      "publicLabel": "已发现 6 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -830,9 +830,9 @@
     {
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 8,
+      "publicLabel": "已发现 8 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -844,16 +844,16 @@
     {
       "sourceId": "chezhitong-auto",
       "url": "https://www.12365auto.com/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 2,
+      "publicLabel": "已发现 2 条待核验线索"
     },
     {
       "sourceId": "caijing-auto",
       "url": "https://auto.caijing.com.cn/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 2,
+      "publicLabel": "已发现 2 条待核验线索"
     }
   ],
   "publicationRule": "搜索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
