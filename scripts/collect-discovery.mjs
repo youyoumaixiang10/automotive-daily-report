@@ -4,11 +4,13 @@ import { identifyBrands, isIndustryNews, readJson, writeJson } from './content-u
 import { collectBrowserHtml } from './browser-collector.mjs';
 import { collectDongchediNews } from './dongchedi-collector.mjs';
 
-const [autohomeAttempt, dongchediAttempt] = await Promise.allSettled([
+const [autohomeAttempt, autohomeIndustryAttempt, dongchediAttempt] = await Promise.allSettled([
   collectBrowserHtml('https://www.autohome.com.cn/news//').then(parseAutohomeNews),
+  collectBrowserHtml('https://www.autohome.com.cn/hangye/').then(html => parseAutohomeNews(html, { id: 'autohome-industry', name: '汽车之家行业频道' })),
   collectDongchediNews()
 ]);
 const candidates = autohomeAttempt.status === 'fulfilled' ? autohomeAttempt.value : [];
+const industryCandidates = autohomeIndustryAttempt.status === 'fulfilled' ? autohomeIndustryAttempt.value : [];
 const dongchedi = dongchediAttempt.status === 'fulfilled' ? dongchediAttempt.value : {
   candidates: [],
   sourceResults: [{ sourceId: 'dongchedi-news', url: 'https://www.dongchedi.com/news', status: 'failed', count: 0, reason: dongchediAttempt.reason.message }]
@@ -16,7 +18,7 @@ const dongchedi = dongchediAttempt.status === 'fulfilled' ? dongchediAttempt.val
 const cutoff = new Date();
 cutoff.setDate(cutoff.getDate() - 30);
 const cutoffMonth = cutoff.toISOString().slice(0, 7);
-const recentCandidates = [...candidates, ...dongchedi.candidates]
+const recentCandidates = [...candidates, ...industryCandidates, ...dongchedi.candidates]
   .map(candidate => ({ ...candidate, candidateBrands: identifyBrands(candidate.title), industry: isIndustryNews(candidate.title) }))
   .filter(candidate => (!candidate.sourceMonth || candidate.sourceMonth >= cutoffMonth) && (candidate.candidateBrands.length || candidate.industry));
 const outputDir = new URL('../runtime/', import.meta.url);
@@ -31,6 +33,11 @@ writeJson(outputFile, {
     status: autohomeAttempt.status === 'rejected' ? 'failed' : candidates.length ? 'ok' : 'empty',
     count: recentCandidates.filter(item => item.sourceId === 'autohome-news').length,
     ...(autohomeAttempt.status === 'rejected' ? { reason: autohomeAttempt.reason.message } : {})
+  }, {
+    sourceId: 'autohome-industry', url: 'https://www.autohome.com.cn/hangye/',
+    status: autohomeIndustryAttempt.status === 'rejected' ? 'failed' : industryCandidates.length ? 'ok' : 'empty',
+    count: recentCandidates.filter(item => item.sourceId === 'autohome-industry').length,
+    ...(autohomeIndustryAttempt.status === 'rejected' ? { reason: autohomeIndustryAttempt.reason.message } : {})
   }, ...dongchedi.sourceResults],
   publicationRule: '原文、发布日期与作者校验后，可标注为媒体报道；缺少正文、日期或出处的线索留在待核实队列。'
 });

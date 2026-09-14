@@ -2,13 +2,17 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { buildReports, classify, ensureIssueRange, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
 import { extractArticle } from '../scripts/article-extractor.mjs';
-import { identifyBrands } from '../scripts/content-utils.mjs';
+import { identifyBrands, issueSearchDates } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
 import { createSiteServer } from '../scripts/serve.mjs';
 import { reconcileLaunchCalendar } from '../scripts/reconcile-launch-calendar.mjs';
 
 const record = (number, changes = {}) => ({ title: `测试车型${number}上市`, url: `https://example.com/news/${number}`, sourceName: '测试媒体', sourceId: 'test', evidenceStatus: 'media', publishedAt: '2026-09-09', contentParagraphs: ['这里是可追溯原文中的正文内容。'], brands: ['理想'], reviewReasons: [], ...changes });
 const now = new Date('2026-09-10T12:00:00+08:00');
+
+test('daily discovery searches both calendar dates covered by the 08:00 issue window', () => {
+  assert.deepEqual(issueSearchDates(new Date('2026-09-14T08:17:00+08:00')), ['2026-09-13', '2026-09-14']);
+});
 
 test('important news is unbounded and dates are sorted independently of insertion order', () => {
   const records = [...Array.from({ length: 7 }, (_, i) => record(i)), record(8, { publishedAt: '2026-09-08' }), record(9, { publishedAt: '2026-09-10' })];
@@ -97,6 +101,15 @@ test('multiple reports about the same model debut merge and media names stay out
   assert.equal(stories.length, 1);
   assert.equal(stories[0].sourceLinks.length, 2);
   assert.ok(!/新浪/u.test(stories[0].title));
+});
+test('a truncated discovery headline is rebuilt from a verified factual lead', () => {
+  const article = record(1, {
+    title: '比亚迪腾势 N8L 纯电全球首搭“迪迪虾”AI 超级智能体，官宣支付宝、 …',
+    brands: ['比亚迪', '腾势'],
+    contentParagraphs: ['IT之家 9 月 13 日消息，比亚迪旗下腾势 N8L 纯电全球首搭迪迪虾，将于 9 月 14 日 19:00 正式上市，今日有多位合作伙伴对这款新车的上市进行了祝贺。']
+  });
+  const story = buildReports([article], {}, now).reports['2026-09-09'].brands['腾势'][0];
+  assert.equal(story.title, '比亚迪旗下腾势N8L纯电全球首搭迪迪虾，将于9月14日19:00正式上市');
 });
 test('title quality guard rejects raw source copy and accepts a factual editorial title', () => {
   assert.deepEqual(titleQualityIssues('日前，我们从工信部目录中发现了新车申报图…'), ['标题过长或截断', '标题使用原文叙述口吻']);

@@ -4,6 +4,15 @@ import { fileURLToPath } from 'node:url';
 
 export const cleanText = text => String(text || '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
 export const chinaDate = (now = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);
+export const previousDate = date => {
+  const value = new Date(`${date}T00:00:00Z`);
+  value.setUTCDate(value.getUTCDate() - 1);
+  return value.toISOString().slice(0, 10);
+};
+export const issueSearchDates = (now = new Date()) => {
+  const current = chinaDate(now);
+  return [previousDate(current), current];
+};
 export function readJson(file, fallback) {
   try { return JSON.parse(readFileSync(file, 'utf8')); }
   catch (error) { if (error.code === 'ENOENT') return fallback; throw error; }

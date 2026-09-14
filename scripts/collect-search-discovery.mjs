@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 import { collectBrowserHtml } from './browser-collector.mjs';
-import { chinaDate, readJson, writeJson } from './content-utils.mjs';
+import { issueSearchDates, readJson, writeJson } from './content-utils.mjs';
 import { sourceRegistry } from '../data/sources.js';
 import { monitoringCoverage } from '../data/monitoring-coverage.js';
 
@@ -19,18 +19,18 @@ const sourceForUrl = value => {
     });
   } catch { return null; }
 };
-const previousDay = date => {
-  const value = new Date(`${date}T00:00:00Z`);
-  value.setUTCDate(value.getUTCDate() - 1);
-  return value.toISOString().slice(0, 10);
-};
-const targetDate = previousDay(chinaDate());
-const [year, month, day] = targetDate.split('-');
-const targetText = `${year}年${Number(month)}月${Number(day)}日`;
-const queries = [...monitoringCoverage.flatMap(item => [
-  `${targetText} ${item.brand} 汽车`,
-  `${targetText} ${item.brand} 汽车 上市 发布 改款 年款 新增版本`
-]), `${targetText} 汽车行业 政策`];
+const targetDates = issueSearchDates();
+const targetTexts = targetDates.map(date => {
+  const [year, month, day] = date.split('-');
+  return `${year}年${Number(month)}月${Number(day)}日`;
+});
+const queries = targetTexts.flatMap(targetText => [
+  ...monitoringCoverage.flatMap(item => [
+    `${targetText} ${item.brand} 汽车`,
+    `${targetText} ${item.brand} 汽车 上市 发布 改款 年款 新增版本`
+  ]),
+  `${targetText} 汽车行业 政策`
+]);
 function destination(href) {
   try {
     const url = new URL(href);
@@ -62,7 +62,7 @@ const sourceResults = searchSources.map(source => ({
   publicLabel: sourceCounts.get(source.id) ? `已发现 ${sourceCounts.get(source.id)} 条待核验线索` : '未发现待核验线索'
 }));
 writeJson(new URL('search-candidates.json', dir), {
-  collectedAt: new Date().toISOString(), targetDate, candidates, sourceResults,
+  collectedAt: new Date().toISOString(), targetDates, candidates, sourceResults,
   publicationRule: '搜索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。'
 });
 console.log(`搜索发现：${collected.length} 条候选，覆盖 ${queries.length} 个品牌与行业检索式。`);

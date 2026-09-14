@@ -135,9 +135,12 @@ function contentTitle(article) {
     .replace(/全新\s+Roadster\s+跑车/u, '全新Roadster')
     .replace(/(\d)\s*月\s*(\d)\s*日/u, '$1月$2日')
     .replace(/晚上发布$/u, '发布')
+    .replace(/，(?:今日|其中|据悉|新车)[\s\S]*$/u, '')
     .trim();
   if (!title || /^(?:原文介绍|报道称)/u.test(title)) return '';
-  return title.length <= 42 ? title : '';
+  if (title.length <= 42) return title;
+  const compact = title.replace(/\s+/gu, '');
+  return compact.length <= 42 ? compact : '';
 }
 function displayTitle(article) {
   const sourceText = (article.contentParagraphs || []).filter(Boolean)[0] || article.title;

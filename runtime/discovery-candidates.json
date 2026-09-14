@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T02:42:25.571Z",
+  "collectedAt": "2026-09-14T03:07:33.883Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -622,40 +622,6 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "天生跑车基因 一文看懂方程豹方程S/方程S GT 将于9月16日上市",
-      "sourceMonth": "2026-09",
-      "url": "https://www.autohome.com.cn/news/202609/1317126.html",
-      "candidateBrands": [
-        "比亚迪"
-      ],
-      "industry": false
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "工信部：到2030年自动驾驶汽车实现规模应用！迈向世界汽车强国！",
-      "sourceMonth": "2026-09",
-      "url": "https://www.autohome.com.cn/news/202609/1317123.html",
-      "candidateBrands": [],
-      "industry": true
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "标配二排双零重力旋转座椅 理想i9实车亮相 将于9月16日正式上市",
-      "sourceMonth": "2026-09",
-      "url": "https://www.autohome.com.cn/news/202609/1317121.html",
-      "candidateBrands": [
-        "理想"
-      ],
-      "industry": false
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
       "title": "加长L113 比例更修长低趴！疑似全新蔚来ET5T最新谍照曝光",
       "sourceMonth": "2026-09",
       "url": "https://www.autohome.com.cn/news/202609/1317143.html",
@@ -699,23 +665,232 @@
         "小米"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "天生跑车基因 一文看懂方程豹方程S/方程S GT 将于9月16日上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317126.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "工信部：到2030年自动驾驶汽车实现规模应用！迈向世界汽车强国！",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317123.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "标配二排双零重力旋转座椅 理想i9实车亮相 将于9月16日正式上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317121.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "实车详细体验小米澎程N70",
+      "url": "https://www.dongchedi.com/video/7684965137480450622",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "吉利银河TT限时12.99万起",
+      "url": "https://www.dongchedi.com/article/7680056141665436184",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米澎程迎来上海首批车主",
+      "url": "https://www.dongchedi.com/article/7684865184209273406",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "启源Q06无框车门",
+      "url": "https://www.dongchedi.com/video/7684982050109342232",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试驾乐道L60：换电是绝招",
+      "url": "https://www.dongchedi.com/video/7684941642776281625",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "乐道"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "银河A7 EM 10万级插混家轿",
+      "url": "https://www.dongchedi.com/video/7684932409158582846",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米SU7L长轴轿车谍照再曝",
+      "url": "https://www.dongchedi.com/article/7684810643359302206",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "问界M9—成功路上懂你的车",
+      "url": "https://www.dongchedi.com/video/7685206920411841086",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试腾势Z9S后驱版",
+      "url": "https://www.dongchedi.com/video/7685200034568618521",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "零跑B10静态探店",
+      "url": "https://www.dongchedi.com/video/7685204028699460120",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout"
+      "status": "ok",
+      "count": 14
+    },
+    {
+      "sourceId": "autohome-industry",
+      "url": "https://www.autohome.com.cn/hangye/",
+      "status": "ok",
+      "count": 0
     },
     {
       "sourceId": "dongchedi-news",
-      "status": "failed",
-      "collectedAt": "2026-09-14T02:41:55.603Z",
+      "status": "partial",
+      "collectedAt": "2026-09-14T03:07:18.538Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 0,
-      "reason": "懂车帝首页缺少公开列表数据"
+      "candidateCount": 64,
+      "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
   "publicationRule": "原文、发布日期与作者校验后，可标注为媒体报道；缺少正文、日期或出处的线索留在待核实队列。"

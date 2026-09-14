@@ -1,15 +1,18 @@
 {
-  "collectedAt": "2026-09-14T02:42:43.604Z",
-  "targetDate": "2026-09-13",
+  "collectedAt": "2026-09-14T03:16:26.897Z",
+  "targetDates": [
+    "2026-09-13",
+    "2026-09-14"
+  ],
   "candidates": [
     {
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "零跑汽车 2026 年度技术发布会定档 9 月，发布“全行业第一梯队水平” …",
+      "title": "零跑汽车 2026 年度技术发布会定档 9 月，发布“全行业第一 ...",
       "url": "https://www.ithome.com/0/993/722.htm",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 零跑 汽车"
+      "discoveryQuery": "2026年9月14日 零跑 汽车"
     },
     {
       "sourceId": "yiche-news",
@@ -87,10 +90,10 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "独家|零跑汽车技术日将发超五项最新技术 世界模型智驾有望覆 …",
+      "title": "独家|零跑汽车技术日将发超五项最新技术 世界模型智驾有望 ...",
       "url": "https://finance.sina.com.cn/roll/2026-09-10/doc-inirihnw5394467.shtml",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月10日 零跑 汽车"
+      "discoveryQuery": "2026年9月13日 零跑 汽车"
     },
     {
       "sourceId": "sina-auto",
@@ -105,10 +108,10 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "蔚来汽车2026年新车发布计划|SUV|萤火虫|乐道l90|乐道l80|蔚来es9_ …",
+      "title": "蔚来汽车2026年新车发布计划|SUV|萤火虫|乐道l90|乐道l80|蔚 ...",
       "url": "https://k.sina.cn/article_7857141524_1d452771401902rzj0.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 蔚来 汽车"
+      "discoveryQuery": "2026年9月14日 蔚来 汽车"
     },
     {
       "sourceId": "sina-auto",
@@ -141,10 +144,10 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "2026年吉利集团新车前瞻,极氪8X领衔|领克|纯电|插混|吉利汽车|新能源车…",
+      "title": "2026年吉利集团新车前瞻,极氪8X领衔|领克|纯电|插混|吉 …",
       "url": "https://k.sina.cn/article_7857141524_1d45277140190253s6.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 极氪 汽车"
+      "discoveryQuery": "2026年9月14日 极氪 汽车"
     },
     {
       "sourceId": "sina-auto",
@@ -216,7 +219,7 @@
       "title": "聚焦两会丨2026汽车产业政策定调：新能源、出海、智驾三箭齐发",
       "url": "https://finance.sina.com.cn/roll/2026-03-10/doc-inhqnmhx6331511.shtml",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月10日 汽车行业 政策"
+      "discoveryQuery": "2026年9月14日 汽车行业 政策"
     },
     {
       "sourceId": "sina-auto",
@@ -279,7 +282,7 @@
       "title": "2026 款乐道 L90 上市：蔚来世界模型上车、超 70 项软硬件升级，电 …",
       "url": "https://www.ithome.com/0/941/841.htm",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 乐道 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 乐道 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "sina-auto",
@@ -315,7 +318,7 @@
       "title": "阿维塔9系亮相工信部公告，定位大型豪华SUV市场_新车上市_极速 …",
       "url": "https://auto.caijing.com.cn/2026/0909/5182540.shtml",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 阿维塔 汽车"
+      "discoveryQuery": "2026年9月14日 阿维塔 汽车"
     },
     {
       "sourceId": "sina-auto",
@@ -357,10 +360,10 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "特斯拉2026款Model S和Model X中国上市，AI智能功能引领市场，现 …",
+      "title": "特斯拉2026款Model S和Model X中国上市，AI智能功能引领 ...",
       "url": "https://k.sina.cn/article_7879848900_1d5acf3c401902qp2e.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月10日 特斯拉 汽车 上市 发布"
+      "discoveryQuery": "2026年9月13日 特斯拉 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "sina-auto",
@@ -411,19 +414,10 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "2026年比亚迪将要上市的5款新车，能将销量逆转吗?|秦|纯电|大唐",
-      "url": "https://k.sina.cn/article_7880068201_1d5b04c6901901xfsa.html",
-      "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 比亚迪 汽车 上市 发布 改款 年款 新增版本"
-    },
-    {
-      "sourceId": "sina-auto",
-      "sourceName": "新浪汽车",
-      "sourceType": "vertical-media",
       "title": "蔚来汽车2026年新车发布计划 - 新浪财经",
       "url": "https://finance.sina.com.cn/roll/2026-01-20/doc-inhhxkqx7250261.shtml",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 蔚来 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 蔚来 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "sina-auto",
@@ -438,10 +432,10 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "理想i6改款最新消息：2026秋季小改款3大升级，现在买还是等？+FAQ|新车计划|国产新车|新能源|理想汽车|理想…",
+      "title": "理想i6改款最新消息：2026秋季小改款3大升级，现在买还是 …",
       "url": "https://www.sina.cn/gc/article/ninpwie9417924.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 理想 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 理想 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "sina-auto",
@@ -459,7 +453,7 @@
       "title": "极氪2026年二季度新车规划曝光 推出焕新极氪009等四款车型_易车",
       "url": "https://news.yiche.com/xinchexiaoxi/20260306/09108030189.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 极氪 汽车"
+      "discoveryQuery": "2026年9月14日 极氪 汽车"
     },
     {
       "sourceId": "sina-auto",
@@ -468,7 +462,7 @@
       "title": "阿维塔最近出新政策了吗？金秋限时权益+旗舰新车双线出击，一文看 …",
       "url": "https://k.sina.cn/article_7879776496_1d5abd8f0068018wbu.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 阿维塔 汽车"
+      "discoveryQuery": "2026年9月14日 阿维塔 汽车"
     },
     {
       "sourceId": "sina-auto",
@@ -483,7 +477,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "最便宜华为乾崑智驾车型：2026 款深蓝 L07 上市，首发价 13.59 万元 …",
+      "title": "最便宜华为乾崑智驾车型：2026 款深蓝 L07 上市，首发价 13 ...",
       "url": "https://www.ithome.com/0/875/139.htm",
       "publishedAt": null,
       "discoveryQuery": "2026年9月13日 深蓝 汽车 上市 发布 改款 年款 新增版本"
@@ -492,7 +486,7 @@
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪腾势 N8L 纯电全球首搭“迪迪虾”AI 超级智能体，官宣支付宝、 …",
+      "title": "比亚迪腾势 N8L 纯电全球首搭“迪迪虾”AI 超级智能体，官宣 ...",
       "url": "https://finance.sina.com.cn/tech/digi/2026-09-13/doc-inirskfy7832179.shtml",
       "publishedAt": null,
       "discoveryQuery": "2026年9月13日 腾势 汽车"
@@ -504,7 +498,7 @@
       "title": "2026款腾势N9正式上市 售价38.98-44.98万元-新浪汽车",
       "url": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 腾势 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 腾势 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "ithome-auto",
@@ -513,7 +507,7 @@
       "title": "2026 款吉利银河 E5 上市：最大续航里程提升至 610km，售 10.98 万 …",
       "url": "https://www.ithome.com/0/870/515.htm",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 吉利银河 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 吉利银河 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "sina-auto",
@@ -522,7 +516,7 @@
       "title": "2026款吉利银河星舰7 EM-i正式上市 限时指导价9.58万元起-新浪汽车",
       "url": "https://auto.sina.com.cn/newcar/2025-11-19/detail-infxyazs4425449.shtml",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 吉利银河 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 吉利银河 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "ithome-auto",
@@ -531,25 +525,25 @@
       "title": "特斯拉公布 2026 年 9 月购车权益：选购 Model 3/Y 现车提供至高万元 …",
       "url": "https://www.ithome.com/0/999/075.htm",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 特斯拉 汽车"
+      "discoveryQuery": "2026年9月14日 特斯拉 汽车"
     },
     {
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "新浪新能源汽车热点小时报丨2026年09月13日13时_今日实时新能源汽车热点速递|特斯拉|Roadster|五年 …",
+      "title": "新浪新能源汽车热点小时报丨2026年09月13日13时_今日 ...",
       "url": "https://k.sina.cn/article_7857201856_1d45362c001908n84a.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 特斯拉 汽车"
+      "discoveryQuery": "2026年9月13日 汽车行业 政策"
     },
     {
       "sourceId": "sina-auto",
       "sourceName": "新浪汽车",
       "sourceType": "vertical-media",
-      "title": "逆势向上!特斯拉2026布局高端,Model YL携长续航版本曝光|储能|model y l|机器人|新车…",
+      "title": "逆势向上!特斯拉2026布局高端,Model YL携长续航版本曝光|储 …",
       "url": "https://k.sina.cn/article_7857141524_1d45277140190252ls.html",
       "publishedAt": null,
-      "discoveryQuery": "2026年9月13日 特斯拉 汽车 上市 发布 改款 年款 新增版本"
+      "discoveryQuery": "2026年9月14日 特斯拉 汽车 上市 发布 改款 年款 新增版本"
     },
     {
       "sourceId": "sina-auto",
@@ -559,6 +553,249 @@
       "url": "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml",
       "publishedAt": null,
       "discoveryQuery": "2026年9月13日 特斯拉 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行2026年新车规划曝光 问界M6/智界X9/尊界SUV有望推出",
+      "url": "https://auto.ifeng.com/c/8mcpUYOMSIr",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 鸿蒙智行 汽车"
+    },
+    {
+      "sourceId": "chezhitong-auto",
+      "sourceName": "车质网",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车定档9月举办2026年度技术发布会 - 车质网",
+      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 零跑 汽车"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】零跑汽车定档9月举办2026年度技术发布会 ...",
+      "url": "https://auto.ifeng.com/c/8vrFtjIUzmS",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 零跑 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车上市发布会回顾",
+      "url": "https://k.sina.cn/article_7880068201_1d5b04c69068026svs.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 零跑 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "乐道L60 2026新款价格19.28万起，租电13.58万！3个维度选 ...",
+      "url": "https://k.sina.cn/article_7879848955_1d5acf3fb06803awji.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 乐道 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "理想i9 2026款最新消息：9月16日发布，40万级家庭纯电 ...",
+      "url": "https://k.sina.cn/article_7879777161_1d5abdb8906801m7gi.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 理想 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "理想汽车2026年新车发布计划|理想汽车_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihi6880029.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 理想 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "理想i6新款2026年秋季上市，增配稳价24.98万起，等还是买？3个维度 …",
+      "url": "https://k.sina.cn/article_7879996096_1d5af32c006801kule.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 理想 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "2027 款极氪 7X 申报图公布，计划 2026 年四季度上市",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-09-12/doc-inirqfie6532278.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 极氪 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年二季度极氪汽车：定位高端市场，交付量翻倍",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-08/doc-inirayqy9534445.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 极氪 汽车"
+    },
+    {
+      "sourceId": "yiche-news",
+      "sourceName": "易车",
+      "sourceType": "vertical-media",
+      "title": "2026款阿维塔07正式上市 现金权益后到手价20.99万 …",
+      "url": "https://news.yiche.com/xinchexiaoxi/20250920/20103721483.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 阿维塔 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "yiche-news",
+      "sourceName": "易车",
+      "sourceType": "vertical-media",
+      "title": "把高配做成标配，阿维塔07 2026款正式上市_易车",
+      "url": "https://news.yiche.com/hao/wenzhang/103773647",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 阿维塔 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "2026款深蓝L07上市 叠加膨胀金后售13.59万起_凤凰网",
+      "url": "https://auto.ifeng.com/c/8lnBgP4v6QE",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 深蓝 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "腾势首款大型纯电SUV定档 腾势N8L纯电9月14日上市-新浪汽车",
+      "url": "https://auto.sina.com.cn/newcar/2026-09-06/detail-iniqwhaw4331375.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 腾势 汽车"
+    },
+    {
+      "sourceId": "yiche-news",
+      "sourceName": "易车",
+      "sourceType": "vertical-media",
+      "title": "腾势N8L首搭迪迪虾即将上市_易车",
+      "url": "https://news.yiche.com/hao/wenzhang/113062371/",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 腾势 汽车"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2026 款吉利银河 A7 EM / A7 EV 双车上市，限时先享指导价 ...",
+      "url": "https://www.ithome.com/0/942/300.htm",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月13日 吉利银河 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "长安启源Q06上市时间及价格全解析：14.79万起，智驾拉满，9月内交 …",
+      "url": "https://k.sina.cn/article_7879776543_1d5abd91f06801c88k.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 启源 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪：超级智能体迪迪虾暨腾势 N8L 纯电上市发布会定档 9 ...",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-09-05/doc-iniqutzk3466348.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 比亚迪 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "新车日历_上市车型_新车汇总 - 新浪汽车",
+      "url": "https://auto.sina.com.cn/newcar/rili/",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 比亚迪 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车技术日将发超五项最新技术 世界模型智驾有望覆盖 ...",
+      "url": "https://finance.sina.com.cn/7x24/2026-09-10/doc-inirihnu8617428.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 零跑 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "售价14.98万元起,2026款零跑C11上市,产品力升级",
+      "url": "https://k.sina.cn/article_7857141524_1d452771401902rl6w.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 零跑 汽车 上市 发布 改款 年款 新增版本"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "新浪汽车热点小时报丨2026年09月14日06时_今日实时汽车 ...",
+      "url": "https://k.sina.cn/article_7857201856_1d45362c001908nawa.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 蔚来 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "小米集团2026年Q2营收再超千亿，汽车、AI正在开启全新增长引擎",
+      "url": "https://finance.sina.com.cn/roll/2026-08-19/doc-ininvfss8306534.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 小米 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "2026款深蓝S07正式上市,指导价15.69万-17.39万元|15 …",
+      "url": "https://k.sina.cn/article_7857141524_1d4527714019028ezs.html",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 深蓝 汽车"
+    },
+    {
+      "sourceId": "yiche-news",
+      "sourceName": "易车",
+      "sourceType": "vertical-media",
+      "title": "15.39万起，2026款深蓝S07上市！配华为智驾辅助_易车",
+      "url": "https://news.yiche.com/hao/wenzhang/103748196/",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 深蓝 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "腾势N8L纯电新配色公布9月14日上市_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-07/doc-iniqznps5276925.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 腾势 汽车"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "长安汽车发声明称启源Q06遭恶意诋毁 没说是否有人指使干的",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-iniruare7301140.shtml",
+      "publishedAt": null,
+      "discoveryQuery": "2026年9月14日 启源 汽车"
     }
   ],
   "sourceResults": [
@@ -566,22 +803,22 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "status": "partial",
-      "candidateCount": 21,
-      "publicLabel": "已发现 21 条待核验线索"
+      "candidateCount": 40,
+      "publicLabel": "已发现 40 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
       "url": "https://auto.ifeng.com/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 4,
+      "publicLabel": "已发现 4 条待核验线索"
     },
     {
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 2,
-      "publicLabel": "已发现 2 条待核验线索"
+      "candidateCount": 6,
+      "publicLabel": "已发现 6 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -594,8 +831,8 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "status": "partial",
-      "candidateCount": 5,
-      "publicLabel": "已发现 5 条待核验线索"
+      "candidateCount": 8,
+      "publicLabel": "已发现 8 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -607,16 +844,16 @@
     {
       "sourceId": "chezhitong-auto",
       "url": "https://www.12365auto.com/",
-      "status": "no-recent-updates",
-      "candidateCount": 0,
-      "publicLabel": "未发现待核验线索"
+      "status": "partial",
+      "candidateCount": 2,
+      "publicLabel": "已发现 2 条待核验线索"
     },
     {
       "sourceId": "caijing-auto",
       "url": "https://auto.caijing.com.cn/",
       "status": "partial",
-      "candidateCount": 1,
-      "publicLabel": "已发现 1 条待核验线索"
+      "candidateCount": 2,
+      "publicLabel": "已发现 2 条待核验线索"
     }
   ],
   "publicationRule": "搜索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

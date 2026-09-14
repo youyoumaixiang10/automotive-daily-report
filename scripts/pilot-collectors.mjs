@@ -94,14 +94,14 @@ export function parseNioNewsLinks(links) {
   }).filter(candidate => /^20\d{2}-\d{2}-\d{2}$/.test(candidate.publishedAt) && candidate.title);
 }
 
-export function parseAutohomeNews(html) {
+export function parseAutohomeNews(html, source = { id: 'autohome-news', name: '汽车之家资讯' }) {
   const candidates = [...html.matchAll(/<a[^>]+href=["']([^"']*\/news\/(20\d{2})(\d{2})\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
     .map(match => {
       const title = decode(match[4]).replace(/\s+(?:\d+\s*(?:分钟前|小时前|天前)|昨天|刚刚)\s+[\s\S]*$/u, '').trim();
       const url = match[1].replace(/#.*/u, '');
       return title ? {
-        sourceId: 'autohome-news',
-        sourceName: '汽车之家资讯',
+        sourceId: source.id,
+        sourceName: source.name,
         sourceType: 'vertical-media',
         title,
         sourceMonth: `${match[2]}-${match[3]}`,
