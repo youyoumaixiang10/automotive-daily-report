@@ -53,6 +53,27 @@ function mediaPresentationTitle(title) {
     .replace(new RegExp(`\\s+-\\s*(?:${mediaNames})\\s*$`, 'u'), '')
     .trim();
 }
+function factualMediaHeadline(title) {
+  const cleaned = mediaPresentationTitle(title)
+    .replace(/^(?:终于要来了|经典两座回归)[？?!！]?\s*/u, '')
+    .replace(/^天生跑车基因\s*一文看懂\s*/u, '')
+    .replace(/\b最新(?=谍照|申报图)/gu, '')
+    .replace(/[！!]+/gu, ' ')
+    .replace(/\s{2,}/gu, ' ')
+    .trim();
+  if (cleaned.length <= 42) return cleaned;
+  const clauses = cleaned.split(/[？?。；;]/u).map(cleanText).filter(Boolean);
+  const factual = clauses
+    .map((clause, index) => ({
+      clause,
+      score: (/(?:上市|发布|首秀|亮相|交付|预售|申报|谍照|政策|召回|销量|价格|权益|OTA)/u.test(clause) ? 3 : 0)
+        + (/\d/u.test(clause) ? 1 : 0)
+        - index * 0.1
+    }))
+    .filter(({ clause }) => clause.length <= 42)
+    .sort((a, b) => b.score - a.score)[0]?.clause;
+  return factual || '';
+}
 function socialEventTitle(text) {
   const source = socialPresentationText(text);
   const debut = source.match(/首发\s*((?:[\u4e00-\u9fff]{1,8})?[A-Za-z]{1,4}\d{1,3}[A-Za-z]{0,4}(?:\s*(?:纯电|插混|增程|GT|Ultra|Max))?)/u);
@@ -99,11 +120,13 @@ function contentTitle(article) {
     .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日(?:\s*(?:消息|电|讯))?[，,:：\s]*/u, '')
     .replace(/^【[^】]{1,80}】(?:财联社)?\s*\d{1,2}月\d{1,2}日电[，,:：\s]*/u, '')
     .replace(/^财联社记者从知情人士处获悉[，,:：\s]*/u, '')
-    .replace(/^(?:近日|今日)[，,\s]*/u, '')
-    .replace(/^我们从(?:官方)?获悉[，,\s]*/u, '')
+    .replace(/^(?:日前|目前|近日|今日)[，,\s]*/u, '')
+    .replace(/^我们从(?:官方|相关渠道)?(?:获悉|了解到)[，,\s]*/u, '')
+    .replace(/^有网友(?:爆料|拍摄|发现)了?[，,\s]*/u, '')
+    .replace(/的?最新谍照$/u, '谍照曝光')
     .trim();
   if (!title || /^(?:原文介绍|报道称)/u.test(title)) return '';
-  return title.length > 52 ? `${title.slice(0, 52)}…` : title;
+  return title.length <= 42 ? title : '';
 }
 function displayTitle(article) {
   const sourceText = (article.contentParagraphs || []).filter(Boolean)[0] || article.title;
@@ -117,7 +140,7 @@ function displayTitle(article) {
       if (qaTitle) return qaTitle;
     }
   }
-  return contentTitle(article) || mediaPresentationTitle(article.title);
+  return contentTitle(article) || factualMediaHeadline(article.title);
 }
 function sourceSummary(article, evidenceLabel) {
   const sourceText = (article.contentParagraphs || []).map(cleanText).filter(Boolean).join(' ');

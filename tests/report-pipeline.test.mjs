@@ -69,6 +69,21 @@ test('media headlines are rewritten from the verified article lead instead of re
   const story = buildReports([article], {}, now).reports['2026-09-09'].brands['极氪'][0];
   assert.equal(story.title, '极氪在摩纳哥游艇展上发布了其欧洲市场迄今最重要的车型极氪9X');
 });
+test('verified media stories fall back to a concise factual headline when the lead sentence is too long', () => {
+  const et5t = record(1, {
+    title: '加长L113 比例更修长低趴！疑似全新蔚来ET5T最新谍照曝光',
+    publishedAt: '2026-09-13', publishedTime: '2026-09-13 18:09:52', brands: ['蔚来'],
+    contentParagraphs: ['日前，有网友爆料了疑似全新蔚来ET5T的最新谍照。相较在售车型，新车视觉上明显更为修长低趴，预计于2027年正式发布。']
+  });
+  const roadster = record(2, {
+    title: '终于要来了？特斯拉官宣新一代Roadster将于10月1日首秀',
+    publishedAt: '2026-09-13', publishedTime: '2026-09-13 10:36:46', brands: ['特斯拉'],
+    contentParagraphs: ['日前，我们从相关渠道了解到，特斯拉官宣新一代Roadster将于10月1日首秀。该车定位旗舰纯电超跑，此前亮相活动多次延期。']
+  });
+  const report = buildReports([et5t, roadster], {}, new Date('2026-09-14T10:20:00+08:00')).reports['2026-09-14'];
+  assert.equal(report.brands['蔚来'][0].title, '疑似全新蔚来ET5T谍照曝光');
+  assert.equal(report.brands['特斯拉'][0].title, '特斯拉官宣新一代Roadster将于10月1日首秀');
+});
 test('title quality guard rejects raw source copy and accepts a factual editorial title', () => {
   assert.deepEqual(titleQualityIssues('日前，我们从工信部目录中发现了新车申报图…'), ['标题过长或截断', '标题使用原文叙述口吻']);
   assert.deepEqual(titleQualityIssues('品牌官方微博视频'), ['标题包含来源或载体']);
