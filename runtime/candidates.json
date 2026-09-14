@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-14T11:26:42.395Z",
+  "collectedAt": "2026-09-14T11:45:46.876Z",
   "cutoffDate": "2026-07-31",
   "candidates": [
     {
@@ -4502,7 +4502,7 @@
     {
       "sourceId": "byd-news",
       "url": "https://prod.byd.com/cn/news",
-      "checkedAt": "2026-09-14T11:23:58.596Z",
+      "checkedAt": "2026-09-14T11:42:55.148Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 167,
@@ -4514,7 +4514,7 @@
     {
       "sourceId": "deepal-news",
       "url": "https://deepal.com.cn/news",
-      "checkedAt": "2026-09-14T11:23:58.596Z",
+      "checkedAt": "2026-09-14T11:42:55.148Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 47,
@@ -4526,7 +4526,7 @@
     {
       "sourceId": "zeekr-info",
       "url": "https://www.zeekrlife.com/information",
-      "checkedAt": "2026-09-14T11:23:58.596Z",
+      "checkedAt": "2026-09-14T11:42:55.148Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 116,
@@ -4538,7 +4538,7 @@
     {
       "sourceId": "leapmotor-news",
       "url": "https://leapmotor.cn/news/news.html",
-      "checkedAt": "2026-09-14T11:23:58.596Z",
+      "checkedAt": "2026-09-14T11:42:55.148Z",
       "status": "partial",
       "listRead": false,
       "candidateCount": 0,
@@ -4548,7 +4548,7 @@
     {
       "sourceId": "li-auto-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:24:26.691Z",
+      "collectedAt": "2026-09-14T11:43:24.642Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/lixiangzhizao",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4556,7 +4556,7 @@
     {
       "sourceId": "denza-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:24:37.867Z",
+      "collectedAt": "2026-09-14T11:43:36.733Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/2664689831",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4564,7 +4564,7 @@
     {
       "sourceId": "byd-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:24:46.619Z",
+      "collectedAt": "2026-09-14T11:43:45.868Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/bydauto",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4572,7 +4572,7 @@
     {
       "sourceId": "leapmotor-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:24:55.319Z",
+      "collectedAt": "2026-09-14T11:43:55.564Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/u/5872290888",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4580,7 +4580,7 @@
     {
       "sourceId": "nio-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:03.991Z",
+      "collectedAt": "2026-09-14T11:44:04.702Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/nextevofficial",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4588,7 +4588,7 @@
     {
       "sourceId": "onvo-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:12.658Z",
+      "collectedAt": "2026-09-14T11:44:13.609Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7892483716",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4596,7 +4596,7 @@
     {
       "sourceId": "xiaomi-auto-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:21.459Z",
+      "collectedAt": "2026-09-14T11:44:22.803Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7871239944",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4604,7 +4604,7 @@
     {
       "sourceId": "voyah-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:30.315Z",
+      "collectedAt": "2026-09-14T11:44:31.896Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7351024207",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4612,7 +4612,7 @@
     {
       "sourceId": "avatr-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:40.047Z",
+      "collectedAt": "2026-09-14T11:44:41.824Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/avatr",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4620,7 +4620,7 @@
     {
       "sourceId": "deepal-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:49.061Z",
+      "collectedAt": "2026-09-14T11:44:51.420Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/7751244203",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4628,7 +4628,7 @@
     {
       "sourceId": "tesla-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:25:57.840Z",
+      "collectedAt": "2026-09-14T11:45:00.830Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/teslaofficial",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4636,7 +4636,7 @@
     {
       "sourceId": "zeekr-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:26:06.548Z",
+      "collectedAt": "2026-09-14T11:45:10.025Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7576049404",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4644,7 +4644,7 @@
     {
       "sourceId": "galaxy-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:26:15.285Z",
+      "collectedAt": "2026-09-14T11:45:18.868Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7794864065",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4652,7 +4652,7 @@
     {
       "sourceId": "changan-qiyuan-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:26:24.190Z",
+      "collectedAt": "2026-09-14T11:45:27.954Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3194397971",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4660,7 +4660,7 @@
     {
       "sourceId": "hima-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-14T11:26:32.891Z",
+      "collectedAt": "2026-09-14T11:45:37.221Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3032210184",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
