@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildReports, classify, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
+import { buildReports, classify, ensureIssueRange, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
 import { extractArticle } from '../scripts/article-extractor.mjs';
 import { identifyBrands } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
@@ -30,6 +30,12 @@ test('each daily issue covers the previous 08:00 through the current 08:00', () 
   assert.equal(reports['2026-09-12'], undefined);
   assert.equal(reports['2026-09-11'].windowLabel, '9月10日 08:00 — 9月11日 08:00');
   assert.doesNotThrow(() => validateReports(reports, []));
+});
+test('the public archive keeps every issue date selectable even when no verified story was collected', () => {
+  const reports = ensureIssueRange({}, '2026-09-12', '2026-09-14', new Date('2026-09-14T08:05:00+08:00'));
+  assert.deepEqual(Object.keys(reports), ['2026-09-14', '2026-09-13', '2026-09-12']);
+  assert.equal(reports['2026-09-14'].windowLabel, '9月13日 08:00 — 9月14日 08:00');
+  assert.deepEqual(reports['2026-09-14'].brands, {});
 });
 test('highlights prioritise focused brands and government notices over unrelated media headlines', () => {
   const unrelated = record(1, { title: '外部品牌车型将于本月上市', brands: [] });

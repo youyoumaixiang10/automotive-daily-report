@@ -160,6 +160,22 @@ function windowLabel(date) {
   const previous = previousDate(date);
   return `${Number(previous.slice(5, 7))}月${Number(previous.slice(8, 10))}日 08:00 — ${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日 08:00`;
 }
+
+export function ensureIssueRange(reports, startDate, endDate, now = new Date()) {
+  const current = new Date(`${startDate}T00:00:00Z`);
+  const end = new Date(`${endDate}T00:00:00Z`);
+  if (!Number.isFinite(current.getTime()) || !Number.isFinite(end.getTime()) || current > end) return reports;
+  while (current <= end) {
+    const date = current.toISOString().slice(0, 10);
+    reports[date] ||= {
+      dateLabel: `${date.slice(0, 4)}年${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日`,
+      windowLabel: windowLabel(date),
+      highlights: [], brands: {}, otherBrands: [], industry: [], updatedAt: now.toISOString()
+    };
+    current.setUTCDate(current.getUTCDate() + 1);
+  }
+  return Object.fromEntries(Object.entries(reports).sort(([a], [b]) => b.localeCompare(a)));
+}
 export function reportIssueDate(article) {
   const time = String(article.publishedTime || '');
   const match = time.match(/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}):\d{2}/u);

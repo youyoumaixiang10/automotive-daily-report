@@ -2,8 +2,9 @@ name: 更新汽车日报
 
 on:
   schedule:
-    # 00:05 UTC = 08:05 Asia/Shanghai; the report window closes at 08:00.
-    - cron: '5 0 * * *'
+    # 00:17/02:17 UTC = 08:17/10:17 Asia/Shanghai. The second run retries
+    # transient source and GitHub schedule delays without changing the issue window.
+    - cron: '17 0,2 * * *'
   workflow_dispatch:
 
 permissions:

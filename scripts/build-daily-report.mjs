@@ -1,4 +1,4 @@
-import { buildReports, mergeLaunches, validateReports } from './report-builder.mjs';
+import { buildReports, ensureIssueRange, mergeLaunches, validateReports } from './report-builder.mjs';
 import { readJson, writeJson } from './content-utils.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
@@ -9,7 +9,8 @@ const editorialNotes = readJson(new URL('../data/editorial-notes.json', import.m
 const curatedLaunches = readJson(new URL('../data/launch-calendar.json', import.meta.url), { items: [] }).items;
 const notes = { ...Object.fromEntries(Object.entries(modelTitles).map(([url, item]) => [url, { title: item.title }])), ...editorialNotes };
 for (const [url, title] of Object.entries(overrides)) notes[url] = { ...(notes[url] || {}), title };
-const { reports, launches: derivedLaunches, reviewQueue } = buildReports(articles, notes);
+let { reports, launches: derivedLaunches, reviewQueue } = buildReports(articles, notes);
+reports = ensureIssueRange(reports, '2026-09-01', new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai' }).format(new Date()));
 const launches = mergeLaunches(derivedLaunches, curatedLaunches);
 validateReports(reports, launches);
 if (!Object.keys(reports).length) throw new Error('没有可发布内容，保留现有日报');
