@@ -90,6 +90,23 @@ async function proxy(path, body) {
   return result;
 }
 
+export function isTransientNavigationError(error) {
+  return /Execution context was destroyed|Cannot find context with specified id|navigation/iu.test(error?.message || '');
+}
+
+async function evaluateAfterNavigation(targetId, expression) {
+  let lastError;
+  for (let attempt = 0; attempt < 6; attempt++) {
+    try { return await proxy(`/eval?target=${targetId}`, expression); }
+    catch (error) {
+      lastError = error;
+      if (!isTransientNavigationError(error)) throw error;
+      await new Promise(resolve => setTimeout(resolve, 750));
+    }
+  }
+  throw lastError;
+}
+
 async function collectAccount(account) {
   const collectedAt = new Date().toISOString();
   let targetId;
@@ -98,18 +115,18 @@ async function collectAccount(account) {
     if (!targetId) throw new Error('未能创建官方微博读取页面');
     let snapshot;
     for (let attempt = 0; attempt < 20; attempt++) {
-      const { value } = await proxy(`/eval?target=${targetId}`, snapshotExpression);
+      const { value } = await evaluateAfterNavigation(targetId, snapshotExpression);
       snapshot = typeof value === 'string' ? JSON.parse(value) : value;
       if (snapshot?.items?.length) break;
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
     if (!snapshot?.items?.length) throw new Error('当前浏览器未读到官方帖文；可能需要登录或页面未加载');
     const readExpanded = async () => {
-      const { value: clicked } = await proxy(`/eval?target=${targetId}`, expandExpression);
+      const { value: clicked } = await evaluateAfterNavigation(targetId, expandExpression);
       let result;
       for (let attempt = 0; attempt < (clicked ? 10 : 1); attempt++) {
         if (clicked) await new Promise(resolve => setTimeout(resolve, 500));
-        const { value } = await proxy(`/eval?target=${targetId}`, snapshotExpression);
+        const { value } = await evaluateAfterNavigation(targetId, snapshotExpression);
         result = typeof value === 'string' ? JSON.parse(value) : value;
         if (!result?.items?.some(item => item.truncated || item.quotedPost?.contentComplete === false)) break;
       }

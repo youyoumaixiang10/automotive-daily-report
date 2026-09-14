@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { officialSocialAccounts, parseOfficialSocialPosts } from '../scripts/social-collector.mjs';
+import { isTransientNavigationError, officialSocialAccounts, parseOfficialSocialPosts } from '../scripts/social-collector.mjs';
 import { sourceRegistry } from '../data/sources.js';
 
 const liAuto = officialSocialAccounts[0];
@@ -9,6 +9,11 @@ const fixture = {
   url: 'https://weibo.com/6001272153/RhrxoBtxF', date: '2026-09-10 12:20', author: '理想汽车', blueVerified: true,
   text: '🚘全新理想i9，一台更像家的旗舰。\n全新形态，旗舰体验，家的温度。\n9月16日 19:30，我们不见不散。'
 };
+
+test('retries only transient browser navigation failures', () => {
+  assert.equal(isTransientNavigationError(new Error('Execution context was destroyed, most likely because of a navigation')), true);
+  assert.equal(isTransientNavigationError(new Error('官方账号名称不匹配')), false);
+});
 
 test('reads exact source time and complete visible text from the fixed verified account', () => {
   const [post] = parseOfficialSocialPosts([fixture, fixture], liAuto);
