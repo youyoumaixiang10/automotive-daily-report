@@ -7,7 +7,7 @@ const dir = new URL('../runtime/', import.meta.url);
 const cacheFile = new URL('articles.json', dir);
 const cache = readJson(cacheFile, {});
 const sources = new Map(sourceRegistry.map(source => [source.id, source]));
-const inputs = ['candidates.json', 'discovery-candidates.json', 'search-candidates.json'].flatMap(file => readJson(new URL(file, dir), { candidates: [] }).candidates);
+const inputs = ['candidates.json', 'discovery-candidates.json', 'search-candidates.json', 'openai-search-candidates.json'].flatMap(file => readJson(new URL(file, dir), { candidates: [] }).candidates);
 const candidates = [...new Map(inputs.map(item => [item.url, item])).values()];
 const failures = [];
 let next = 0;

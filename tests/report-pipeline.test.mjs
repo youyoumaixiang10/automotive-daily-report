@@ -6,12 +6,33 @@ import { identifyBrands, issueSearchDates } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
 import { createSiteServer } from '../scripts/serve.mjs';
 import { reconcileLaunchCalendar } from '../scripts/reconcile-launch-calendar.mjs';
+import { allowedDomains, candidatesFromResponse, discoveryJobs, registeredSourceForUrl } from '../scripts/openai-web-discovery.mjs';
 
 const record = (number, changes = {}) => ({ title: `测试车型${number}上市`, url: `https://example.com/news/${number}`, sourceName: '测试媒体', sourceId: 'test', evidenceStatus: 'media', publishedAt: '2026-09-09', contentParagraphs: ['这里是可追溯原文中的正文内容。'], brands: ['理想'], reviewReasons: [], ...changes });
 const now = new Date('2026-09-10T12:00:00+08:00');
 
 test('daily discovery searches both calendar dates covered by the 08:00 issue window', () => {
   assert.deepEqual(issueSearchDates(new Date('2026-09-14T08:17:00+08:00')), ['2026-09-13', '2026-09-14']);
+});
+test('web discovery runs one auditable job for every focus brand plus industry', () => {
+  const jobs = discoveryJobs(new Date('2026-09-14T08:17:00+08:00'));
+  assert.equal(jobs.length, 16);
+  assert.equal(new Set(jobs.filter(job => job.brand).map(job => job.brand)).size, 15);
+  assert.match(jobs.find(job => job.brand === '鸿蒙智行').prompt, /问界.*智界.*享界.*尊界.*尚界/u);
+  assert.match(jobs[0].prompt, /2026-09-13 08:00 至 2026-09-14 08:00/u);
+});
+test('web discovery accepts only registered sources and exposes complete consulted URLs', () => {
+  assert.ok(allowedDomains.includes('auto.sina.com.cn'));
+  assert.equal(registeredSourceForUrl('https://auto.sina.com.cn/newcar/a.html').id, 'sina-auto');
+  assert.equal(registeredSourceForUrl('https://unknown.example/a'), null);
+  const response = { output: [{ type: 'web_search_call', action: { sources: [
+    { url: 'https://auto.sina.com.cn/newcar/a.html', title: '可信原文' },
+    { url: 'https://unknown.example/a', title: '未知来源' }
+  ] } }] };
+  const items = candidatesFromResponse(response, { id: 'brand:理想', brand: '理想' });
+  assert.equal(items.length, 1);
+  assert.equal(items[0].sourceId, 'sina-auto');
+  assert.equal(items[0].discoveryBrand, '理想');
 });
 
 test('important news is unbounded and dates are sorted independently of insertion order', () => {

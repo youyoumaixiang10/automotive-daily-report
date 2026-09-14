@@ -6,6 +6,8 @@ const dir = new URL('../runtime/', import.meta.url);
 const sourceResults = ['candidates.json', 'discovery-candidates.json', 'search-candidates.json']
   .flatMap(file => readJson(new URL(file, dir), {}).sourceResults || []);
 const resultById = new Map(sourceResults.map(result => [result.sourceId, result]));
+const webSearch = readJson(new URL('openai-search-candidates.json', dir), { providerStatus: 'unavailable', queryRuns: [] });
+const webSearchByBrand = new Map((webSearch.queryRuns || []).filter(run => run.brand).map(run => [run.brand, run]));
 const healthy = result => result?.status === 'ok' || (result?.status === 'no-recent-updates' && result.listRead === true);
 const available = result => healthy(result) || result?.status === 'partial';
 
@@ -21,8 +23,9 @@ const brands = monitoringCoverage.map(coverage => {
   const discoveryReady = discoveryStatuses.some(available);
   return {
     brand: coverage.brand,
-    state: officialReady && socialComplete && discoveryReady ? 'complete' :
-      officialReady || socialStatuses.some(available) || discoveryReady ? 'partial' : 'unavailable',
+    webSearchStatus: webSearchByBrand.get(coverage.brand) || { status: 'pending', sourceCount: 0 },
+    state: officialReady && socialComplete && discoveryReady && webSearchByBrand.get(coverage.brand)?.status === 'completed' ? 'complete' :
+      officialReady || socialStatuses.some(available) || discoveryReady || webSearchByBrand.get(coverage.brand)?.status === 'completed' ? 'partial' : 'unavailable',
     officialStatuses, socialStatuses, discoveryStatuses
   };
 });
@@ -43,6 +46,7 @@ const audit = {
     policyHealthy: policy.some(healthy), unresolvedCandidates: reviewQueue.length
   },
   brands, media, policy,
+  webSearch: { providerStatus: webSearch.providerStatus, queryRuns: webSearch.queryRuns || [] },
   rule: '配置了来源不等于完成覆盖；只有官方渠道、官方自媒体和媒体发现层均达到健康状态，品牌才计为完整。'
 };
 writeJson(new URL('coverage-audit.json', dir), audit);

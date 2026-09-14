@@ -23,7 +23,7 @@ async function run(script) {
 try {
   // Each collector preserves earlier successful content. A failure in one layer does not erase another.
   const failures = [];
-  for (const script of ['collect-pilot.mjs', 'collect-discovery.mjs', 'collect-search-discovery.mjs']) {
+  for (const script of ['collect-pilot.mjs', 'collect-discovery.mjs', 'collect-openai-web-discovery.mjs', 'collect-search-discovery.mjs']) {
     try { await run(script); } catch (error) { failures.push(error.message); }
   }
   await run('enrich-content.mjs');
