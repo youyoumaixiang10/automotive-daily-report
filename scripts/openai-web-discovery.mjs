@@ -10,6 +10,12 @@ function sourceHosts(source) {
 
 export const allowedDomains = [...new Set(searchableSources.flatMap(sourceHosts))];
 
+const mediaSweepGroups = [
+  ['autohome-news', 'autohome-industry', 'dongchedi-news', 'yiche-news', 'pcauto-news', 'news18a-auto'],
+  ['sina-auto', 'ifeng-auto', 'sohu-auto', 'netease-auto', 'ithome-auto', 'xchuxing-auto'],
+  ['cailianpress-auto', 'nbd-auto', 'gasgoo-auto', 'caijing-auto', 'chezhitong-auto']
+];
+
 export function registeredSourceForUrl(value, brand = null) {
   try {
     const host = new URL(value).hostname.replace(/^www\./u, '');
@@ -29,7 +35,17 @@ export function discoveryJobs(now = new Date()) {
     aliases,
     prompt: `必须调用网页搜索。分别搜索 ${calendarDates} 两个日期与品牌“${brand}”及别名“${aliases.join('、')}”相关的中国汽车新闻。重点寻找：新车上市、预售、改款、年款、新增版本、申报、技术发布、价格与促销权益、营销传播、品牌活动、销量、交付、重大回应。搜索阶段只要具体文章或帖子的页面日期属于这两个自然日即可返回，精确的 ${window} 边界由后续原文校验处理。只返回品牌官网、官方自媒体或已限定可信媒体的具体内容页；车型页、频道页、搜索页和旧闻不要返回。每条写明事实型标题、原文 URL 和页面显示的发布时间，没有符合项才返回空数组。`
   }));
-  return [...brandJobs, {
+  const sweepJobs = mediaSweepGroups.map((sourceIds, index) => {
+    const sources = sourceIds.map(id => sourceRegistry.find(source => source.id === id)).filter(Boolean);
+    return {
+      id: `media-sweep:${index + 1}`,
+      brand: null,
+      aliases: [],
+      allowedDomains: [...new Set(sources.flatMap(sourceHosts))],
+      prompt: `必须调用网页搜索，逐一检查这些汽车媒体在 ${calendarDates} 发布的汽车新闻：${sources.map(source => source.name).join('、')}。覆盖全部汽车品牌的新车、改款、预售、价格权益、营销活动、销量交付、技术发布和企业重大动态，不要只寻找重点品牌。搜索阶段只要具体文章页面日期属于这两个自然日即可返回，精确的 ${window} 边界由后续原文校验处理。只返回具体文章页，不要返回首页、频道页、车型库、报价页或搜索页。每条写明基于正文概括的事实型标题、原文 URL 和页面显示的发布时间；尽可能完整返回，确认没有符合项才返回空数组。`
+    };
+  });
+  return [...brandJobs, ...sweepJobs, {
     id: 'industry', brand: null, aliases: [],
     prompt: `必须调用网页搜索。分别搜索 ${calendarDates} 两个日期发布的中国汽车行业重要信息，重点寻找国家政策与监管、行业协会数据、召回、重大产业事件、供应链、出口与关税、充换电和动力电池。搜索阶段只要具体文章页面日期属于这两个自然日即可返回，精确的 ${window} 边界由后续原文校验处理。只返回政府、行业机构或已限定可信媒体的具体内容页；频道页、搜索页、车型普通新闻和旧闻不要返回。每条写明事实型标题、原文 URL 和页面显示的发布时间，没有符合项才返回空数组。`
   }];
@@ -45,6 +61,20 @@ export function responseSources(response) {
     title: source.title || source.url_citation?.title || ''
   })).filter(source => source.url);
   return [...new Map(sources.map(source => [source.url, source])).values()];
+}
+
+export function isSpecificContentUrl(value, source) {
+  try {
+    const url = new URL(value);
+    const normalized = `${url.origin}${url.pathname}`.replace(/\/+$/u, '');
+    const sourceUrl = new URL(source.url);
+    const sourceBase = `${sourceUrl.origin}${sourceUrl.pathname}`.replace(/\/+$/u, '');
+    if (normalized === sourceBase) return false;
+    if (/\/(?:news|information|newscenter|zwgk|about|newbrand|new_car|cars|hangye)?\/?$/iu.test(url.pathname)) return false;
+    if (/\/(?:search|query|channel|list|index)(?:[/.]|$)/iu.test(url.pathname)) return false;
+    if (source.sourceType === 'official-social' && /^\/(?:u\/)?\d+\/?$/u.test(url.pathname)) return false;
+    return /\d{3,}|\.(?:s?html?|php)$/iu.test(`${url.pathname}${url.search}`);
+  } catch { return false; }
 }
 
 export function structuredArticles(response) {
@@ -65,9 +95,12 @@ export function hasStructuredOutput(response) {
 
 export function candidatesFromResponse(response, job) {
   const structured = structuredArticles(response);
-  const discovered = hasStructuredOutput(response) ? structured.map(item => ({
+  const discovered = structured.length ? structured.map(item => ({
     url: item.url, title: item.title, publishedAt: item.published_at
-  })) : responseSources(response);
+  })) : responseSources(response).filter(item => {
+    const source = registeredSourceForUrl(item.url, job.brand);
+    return source && isSpecificContentUrl(item.url, source);
+  });
   return discovered.flatMap(item => {
     const source = registeredSourceForUrl(item.url, job.brand);
     if (!source) return [];
@@ -97,7 +130,7 @@ export async function searchJob(job, options = {}) {
       reasoning: { effort: 'low' },
       tools: [{
         type: 'web_search',
-        filters: { allowed_domains: allowedDomains },
+        filters: { allowed_domains: job.allowedDomains || allowedDomains },
         user_location: { type: 'approximate', country: 'CN', city: 'Shanghai', region: 'Shanghai' },
         search_context_size: 'medium'
       }],
