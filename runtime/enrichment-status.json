@@ -1,6 +1,12 @@
 {
-  "completedAt": "2026-09-14T03:26:52.331Z",
-  "fetched": 37,
-  "cached": 366,
-  "failures": []
+  "completedAt": "2026-09-14T04:07:41.570Z",
+  "fetched": 63,
+  "cached": 363,
+  "failures": [
+    {
+      "sourceId": "avatr-news",
+      "url": "https://security.avatr.com/",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    }
+  ]
 }

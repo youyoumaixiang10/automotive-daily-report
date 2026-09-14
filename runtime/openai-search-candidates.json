@@ -1,0 +1,423 @@
+{
+  "collectedAt": "2026-09-14T04:05:56.527Z",
+  "targetDates": [
+    "2026-09-13",
+    "2026-09-14"
+  ],
+  "providerStatus": "completed",
+  "model": "gpt-5-mini",
+  "queryRuns": [
+    {
+      "id": "brand:鸿蒙智行",
+      "brand": "鸿蒙智行",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_055c03306a0eafc9016aa77269506087d0866e93802ec4f0b0"
+    },
+    {
+      "id": "brand:比亚迪",
+      "brand": "比亚迪",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_08dd3aa380c7aedb016aa7726c3f5887d0a0ef12323caf5af5"
+    },
+    {
+      "id": "brand:零跑",
+      "brand": "零跑",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0540658d7d1df881016aa7726f83f487d08e69b2951eaeceef"
+    },
+    {
+      "id": "brand:蔚来",
+      "brand": "蔚来",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0cb051d3ddd7e968016aa77272d40487d08f0b28119b1af633"
+    },
+    {
+      "id": "brand:乐道",
+      "brand": "乐道",
+      "status": "completed",
+      "sourceCount": 15,
+      "responseId": "resp_0ba5a0396c14ffc0016aa77276ad2487d08b88fbb3d6365b16"
+    },
+    {
+      "id": "brand:理想",
+      "brand": "理想",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0567898e18bf2f84016aa7727bd51887d097575e92a17d33a5"
+    },
+    {
+      "id": "brand:极氪",
+      "brand": "极氪",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_05ee9cf2bfc627e9016aa7727f7be087d0b135fbec66e2e113"
+    },
+    {
+      "id": "brand:小米",
+      "brand": "小米",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0be06bdea7093183016aa772830a7487d0ba96e67354887731"
+    },
+    {
+      "id": "brand:岚图",
+      "brand": "岚图",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0d3e481ee1b59d69016aa772876c7887d0a7edfa6ff47c2da6"
+    },
+    {
+      "id": "brand:阿维塔",
+      "brand": "阿维塔",
+      "status": "completed",
+      "sourceCount": 12,
+      "responseId": "resp_0c01003a1166e1bc016aa7728b64dc87d0a1308bf17234e917"
+    },
+    {
+      "id": "brand:深蓝",
+      "brand": "深蓝",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0b359a5d4e4e36a5016aa7729026c087d098271e8e1e6e0c5a"
+    },
+    {
+      "id": "brand:腾势",
+      "brand": "腾势",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0ac5ea746d60eb1a016aa77294ba1c87d090a322b08c59529f"
+    },
+    {
+      "id": "brand:吉利银河",
+      "brand": "吉利银河",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_0aac056f85fe3720016aa77298273487d0a606eb208bc24fce"
+    },
+    {
+      "id": "brand:特斯拉",
+      "brand": "特斯拉",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_071c9d4b43410bd7016aa7729b4d1087d08f721508f8659642"
+    },
+    {
+      "id": "brand:启源",
+      "brand": "启源",
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_06aa910b2fdd3d32016aa7729e16b887d0b27e7b6259a3c552"
+    },
+    {
+      "id": "industry",
+      "brand": null,
+      "status": "completed",
+      "sourceCount": 0,
+      "responseId": "resp_081627a553443965016aa772a2017c87d0ac5de40e4b776d8b"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/l60",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260911001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/power",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260731001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260529001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/testimonials/p1",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20260428001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/l90",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L90-user-manual-20250815.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/videos",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/map?channel=officialMap",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/news/20240831001",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://www.onvo.cn/policies/community-management-practices",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60-User-Manual-20251230.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道相关信息",
+      "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60-User-Manual-20251028.pdf",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:乐道",
+      "discoveryBrand": "乐道"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/news?id=c2b179716da2ba80ccf55bd019de050c",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/newscenter",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/protocol?type=10181002",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/news?newsChId=75c67c1bcfcac8a52d29bf9a6197ca5f&newsEngId=",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/protocol?type=10181048",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://vision-car.avatr.com/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/en/12",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/news?newsChId=2bde764450e9539d3a9710d6e9af5349&newsEngId=",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://security.avatr.com/",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/news?newsChId=812d41cefb736e7c39fbb47bf3d60869&newsEngId=",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://m.avatr.com/download",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔相关信息",
+      "url": "https://www.avatr.com/en/news?newsChId=7d46ad1ab2e29998094e09d77d07f26c&newsEngId=",
+      "publishedAt": null,
+      "discoveryProvider": "openai-web-search",
+      "discoveryQuery": "brand:阿维塔",
+      "discoveryBrand": "阿维塔"
+    }
+  ],
+  "publicationRule": "网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。"
+}

@@ -48,10 +48,13 @@
     "sourceId": "avatr-news",
     "sourceName": "阿维塔新闻中心",
     "sourceType": "official",
-    "title": "阿维塔9系亮相工信部公告，超千匹马力、转弯半径4米级",
-    "publishedAt": "2026-09-08",
+    "title": "阿维塔相关信息",
     "url": "https://www.avatr.com/news?newsChId=75c67c1bcfcac8a52d29bf9a6197ca5f&newsEngId=",
-    "publishedTime": "2026-09-08",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
     "contentParagraphs": [
       "2026年9月8日，阿维塔科技旗下9系高端旗舰SUV，亮相工信部《道路机动车辆生产企业及产品公告》（第411批）目录，进入产品公示阶段。新车作为阿维塔与华为乾崑联合设计的首款高端旗舰SUV，汇聚了双方在原创设计、智能科技、三电技术等领域最领先成果，将成为中国大型豪华SUV市场全新标杆。",
       "公告信息显示，阿维塔9系长5285mm、宽2025mm、高1810mm，轴距3150mm，尺寸同级领先，可满足用户的多场景出行需求。",
@@ -66,10 +69,12 @@
     "brands": [
       "阿维塔"
     ],
-    "industry": true,
+    "industry": false,
     "evidenceStatus": "official",
-    "reviewReasons": [],
-    "fetchedAt": "2026-09-10T10:29:39.896Z"
+    "reviewReasons": [
+      "缺少原文发布日期"
+    ],
+    "fetchedAt": "2026-09-14T04:06:33.652Z"
   },
   "https://www.lixiang.com/news/186.html": {
     "sourceId": "li-auto-news",
@@ -249,21 +254,24 @@
       "列表与原文发布日期不一致",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:16:52.406Z"
+    "fetchedAt": "2026-09-14T04:06:34.743Z"
   },
   "https://www.onvo.cn/news/20260731001": {
     "sourceId": "onvo-about",
     "sourceName": "乐道最新动态",
     "sourceType": "official",
     "title": "乐道L90上市一周年累计交付超6万台，稳居30万级纯电大型SUV销冠",
-    "publishedAt": "2026-07-31",
     "url": "https://www.onvo.cn/news/20260731001",
+    "publishedAt": "2026-07-31",
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
     "publishedTime": "2026-07-31",
     "contentParagraphs": [
       "2026年7月31日，乐道L90上市一周年，累计交付突破60,000台，稳居30万级纯电大型SUV销冠。在其带动下，纯电大三排SUV销量已连续10个月超越增程，销量已达增程的8倍，引领纯电大三排SUV加速进入黄金时代。",
       "今年4月，2026款乐道L90率先搭载神玑NX9031芯片、蔚来世界模型、SkyOS·天枢系统，与蔚来ES9共享旗舰智能，成为30万级别唯一集齐顶尖智能科技三大件的智能旗舰。",
       "乐道L90上市至今，一直都是轻量化水平最好、能耗表现最出色的大三排SUV。81.5%同级最高空间利用率、累计开启超1600万次的240L电动前备舱、中汽中心大型SUV唯一“五星大满贯”、3分钟换电全程不下车等产品实力，让乐道L90实现空间、安全与补能的完美体验，打消家庭用户对纯电出行的顾虑。乐道L90软件体验也持续迭代，已累计推出10次版本更新，新增功能164个、147项优化。",
-      "上市一周年之际，乐道L90后备箱30L家庭大冰柜正式开启预售，并将于8月31日开启交付。未来，乐道将继续以用户需求为中心，持续升级产品与服务，为更多家庭打造更智能、更舒适、更安心的高品质出行体验。"
+      "上市一周年之际，乐道L90后备箱30L家庭大冰柜正式开启预售，并将于8月31日开启交付。 未来，乐道将继续以用户需求为中心，持续升级产品与服务，为更多家庭打造更智能、更舒适、更安心的高品质出行体验。"
     ],
     "author": "",
     "mediaOriginal": false,
@@ -275,7 +283,7 @@
     "industry": false,
     "evidenceStatus": "official",
     "reviewReasons": [],
-    "fetchedAt": "2026-09-10T10:29:40.476Z"
+    "fetchedAt": "2026-09-14T04:06:32.882Z"
   },
   "https://www.autohome.com.cn/news/202609/1317082.html": {
     "sourceId": "autohome-news",
@@ -3597,7 +3605,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:16:51.213Z"
+    "fetchedAt": "2026-09-14T04:06:36.699Z"
   },
   "https://auto.sina.com.cn/newcar/x/2025-09-19/detail-infqxmrf3855262.shtml": {
     "sourceId": "sina-auto",
@@ -4001,7 +4009,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:16:51.094Z"
+    "fetchedAt": "2026-09-14T04:06:36.902Z"
   },
   "https://auto.gasgoo.com/Hot/35": {
     "sourceId": "gasgoo-auto",
@@ -4048,7 +4056,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:06.261Z"
+    "fetchedAt": "2026-09-14T04:06:36.449Z"
   },
   "https://finance.sina.com.cn/roll/2026-09-10/doc-inirihnw5394467.shtml": {
     "sourceId": "sina-auto",
@@ -5682,7 +5690,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:16:59.638Z"
+    "fetchedAt": "2026-09-14T04:06:42.782Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-05-09/doc-inhxhzaz1333283.shtml": {
     "sourceId": "sina-auto",
@@ -6299,7 +6307,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:07.669Z"
+    "fetchedAt": "2026-09-14T04:06:42.933Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirihnw5381545.shtml": {
     "sourceId": "sina-auto",
@@ -10427,7 +10435,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:13.135Z"
+    "fetchedAt": "2026-09-14T04:06:42.706Z"
   },
   "https://www.sina.cn/gc/article/niqhscz8358675.html": {
     "sourceId": "sina-auto",
@@ -10487,7 +10495,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:21.554Z"
+    "fetchedAt": "2026-09-14T04:06:46.725Z"
   },
   "https://k.sina.cn/article_7857141524_1d452771401902vg9q.html": {
     "sourceId": "sina-auto",
@@ -10511,7 +10519,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:15.991Z"
+    "fetchedAt": "2026-09-14T04:06:45.740Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirinuu5375654.shtml": {
     "sourceId": "sina-auto",
@@ -11067,7 +11075,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:21.660Z"
+    "fetchedAt": "2026-09-14T04:06:46.312Z"
   },
   "https://auto.caijing.com.cn/2026/0909/5182540.shtml": {
     "sourceId": "caijing-auto",
@@ -11297,7 +11305,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:29.605Z"
+    "fetchedAt": "2026-09-14T04:06:48.692Z"
   },
   "https://k.sina.cn/article_7880068271_1d5b04caf06802hxs6.html": {
     "sourceId": "sina-auto",
@@ -11321,7 +11329,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:25.822Z"
+    "fetchedAt": "2026-09-14T04:06:49.886Z"
   },
   "https://auto.gasgoo.com/new-cars/C-107": {
     "sourceId": "gasgoo-auto",
@@ -11343,7 +11351,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:31.117Z"
+    "fetchedAt": "2026-09-14T04:06:48.755Z"
   },
   "https://k.sina.cn/article_7879848900_1d5acf3c401902qp2e.html": {
     "sourceId": "sina-auto",
@@ -11367,7 +11375,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:42.783Z"
+    "fetchedAt": "2026-09-14T04:06:51.508Z"
   },
   "https://k.sina.cn/article_7880068201_1d5b04c69068023enk.html": {
     "sourceId": "sina-auto",
@@ -11391,7 +11399,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:45.032Z"
+    "fetchedAt": "2026-09-14T04:06:51.674Z"
   },
   "https://auto.sina.com.cn/2026-09-10/detail-inirchmik3337579.d.html?vt=4": {
     "sourceId": "sina-auto",
@@ -11415,7 +11423,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:42.344Z"
+    "fetchedAt": "2026-09-14T04:06:51.997Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexfw8937843.shtml": {
     "sourceId": "sina-auto",
@@ -17244,8 +17252,11 @@
     "sourceName": "乐道最新动态",
     "sourceType": "official",
     "title": "乐道L80“星光设计套装” 9月11日正式发售",
-    "publishedAt": "2026-09-11",
     "url": "https://www.onvo.cn/news/20260911001",
+    "publishedAt": "2026-09-11",
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
     "publishedTime": "2026-09-11",
     "contentParagraphs": [
       "9月11日，乐道L80“星光设计套装”正式发售，官方售价16,800元，限时惊喜价10,080元， Pro、Max+、Ultra+版型均可选配。目前150辆展车已陆续抵达全国门店，同步开启用户品鉴。",
@@ -17264,7 +17275,7 @@
     "industry": false,
     "evidenceStatus": "official",
     "reviewReasons": [],
-    "fetchedAt": "2026-09-11T07:53:46.946Z"
+    "fetchedAt": "2026-09-14T04:06:34.436Z"
   },
   "https://www.autohome.com.cn/news/202609/1317108.html": {
     "sourceId": "autohome-news",
@@ -17873,7 +17884,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:48.652Z"
+    "fetchedAt": "2026-09-14T04:06:53.595Z"
   },
   "https://finance.sina.com.cn/roll/2026-01-20/doc-inhhxkqx7250261.shtml": {
     "sourceId": "sina-auto",
@@ -19487,7 +19498,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:48.340Z"
+    "fetchedAt": "2026-09-14T04:06:53.974Z"
   },
   "https://k.sina.cn/article_7879776496_1d5abd8f0068018wbu.html": {
     "sourceId": "sina-auto",
@@ -19511,7 +19522,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:49.410Z"
+    "fetchedAt": "2026-09-14T04:06:54.656Z"
   },
   "https://k.sina.cn/article_7857141524_1d452771401903f0gq.html": {
     "sourceId": "sina-auto",
@@ -19535,7 +19546,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:56.498Z"
+    "fetchedAt": "2026-09-14T04:06:56.442Z"
   },
   "https://www.ithome.com/0/875/139.htm": {
     "sourceId": "ithome-auto",
@@ -19877,7 +19888,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:04.527Z"
+    "fetchedAt": "2026-09-14T04:06:58.301Z"
   },
   "https://k.sina.cn/article_7857141524_1d45277140190252ls.html": {
     "sourceId": "sina-auto",
@@ -19900,7 +19911,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:17:55.593Z"
+    "fetchedAt": "2026-09-14T04:06:59.597Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsk5762442.shtml": {
     "sourceId": "sina-auto",
@@ -21667,7 +21678,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:04.665Z"
+    "fetchedAt": "2026-09-14T04:07:02.195Z"
   },
   "https://k.sina.cn/article_7880068201_1d5b04c69068026svs.html": {
     "sourceId": "sina-auto",
@@ -21691,7 +21702,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:09.417Z"
+    "fetchedAt": "2026-09-14T04:07:00.849Z"
   },
   "https://k.sina.cn/article_7879848955_1d5acf3fb06803awji.html": {
     "sourceId": "sina-auto",
@@ -21715,7 +21726,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:12.979Z"
+    "fetchedAt": "2026-09-14T04:07:02.575Z"
   },
   "https://auto.ifeng.com/c/8vrFtjIUzmS": {
     "sourceId": "ifeng-auto",
@@ -22440,7 +22451,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:17.765Z"
+    "fetchedAt": "2026-09-14T04:07:03.534Z"
   },
   "https://k.sina.cn/article_7879996096_1d5af32c006801kule.html": {
     "sourceId": "sina-auto",
@@ -22464,7 +22475,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:24.683Z"
+    "fetchedAt": "2026-09-14T04:07:05.177Z"
   },
   "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihi6880029.shtml": {
     "sourceId": "sina-auto",
@@ -22475,19 +22486,795 @@
     "publishedAt": "2026-01-21",
     "discoveryQuery": "2026年9月14日 理想 汽车",
     "publishedTime": "2026-01-21T18:23:53+08:00",
-    "contentParagraphs": [],
+    "contentParagraphs": [
+      "理想汽车（Li Auto）2026年的新车发布计划已逐渐明朗，主要基于CEO李想在2026年初的全员信、公司官方公告以及多家媒体和证券研究报告（如东吴证券(8.440, 0.04, 0.48%)、国信证券(9.910, -0.07, -0.70%)、广发证券(20.640, -0.26, -1.24%)等）的曝光。",
+      "公司将聚焦“纯电+增程”双线战略，2026年被视为“纯电元年”，计划推出至少4-6款新车或改款车型，强调技术自研（如三电系统、M100芯片、800V平台）和产品迭代，目标是重回增程领先地位，并加速纯电布局。",
+      "全年销量目标预计冲击50-60万辆，覆盖20-50万+主流区间。",
+      "产品策略：增程车型进行代际级迭代（大改款），纯电车型加速落地，重点补齐高端纯电矩阵。L系列（增程）将精简SKU（如可能砍掉L8），新增大尺寸车型；纯电序列（i系列+MEGA）覆盖SUV和MPV。",
+      "技术亮点：全系升级800V高压平台、碳化硅（SiC）功率芯片、自研M100芯片（算力超英伟达Thor三倍，已路试）、电池革命（充电10分钟续航400km）、VLA视觉语言模型、AI眼镜Livis集成等。智驾系统OTA迭代到8.1版本，高阶智驾覆盖更多场景。",
+      "基础设施：2026年新增超充站超4000座，覆盖90%国家级高速和1-3线城市核心区；海外扩张到中亚、非洲等地。",
+      "市场定位：应对问界、蔚来、腾势等竞争，通过“技术闭环”和“价值创造”提升竞争力，预计价格更亲民（部分车型或降价），但高端旗舰坚挺。",
+      "2026年已知/预计新车清单及时间表",
+      "以下基于最新曝光和官方透露，按类型和时间排序（部分为预测，可能微调）：",
+      "1. 理想L9（全新增程旗舰SUV）",
+      "定位：中大型六座增程SUV，现款迭代，车长超5.3米（现款5.218米），轴距超3.1米，加长版设计。",
+      "亮点：搭载自研三电系统、M100芯片、后轮转向、底盘优化、电池容量提升（续航超800km）、智驾升级。价格预计40-45万元。",
+      "时间表：最早落地，2026年上半年（春季）正式发布/上市，已在北京顺义路测。",
+      "2. 理想i9（纯电旗舰SUV）",
+      "定位：全尺寸纯电SUV，40万+级别，车长超5.2米，轴距超3米，主打高端纯电市场。",
+      "亮点：800V平台、充电10分钟续航400km、峰值充电功率520kW、高阶智驾、空间阔绰（六/七座可选）。",
+      "时间表：2026年上半年正式上市，已曝光谍照。",
+      "3. 理想L9L（全新增程大尺寸SUV）",
+      "定位：超大型增程SUV，车长5.4-5.5米，直击问界M9L、蔚来ES9、腾势N9L等竞品。",
+      "亮点：填补L9以上空白，强调空间和豪华，搭载最新技术栈。价格预计45-50万元。",
+      "时间表：2026年内推出，可能年中或下半年。",
+      "理想L6/L7：2026年大改款，升级电池（容量超100kWh）、充电速度、油耗降低，自研芯片集成。L8可能被砍，以精简阵容。时间表：跟随L9节奏，上半年起陆续发布。",
+      "2026年理想将迎来“产品大年”，以纯电车型为主力（至少4款），增程迭代为辅，重塑高端矩阵。i9和L9作为双旗舰，有望成为爆款，助力公司从“产品定义者”转向“技术定义者”。挑战在于纯电能否复制增程成功，以及市场竞争加剧（如小米YU9、鸿蒙智行新车）。如果纯电销量爆发，公司全年盈利可期；反之，需警惕库存压力。",
+      "新浪财经声明：此消息系转载自合作媒体，新浪财经登载此文出于传递更多信息之目的，文章内容仅供参考，不构成投资建议。",
+      "24小时滚动播报最新的财经资讯和视频，更多粉丝福利扫描二维码关注（sinafinance）",
+      "新浪简介|广告服务|About Sina 联系我们|招聘信息|通行证注册 产品答疑|网站律师|SINA English",
+      "Copyright © 1996-2026 SINA Corporation",
+      "All Rights Reserved 新浪公司 版权所有"
+    ],
     "author": "",
     "mediaOriginal": false,
-    "linkedSources": [],
+    "linkedSources": [
+      {
+        "title": "东吴证券",
+        "url": "https://finance.sina.com.cn/realstock/company/sh601555/nc.shtml"
+      },
+      {
+        "title": "国信证券",
+        "url": "https://finance.sina.com.cn/realstock/company/sz002736/nc.shtml"
+      },
+      {
+        "title": "广发证券",
+        "url": "https://finance.sina.com.cn/realstock/company/sz000776/nc.shtml"
+      },
+      {
+        "title": "理想汽车",
+        "url": "http://tags.finance.sina.com.cn/%E7%90%86%E6%83%B3%E6%B1%BD%E8%BD%A6"
+      },
+      {
+        "title": "新车发布",
+        "url": "http://tags.finance.sina.com.cn/%E6%96%B0%E8%BD%A6%E5%8F%91%E5%B8%83"
+      },
+      {
+        "title": "大题材的引爆点",
+        "url": "https://live.finance.sina.com.cn/bozhu/1658605145"
+      },
+      {
+        "title": "科技仍是26年主线",
+        "url": "https://live.finance.sina.com.cn/bozhu/2060480585"
+      },
+      {
+        "title": "26年继续牛市格局",
+        "url": "https://live.finance.sina.com.cn/bozhu/2342117515"
+      },
+      {
+        "title": "财经头条作者库",
+        "url": "https://finance.sina.com.cn/cj/authorlist.shtml?fr=pc_finarticle"
+      },
+      {
+        "title": "投资研报",
+        "url": "https://daxue.sina.cn/category/130"
+      },
+      {
+        "title": "股市直播",
+        "url": "http://live.finance.sina.com.cn/"
+      },
+      {
+        "title": "最近访问",
+        "url": "http://finance.sina.com.cn/realstock/company/sh000001/nc.shtml"
+      },
+      {
+        "title": "我的自选",
+        "url": "http://watchlist.finance.sina.com.cn/portfolio/view/main.php"
+      },
+      {
+        "title": "三峡能源",
+        "url": "http://finance.sina.com.cn/realstock/company/sh600905/nc.shtml"
+      },
+      {
+        "title": "京东方Ａ",
+        "url": "http://finance.sina.com.cn/realstock/company/sz000725/nc.shtml"
+      },
+      {
+        "title": "TCL科技",
+        "url": "http://finance.sina.com.cn/realstock/company/sz000100/nc.shtml"
+      },
+      {
+        "title": "中远海控",
+        "url": "http://finance.sina.com.cn/realstock/company/sh601919/nc.shtml"
+      },
+      {
+        "title": "格力电器",
+        "url": "http://finance.sina.com.cn/realstock/company/sz000651/nc.shtml"
+      },
+      {
+        "title": "牛弹琴：特朗普和马克龙，直接开干了",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihf8394101.shtml"
+      },
+      {
+        "title": "一觉醒来，U23国足再创历史，闯入决赛！",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihc5559067.shtml"
+      },
+      {
+        "title": "6G、未来产业......工业和信息化部释放重要信号",
+        "url": "https://finance.sina.com.cn/china/2026-01-21/doc-inhhztvx5447192.shtml"
+      },
+      {
+        "title": "岛内怒了！“5000亿美元可盖275栋台北101”",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihc5576932.shtml"
+      },
+      {
+        "title": "中方是否会加入所谓的“和平委员会”？外交部回应",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhiaemv8124423.shtml"
+      },
+      {
+        "title": "马克龙喊话中国对欧增加投资，中方回应",
+        "url": "https://finance.sina.com.cn/china/2026-01-21/doc-inhiaemy3516375.shtml"
+      },
+      {
+        "title": "美媒：美国在中东地区军事集结继续，多架战机、加油机、运输机飞往该地区",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzycv5412861.shtml"
+      },
+      {
+        "title": "“父债子偿，天经地义”？父亲去世留30万元贷款，女儿被判不用还！法院：继承人放弃继承遗产，可以不负清偿责任",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzppx6511630.shtml"
+      },
+      {
+        "title": "特朗普连番羞辱欧洲，“中俄只是‘妖怪’，北约和联合国是‘真威胁’”",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzpqf6784480.shtml"
+      },
+      {
+        "title": "“食堂承包商举报校领导2年拿走300多万现金”，官方再通报",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzpqc8367634.shtml"
+      },
+      {
+        "title": "跨界并购！牛股尾盘，封死涨停！A股又一信号闪现",
+        "url": "https://finance.sina.com.cn/stock/s/2026-01-21/doc-inhhzihc5575588.shtml"
+      },
+      {
+        "title": "腾讯掉队了？",
+        "url": "https://finance.sina.com.cn/stock/hkstock/2026-01-21/doc-inhhzifz6624920.shtml"
+      },
+      {
+        "title": "操盘必读：影响股市利好或利空消息_2026年1月21日_财经新闻",
+        "url": "https://finance.sina.com.cn/stock/cpbd/2026-01-21/doc-inhhzpqf6768088.shtml"
+      },
+      {
+        "title": "格陵兰风起云涌、日本债惨遭抛售 华尔街的宁静开局不堪一击",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-21/doc-inhhzayi8485401.shtml"
+      },
+      {
+        "title": "逾500家A股公司预告“成绩单”百余家去年净利或翻倍",
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-01-21/doc-inhhywsp7090218.shtml"
+      },
+      {
+        "title": "投资铜条火了！个人投资者买入“难变现”",
+        "url": "https://finance.sina.com.cn/stock/roll/2026-01-21/doc-inhhzpqc8337043.shtml"
+      },
+      {
+        "title": "财经早报：国家发改委研究扩大内需战略实施方案，美国”股债汇“三杀来袭！丨2026年1月21日",
+        "url": "https://finance.sina.com.cn/stock/y/2026-01-21/doc-inhhzihc5574570.shtml"
+      },
+      {
+        "title": "达利欧警告：特朗普激进政策可能引发全球资本战争",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-21/doc-inhhzihi6887190.shtml"
+      },
+      {
+        "title": "突发！封死跌停，1177万手卖单！",
+        "url": "https://finance.sina.com.cn/stock/roll/2026-01-21/doc-inhhztvv6570860.shtml"
+      },
+      {
+        "title": "1月21日收盘：美股收跌道指重挫870点 特朗普关税威胁引燃避险交易",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-21/doc-inhhzayf5668005.shtml"
+      },
+      {
+        "title": "国际金价首次涨破4800美元，金饰克价逼近1500元",
+        "url": "https://finance.sina.com.cn/jjxw/2026-01-21/doc-inhhzppx6600088.shtml"
+      },
+      {
+        "title": "低利率环境下理财行业竞争加剧 多家银行和理财公司掀起降费潮",
+        "url": "https://finance.sina.com.cn/jjxw/2026-01-21/doc-inhhzifz6595581.shtml"
+      },
+      {
+        "title": "谁在用“2000元”买“400元”？",
+        "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-01-20/doc-inhhzppz5505699.shtml"
+      },
+      {
+        "title": "投资铜条火了 目前尚无明确回收路径 投资者须规避哪些风险",
+        "url": "https://finance.sina.com.cn/jjxw/2026-01-21/doc-inhhzihc5567170.shtml"
+      },
+      {
+        "title": "最新观点出炉 永赢基金旗下产品披露四季报",
+        "url": "https://finance.sina.com.cn/money/2026-01-21/doc-inhhztvz8282708.shtml"
+      },
+      {
+        "title": "马年贺岁纪念币钞首日兑换火爆，银行建议错峰兑换",
+        "url": "https://finance.sina.com.cn/jjxw/2026-01-20/doc-inhhyfup7081156.shtml"
+      },
+      {
+        "title": "持续上涨！现货黄金站上4800美元",
+        "url": "https://finance.sina.com.cn/money/lcxqs/2026-01-21/doc-inhhzycx8245595.shtml"
+      },
+      {
+        "title": "关文杰履新北京银行掌门！深厚财务背景、多市属金融机构经历加成",
+        "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-01-21/doc-inhhzyct6443893.shtml"
+      },
+      {
+        "title": "首份上市城商行2025年业绩快报出炉！宁波银行归母净利润同比增超8%，中期分红19.81亿",
+        "url": "https://finance.sina.com.cn/jjxw/2026-01-21/doc-inhhzycv5404839.shtml"
+      },
+      {
+        "title": "“稳健之上加点惊喜” “固收+”理财探路记",
+        "url": "https://finance.sina.com.cn/jjxw/2026-01-21/doc-inhhzihc5571460.shtml"
+      },
+      {
+        "title": "7X24小时",
+        "url": "http://live.sina.com.cn/zt/f/v/finance/globalnews1"
+      },
+      {
+        "title": "徐小明",
+        "url": "http://blog.sina.com.cn/u/1300871220"
+      },
+      {
+        "title": "凯恩斯",
+        "url": "http://blog.sina.com.cn/u/1284139322"
+      },
+      {
+        "title": "占豪",
+        "url": "http://blog.sina.com.cn/u/1298535315"
+      },
+      {
+        "title": "花荣",
+        "url": "http://blog.sina.com.cn/u/1282871591"
+      },
+      {
+        "title": "金鼎",
+        "url": "http://blog.sina.com.cn/s/articlelist_1394379401_0_1.html"
+      },
+      {
+        "title": "wu2198",
+        "url": "http://blog.sina.com.cn/u/1216826604"
+      },
+      {
+        "title": "丁大卫",
+        "url": "http://blog.sina.com.cn/s/articlelist_1307309734_0_1.html"
+      },
+      {
+        "title": "易宪容",
+        "url": "http://blog.sina.com.cn/u/2377371197"
+      },
+      {
+        "title": "叶荣添",
+        "url": "http://blog.sina.com.cn/u/1364334665"
+      },
+      {
+        "title": "沙黾农",
+        "url": "http://blog.sina.com.cn/u/1279884602"
+      },
+      {
+        "title": "冯矿伟",
+        "url": "http://blog.sina.com.cn/u/1504965870"
+      },
+      {
+        "title": "趋势之友",
+        "url": "http://blog.sina.com.cn/s/articlelist_1638714710_0_1.html"
+      },
+      {
+        "title": "空空道人",
+        "url": "http://blog.sina.com.cn/u/1236135807"
+      },
+      {
+        "title": "股市风云",
+        "url": "http://blog.sina.com.cn/u/1285707277"
+      },
+      {
+        "title": "股海光头",
+        "url": "http://blog.sina.com.cn/u/2949913420"
+      },
+      {
+        "title": "杨伟民",
+        "url": "https://finance.sina.com.cn/zl/author.d.html?uid=5120240476"
+      },
+      {
+        "title": "张瑜",
+        "url": "http://zhuanlan.sina.com.cn/author/zhangyu/index.shtml"
+      },
+      {
+        "title": "四大对冲力量在增强",
+        "url": "http://finance.sina.com.cn/zl/china/2026-01-21/zl-inhhztvv6523999.shtml"
+      },
+      {
+        "title": "巴曙松",
+        "url": "https://finance.sina.com.cn/roll/2026-01-21/doc-inhhzihi6880029.shtml"
+      },
+      {
+        "title": "2026年稳投资政策或加码",
+        "url": "http://finance.sina.com.cn/zl/china/2026-01-21/zl-inhhztvx5476468.shtml"
+      },
+      {
+        "title": "中国经济的新亮点和新逻辑",
+        "url": "http://finance.sina.com.cn/zl/china/2026-01-21/zl-inhhzppx6534440.shtml"
+      },
+      {
+        "title": "历史纵深处锚定金融强国坐标",
+        "url": "http://finance.sina.com.cn/zl/bank/2026-01-21/zl-inhhzppx6525576.shtml"
+      },
+      {
+        "title": "程实",
+        "url": "http://zhuanlan.sina.com.cn/author/chengshi/index.shtml"
+      },
+      {
+        "title": "AI让传统经济信号失灵",
+        "url": "http://finance.sina.com.cn/zl/china/2026-01-21/zl-inhhzppz5480797.shtml"
+      },
+      {
+        "title": "交易提示",
+        "url": "http://finance.sina.com.cn/stock/jyts/"
+      },
+      {
+        "title": "操盘必读",
+        "url": "http://finance.sina.com.cn/stock/cpbd/"
+      },
+      {
+        "title": "证券报",
+        "url": "http://finance.sina.com.cn/focus/zqbjh/"
+      },
+      {
+        "title": "最新公告",
+        "url": "http://vip.stock.finance.sina.com.cn/corp/view/vCB_BulletinGather.php?stock_str=&gg_date=&ftype=0"
+      },
+      {
+        "title": "限售解禁",
+        "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/xsjj/index.phtml"
+      },
+      {
+        "title": "数据中心",
+        "url": "http://finance.sina.com.cn/data/"
+      },
+      {
+        "title": "条件选股",
+        "url": "https://touzi.sina.com.cn/public/choose"
+      },
+      {
+        "title": "券商评级",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vIR_RatingNewest/index.phtml"
+      },
+      {
+        "title": "股价预测",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vIR_SumPrice/index.phtml"
+      },
+      {
+        "title": "板块行情",
+        "url": "http://finance.sina.com.cn/stock/sl/"
+      },
+      {
+        "title": "千股千评",
+        "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/qgqp/index.phtml?t=sh_a"
+      },
+      {
+        "title": "个股诊断",
+        "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vDYData/kind/znzd/index.phtml"
+      },
+      {
+        "title": "大宗交易",
+        "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/dzjy/index.phtml"
+      },
+      {
+        "title": "财报查询",
+        "url": "http://finance.sina.com.cn/realstock/income_statement/2017-03-31/issued_pdate_de_1.html"
+      },
+      {
+        "title": "业绩预告",
+        "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vFinanceAnalyze/kind/performance/index.phtml"
+      },
+      {
+        "title": "ETF期权",
+        "url": "http://stock.finance.sina.com.cn/option/quotes.html"
+      },
+      {
+        "title": "类余额宝",
+        "url": "http://finance.sina.com.cn/fund/box/"
+      },
+      {
+        "title": "基金净值",
+        "url": "http://vip.stock.finance.sina.com.cn/fund_center/index.html#jzkfall"
+      },
+      {
+        "title": "基金对比",
+        "url": "http://finance.sina.com.cn/money/fund/compare/"
+      },
+      {
+        "title": "基金排名",
+        "url": "http://vip.stock.finance.sina.com.cn/fund_center/index.html#hbphall"
+      },
+      {
+        "title": "商品行情",
+        "url": "http://finance.sina.com.cn/money/future/hangqing.shtml"
+      },
+      {
+        "title": "外盘期货",
+        "url": "http://finance.sina.com.cn/money/future/hf.html"
+      },
+      {
+        "title": "商品持仓",
+        "url": "http://vip.stock.finance.sina.com.cn/q/view/vFutures_Positions_cjcc.php"
+      },
+      {
+        "title": "现货报价",
+        "url": "http://finance.sina.com.cn/futuremarket/spotprice.shtml#titlePos_4"
+      },
+      {
+        "title": "CFTC持仓",
+        "url": "http://finance.sina.com.cn/futures/quotes/CFCTGC.shtml"
+      },
+      {
+        "title": "期指行情",
+        "url": "http://vip.stock.finance.sina.com.cn/mkt/#qz_qh"
+      },
+      {
+        "title": "期指持仓",
+        "url": "http://vip.stock.finance.sina.comcn/q/view/vCffex_Positions_cjcc.php"
+      },
+      {
+        "title": "期指研究",
+        "url": "http://roll.finance.sina.com.cn/finance/gzqh/fxyj/index.shtml"
+      },
+      {
+        "title": "行业指数",
+        "url": "http://finance.sina.com.cn/qizhi/hs300.html#gxzs"
+      },
+      {
+        "title": "权重股票",
+        "url": "http://finance.sina.com.cn/qizhi/hs300.html#qz"
+      },
+      {
+        "title": "期货名人",
+        "url": "http://finance.sina.com.cn/tblog/2011-06-20/166.html"
+      },
+      {
+        "title": "专家坐堂",
+        "url": "http://biz.finance.sina.com.cn/futures/ask/"
+      },
+      {
+        "title": "高清解盘",
+        "url": "http://slide.finance.sina.com.cn/i_list_9_38679.html"
+      },
+      {
+        "title": "期货入门",
+        "url": "http://finance.sina.com.cn/futuremarket/help/1.html"
+      },
+      {
+        "title": "国债收益率",
+        "url": "http://finance.sina.com.cn/forex/bonds.shtml"
+      },
+      {
+        "title": "期市要闻",
+        "url": "http://roll.finance.sina.com.cn/finance/qh/qsyw/index.shtml"
+      },
+      {
+        "title": "期货研究",
+        "url": "http://roll.finance.sina.com.cn/finance/qh/pzyj/index.shtml"
+      },
+      {
+        "title": "机构评论",
+        "url": "http://finance.sina.com.cn/futuremarket/comm_all.html"
+      },
+      {
+        "title": "品种大全",
+        "url": "http://finance.sina.com.cn/futuremarket/help/15.html"
+      },
+      {
+        "title": "外汇计算器",
+        "url": "http://finance.sina.com.cn/forex/jsq.html"
+      },
+      {
+        "title": "人民币牌价",
+        "url": "http://finance.sina.com.cn/forex/paijia.html#0"
+      },
+      {
+        "title": "中间价",
+        "url": "http://biz.finance.sina.com.cn/forex/forex.php"
+      },
+      {
+        "title": "美元指数",
+        "url": "http://finance.sina.com.cn/money/forex/hq/DINIW.shtml"
+      },
+      {
+        "title": "直盘行情",
+        "url": "http://vip.stock.finance.sina.com.cn/mkt/#jbhl_forex"
+      },
+      {
+        "title": "所有行情",
+        "url": "http://vip.stock.finance.sina.com.cn/mkt/?f=caishou#all_forex"
+      },
+      {
+        "title": "美元相关",
+        "url": "http://vip.stock.finance.sina.com.cn/mkt/?f=caishou#usd_forex"
+      },
+      {
+        "title": "人民币相关",
+        "url": "http://vip.stock.finance.sina.com.cn/mkt/?f=caishou#cny_forex"
+      },
+      {
+        "title": "交叉盘",
+        "url": "http://vip.stock.finance.sina.com.cn/mkt/#jchl_forex"
+      },
+      {
+        "title": "拆借利率",
+        "url": "http://finance.sina.com.cn/money/globalindex/ibor.shtml"
+      },
+      {
+        "title": "货币分析",
+        "url": "http://roll.finance.sina.com.cn/finance/wh/hbfx/index.shtml"
+      },
+      {
+        "title": "机构观点",
+        "url": "http://roll.finance.sina.com.cn/finance/wh/fxyc/index.shtml"
+      },
+      {
+        "title": "经济数据",
+        "url": "http://money.finance.sina.com.cn/forex/view/vDailyFX_Detail.php?country=%C3%C0%B9%FA&event=ISM%D6%C6%D4%EC%D2%B5%D6%B8%CA%FD"
+      },
+      {
+        "title": "专家坐堂",
+        "url": "http://biz.finance.sina.com.cn/forex/ask/index.php"
+      },
+      {
+        "title": "分析师圈",
+        "url": "http://finance.sina.com.cn/focus/fxanalyst/"
+      },
+      {
+        "title": "全球滚动",
+        "url": "http://roll.finance.sina.com.cn/finance/wh/index.shtml"
+      },
+      {
+        "title": "CFTC持仓",
+        "url": "http://finance.sina.com.cn/money/forex/hq/CFTCDINIW.shtml"
+      },
+      {
+        "title": "比特币",
+        "url": "http://finance.sina.com.cn/money/forex/hq/BTCbtcchina.shtml"
+      },
+      {
+        "title": "黄金资讯",
+        "url": "http://roll.finance.sina.com.cn/finance/gjs/hjzx/index.shtml"
+      },
+      {
+        "title": "白银分析",
+        "url": "http://roll.finance.sina.com.cn/finance/gjs/byfx/index.shtml"
+      },
+      {
+        "title": "实物金价",
+        "url": "http://vip.stock.finance.sina.com.cn/q/view/vGold_Matter_History.php"
+      },
+      {
+        "title": "ETF持仓",
+        "url": "http://stock.finance.sina.com.cn/futures/view/vGoldEtf.php"
+      },
+      {
+        "title": "黄金TD",
+        "url": "http://finance.sina.com.cn/money/gold/AUTD/quote.shtml"
+      },
+      {
+        "title": "白银TD",
+        "url": "http://finance.sina.com.cn/money/gold/AGTD/quote.shtml"
+      },
+      {
+        "title": "金银币",
+        "url": "http://roll.finance.sina.com.cn/finance/gjs/jyb/index.shtml"
+      },
+      {
+        "title": "专家坐堂",
+        "url": "http://biz.finance.sina.com.cn/zjzt/gold_2014.php"
+      },
+      {
+        "title": "基础知识",
+        "url": "http://roll.finance.sina.com.cn/finance/gjs/tzzs/index.shtml"
+      },
+      {
+        "title": "现货黄金",
+        "url": "http://finance.sina.com.cn/futures/quotes/XAU.shtml"
+      },
+      {
+        "title": "现货白银",
+        "url": "http://finance.sina.com.cn/futures/quotes/XAG.shtml"
+      },
+      {
+        "title": "现货铂金",
+        "url": "http://finance.sina.com.cn/futures/quotes/XPT.shtml"
+      },
+      {
+        "title": "现货钯金",
+        "url": "http://finance.sina.com.cn/futures/quotes/XPD.shtml"
+      },
+      {
+        "title": "高清解盘",
+        "url": "http://slide.finance.sina.com.cn/i_list_9_34353.html"
+      },
+      {
+        "title": "黄金吧",
+        "url": "http://guba.sina.com.cn/?s=bar&bid=9111"
+      },
+      {
+        "title": "白银吧",
+        "url": "http://guba.sina.com.cn/?s=bar&name=ag0"
+      },
+      {
+        "title": "黄金分析",
+        "url": "http://roll.finance.sina.com.cn/finance/gjs/hjfx/index.shtml"
+      },
+      {
+        "title": "叶檀",
+        "url": "http://blog.sina.com.cn/s/articlelist_1233227211_0_1.html"
+      },
+      {
+        "title": "凯恩斯",
+        "url": "http://blog.sina.com.cn/s/articlelist_1284139322_0_1.html"
+      },
+      {
+        "title": "曹中铭",
+        "url": "http://blog.sina.com.cn/s/articlelist_1095876111_0_1.html"
+      },
+      {
+        "title": "股民大张",
+        "url": "http://blog.sina.com.cn/s/articlelist_1278226564_0_1.html"
+      },
+      {
+        "title": "宇辉战舰",
+        "url": "http://blog.sina.com.cn/s/articlelist_1068385283_0_1.html"
+      },
+      {
+        "title": "股市风云",
+        "url": "http://blog.sina.com.cn/s/articlelist_1285707277_0_1.html"
+      },
+      {
+        "title": "余岳桐",
+        "url": "http://blog.sina.com.cn/s/articlelist_1283087143_0_1.html"
+      },
+      {
+        "title": "股海战神",
+        "url": "http://blog.sina.com.cn/s/articlelist_6174896504_0_1.html"
+      },
+      {
+        "title": "郭一鸣",
+        "url": "http://blog.sina.com.cn/s/articlelist_2620383855_0_1.html"
+      },
+      {
+        "title": "赵力行",
+        "url": "http://blog.sina.com.cn/s/articlelist_1778926481_0_1.html"
+      },
+      {
+        "title": "董明珠还能为格力奋战多久？|《至少一个小时》",
+        "url": "https://finance.sina.com.cn/onehour/2020-10-20/doc-iivhvpwz1605853.shtml"
+      },
+      {
+        "title": "梁建章：中国人口衰竭的速度前所未有",
+        "url": "https://finance.sina.com.cn/onehour/2020-06-18/doc-iircuyvi6164573.shtml"
+      },
+      {
+        "title": "冷友斌回应网友质疑：说价格高 对飞鹤不公平！",
+        "url": "https://finance.sina.com.cn/onehour/2020-05-15/doc-iirczymk1670659.shtml"
+      },
+      {
+        "title": "王中军：我喜欢比较“江湖”一点的人",
+        "url": "https://finance.sina.com.cn/onehour/2020-04-09/doc-iimxyqwa5514143.shtml"
+      },
+      {
+        "title": "7x24快讯",
+        "url": "http://guba.sina.com.cn/u/3031084391"
+      },
+      {
+        "title": "9月19日沪深两市涨停分析",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456892&bid=9279&dpc=1"
+      },
+      {
+        "title": "非凡哥哥samm",
+        "url": "http://guba.sina.com.cn/u/7242761149"
+      },
+      {
+        "title": "不想做任何操作",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456767&bid=9279&dpc=1"
+      },
+      {
+        "title": "飞我eight",
+        "url": "http://guba.sina.com.cn/u/6478109017"
+      },
+      {
+        "title": "今天才这点成交量",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456757&bid=9279&dpc=1"
+      },
+      {
+        "title": "和你天天向上",
+        "url": "http://guba.sina.com.cn/u/7505349124"
+      },
+      {
+        "title": "全部清除了 一分不剩",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456698&bid=9279&dpc=1"
+      },
+      {
+        "title": "用户7048726012",
+        "url": "http://guba.sina.com.cn/u/7048726012"
+      },
+      {
+        "title": "想红但是又有点怕羞",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456640&bid=9279&dpc=1"
+      },
+      {
+        "title": "江东子弟93949",
+        "url": "http://guba.sina.com.cn/u/5554913071"
+      },
+      {
+        "title": "还对中芯抱有幻想的人",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456639&bid=9279&dpc=1"
+      },
+      {
+        "title": "拉升一下吧 给我清仓的机会",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456602&bid=9279&dpc=1"
+      },
+      {
+        "title": "用户7763476192",
+        "url": "http://guba.sina.com.cn/u/7763476192"
+      },
+      {
+        "title": "再玩下去6000亿都守不住了，没人玩了",
+        "url": "https://guba.sina.com.cn/?s=thread&tid=3456728&bid=9279&dpc=1"
+      },
+      {
+        "title": "新浪财经意见反馈留言板",
+        "url": "http://news.sina.com.cn/feedback/post.html"
+      },
+      {
+        "title": "新浪简介",
+        "url": "http://ir.sina.com.cn/index.shtml"
+      },
+      {
+        "title": "广告服务",
+        "url": "http://emarketing.sina.com.cn/"
+      },
+      {
+        "title": "About Sina",
+        "url": "http://corp.sina.com.cn/eng/"
+      },
+      {
+        "title": "联系我们",
+        "url": "http://www.sina.com.cn/contactus.html"
+      },
+      {
+        "title": "招聘信息",
+        "url": "http://corp.sina.com.cn/chn/sina_job.html"
+      },
+      {
+        "title": "通行证注册",
+        "url": "https://login.sina.com.cn/signup/signup.php"
+      },
+      {
+        "title": "产品答疑",
+        "url": "http://help.sina.com.cn/"
+      },
+      {
+        "title": "网站律师",
+        "url": "http://www.sina.com.cn/intro/lawfirm.shtml"
+      },
+      {
+        "title": "SINA English",
+        "url": "http://english.sina.com/"
+      },
+      {
+        "title": "版权所有",
+        "url": "http://www.sina.com.cn/intro/copyright.shtml"
+      }
+    ],
     "brands": [
       "理想"
     ],
     "industry": false,
     "evidenceStatus": "media",
-    "reviewReasons": [
-      "正文尚未读取成功"
-    ],
-    "fetchedAt": "2026-09-14T03:18:26.885Z"
+    "reviewReasons": [],
+    "fetchedAt": "2026-09-14T04:07:08.354Z"
   },
   "https://news.yiche.com/xinchexiaoxi/20250920/20103721483.html": {
     "sourceId": "yiche-news",
@@ -22511,7 +23298,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:34.150Z"
+    "fetchedAt": "2026-09-14T04:07:05.887Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-12/doc-inirqfie6532278.shtml": {
     "sourceId": "sina-auto",
@@ -22730,7 +23517,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:43.315Z"
+    "fetchedAt": "2026-09-14T04:07:07.664Z"
   },
   "https://finance.sina.com.cn/stock/relnews/hk/2026-09-08/doc-inirayqy9534445.shtml": {
     "sourceId": "sina-auto",
@@ -23540,7 +24327,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:18:54.124Z"
+    "fetchedAt": "2026-09-14T04:07:08.512Z"
   },
   "https://auto.ifeng.com/c/8lnBgP4v6QE": {
     "sourceId": "ifeng-auto",
@@ -24820,7 +25607,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:19:04.604Z"
+    "fetchedAt": "2026-09-14T04:07:10.571Z"
   },
   "https://finance.sina.com.cn/7x24/2026-09-10/doc-inirihnu8617428.shtml": {
     "sourceId": "sina-auto",
@@ -24880,7 +25667,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:19:16.682Z"
+    "fetchedAt": "2026-09-14T04:07:12.230Z"
   },
   "https://finance.sina.com.cn/tech/digi/2026-09-05/doc-iniqutzk3466348.shtml": {
     "sourceId": "sina-auto",
@@ -25099,7 +25886,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:19:27.677Z"
+    "fetchedAt": "2026-09-14T04:07:12.510Z"
   },
   "https://k.sina.cn/article_7857201856_1d45362c001908nawa.html": {
     "sourceId": "sina-auto",
@@ -25120,7 +25907,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:19:32.264Z"
+    "fetchedAt": "2026-09-14T04:07:14.739Z"
   },
   "https://finance.sina.com.cn/roll/2026-08-19/doc-ininvfss8306534.shtml": {
     "sourceId": "sina-auto",
@@ -25912,7 +26699,7 @@
       "缺少原文发布日期",
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:19:42.445Z"
+    "fetchedAt": "2026-09-14T04:07:14.922Z"
   },
   "https://k.sina.cn/article_7857141524_1d4527714019028ezs.html": {
     "sourceId": "sina-auto",
@@ -25935,7 +26722,7 @@
     "reviewReasons": [
       "正文尚未读取成功"
     ],
-    "fetchedAt": "2026-09-14T03:19:43.046Z"
+    "fetchedAt": "2026-09-14T04:07:16.094Z"
   },
   "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-iniruare7301140.shtml": {
     "sourceId": "sina-auto",
@@ -26893,5 +27680,668 @@
     "evidenceStatus": "media",
     "reviewReasons": [],
     "fetchedAt": "2026-09-14T03:19:57.256Z"
+  },
+  "https://www.onvo.cn/l60": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/l60",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:16.570Z"
+  },
+  "https://www.onvo.cn/power": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/power",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:16.743Z"
+  },
+  "https://www.onvo.cn/news/20260529001": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "新乐道L60正式开启预售，全量搭载蔚来旗舰智能科技",
+    "url": "https://www.onvo.cn/news/20260529001",
+    "publishedAt": "2026-05-29",
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": "2026-05-29",
+    "contentParagraphs": [
+      "2026年5月29日，新乐道L60首次亮相粤港澳大湾区车展，新车迎来六大维度106项焕新升级，凭借行业首个量产全域900V高压架构、共享蔚来ES9、ET9同款旗舰智能科技，成为中型SUV科技旗舰。新车将于6月6日开启全国试驾，6月11日正式上市。",
+      "新乐道L60延续超低风阻溜背SUV造型，外观应用更简洁的一体化前脸设计，新增外后视镜智驾小蓝灯、瞭望塔式传感器布局等科技符号。新车提供星际灰全新车色、20英寸星辉绽放亮银轮圈、安澜青豪华主题内饰等更多个性化配置，为追求科技感、活力感的年轻用户提供丰富选择。",
+      "乐道L60于2024年9月19日首次上市，凭借蔚来十一年技术创新与体系创新赋能，搭载了行业首个量产的全域900V高压架构和行业首个面向AI的整车全域操作系统“SkyOS·天枢”，成为同级能效之王、空间之王、安全之王。新乐道L60共享蔚来旗舰车型ES9、ET9的同款旗舰智能软硬件，包括蔚来自研全球首颗5nm车规级智能辅助驾驶芯片“神玑NX9031”、中国首个面向自动驾驶的世界模型“蔚来世界模型”，和行业首个面向AI的整车全域操作系统“SkyOS·天枢”，成为20万级唯一集齐顶尖智能科技三大件的智能旗舰与中型SUV科技旗舰。",
+      "得益于领先的纯电技术带来的高效空间布局，乐道L60以中型SUV尺寸，带来比肩中大型SUV的空间体验。新乐道L60在保留溜背造型的同时，新增17.3英寸3K影院级天空娱乐屏与前后两段式车顶遮阳帘，搭配新增的6L智能冷暖箱与二排右侧折叠小桌板，打造二排满血体验。新乐道L60是同级唯一同时拥有后排双屏、车载双箱的中型SUV，为用户打造同级最强二排舒适体验。",
+      "新乐道L60现已开启预售，上市前锁定限时预订权益￥1,000 预订金抵扣￥3,000 购车款。即日起，全国门店展车现已到店，欢迎用户到店品鉴。"
+    ],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "蔚来",
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [],
+    "fetchedAt": "2026-09-14T04:07:17.659Z"
+  },
+  "https://www.onvo.cn/testimonials/p1": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/testimonials/p1",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:18.104Z"
+  },
+  "https://www.onvo.cn/news/20260428001": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "一步到位 24.58万元起，乐道L80开启预售",
+    "url": "https://www.onvo.cn/news/20260428001",
+    "publishedAt": "2026-04-28",
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": "2026-04-28",
+    "contentParagraphs": [
+      "2026年4月28日，蔚来旗下品牌乐道汽车在杭州举行了乐道L80产品技术发布会，蔚来创始人、CEO李斌在发布会上正式公布乐道L80的预售价格，整车购买24.58万元起，BaaS电池租用方式购买15.98万元起。",
+      "乐道汽车始终践行“科技为家”理念，以技术创新实现体验革新。基于对大五座SUV用户“空间仍不好用、补能还要纠结”两大痛点的洞察，乐道依托蔚来十一年超过670亿元的研发投入，遍布全国的8000多座充换电网络，推出大五座SUV革新之作——乐道L80，为大五座SUV用户带来“装得下生活，装得下远方”的出行体验。",
+      "乐道L80拥有5145mm的大型SUV黄金尺寸，定位智能双舱大五座旗舰SUV，全面搭载乐道在空间技术、整车安全、轻量化等方面的旗舰级核心技术，更将蔚来旗舰智能科技全家桶带入20-30万的大五座SUV市场，是8系SUV中隐藏的“9系旗舰”，引领8系SUV竞争升维。 是旗舰之作，更是突破想象之作。乐道L80是中国装载空间最大、最灵活的五座SUV，通过超级双舱创新、多种巧思设计，以及数十种原厂可拓展配件，带来超乎想象的场景拓展能力：首发3人3车骑行装载平台，可完美收纳三口之家的骑行装备；专属定制随形巧思露营套装，随时随地开启露营生活；行业首发专属定制三段式随形贴合大床，满足多人舒适躺卧需求... 乐道L80真正做到了既装得下生活，也装得下远方。",
+      "新车有六款车身颜色、四种内饰主题可选，并提供Orin-X纯视觉版和神玑芯片+激光雷达版两种智驾方案选择。预售期间下订并在2026年7月31日（含）前锁单，即可享1000元预订金抵扣3000元购车款。乐道首任车主复购，提车享3万积分；蔚来和萤火虫品牌首任车主复购，提车享1万积分。 旗舰技术加持、空间体验全维升级，叠加一步到位的诚意预售价，乐道L80重新定义了大五座SUV市场的价值基准。 乐道L80展车现已到达全国展厅，5月1日将全面开启试驾体验，5月15日正式上市。",
+      "超凡空间 万象新境 乐道 L80 拥有大型SUV的黄金尺寸，以5145mm的车身长度，3110mm的轴距，实现了60.4%的轴长比和 81.5%超高空间利用率，从底层结构上为乐道L80超凡空间释放了潜力。 乐道L80是中国装载空间最大的大五座SUV，拥有240L超大智能电动前备舱、1200L同级最大后备舱容积，二排座椅放倒空间可拓展至2600L，纵深可达2200毫米，通过后备箱双沉坑空间等巧思设计，配合数十种原厂开发的可拓展配件，随心解锁多元生活场景，让大五座SUV的空间体验，第一次从量变到质变。 前备舱是行李舱，后备舱是生活探索舱，乐道L80以空间分区容纳所有热爱，是开启甜蜜时光的自由空间、是开启亲子时光的探索空间、是开启爱宠时光的温暖空间、也是开启青春时光的旅居空间，让生活从此拥有无限可能。每一程，皆乐道。 乐道L80整车可用空间同级领先，纵向长达4195mm；二排乘坐空间同级最优，二排头部空间1074mm、二排腿部空间1121mm，坐直不顶头，半躺不顶腿。",
+      "全域安全 无忧新境 乐道L90，是唯一一个获得中汽中心三大权威测试全五星认证的大型旗舰SUV。乐道L80与L90同平台开发，安全标准都是同级旗舰。乐道L80构建完整的车身与约束系统、电池安全、智能安全全域安全体系，让全家出行安心无忧。 乐道 L80超高强度钢铝混合超固安全车身，车身扭转刚度达到38150N·m/Deg、2000Mpa潜艇级钢使用量达到 27.4kg，整车安全防护同级领先。全车标配9个安全气囊，全方位柔软守护每一位乘员。二排超大侧气囊与超长超宽侧气帘，即便座椅躺至最大角度，也能为不同体型乘客提供周全防护。 近期乐道 L80 成功通过中汽中心权威认证的“行业首次5吨货车双50km/h追尾+侧碰叠加柱碰夹击挑战”。测试模拟城市丁字路口真实“连环撞击事故”场景，难度远超国标，更具现实意义。 乐道L80电池安全设计标准，全面超越国标。蔚来独有的换电体系，为电池提供“车 - 站 - 云三位一体安全体系”，提供全生命周期的终身安全保障。 乐道L80全系标配60项行业领先的主动和智能安全辅助功能。神玑安全影像基于蔚来全栈技术赋能，整车800万智驾摄像头一摄多用，实现行业首个车载影像跨域融合。旗舰级感知硬件和AI 超清画质增强算法，看得更清；全场景视野补盲，看得更全，为全家出行保驾护航。",
+      "从容驾乘 驰骋新境 乐道L80通过领先的900V架构、蔚来旗舰电驱和车身轻量化技术等创新，实现后驱版整备质量2250公斤，相比同级别车型普遍轻300公斤，轻量化技术水平同级最高。 更高的整车轻量化水平意味着更灵活的操控，更低的能耗。乐道L80四驱版零百公里加速仅需4.5秒、后驱版百公里能耗14.3度，同级最低，综合工况续航达到615公里，结合蔚来覆盖全国的充换电网络，远行无忧；乐道L80搭载行云智享底盘，在旗舰级悬架、减震和豪华鸳鸯胎等硬件能力，与AI端到端感知、控制和自主寻优的顶级智能共同作用下，过弯稳定、烂路不颠，舒适刹停，带来全时全域舒适驾乘体验。 乐道L80拥有10种日常和场景驾驶模式，无论日常驾驶，还是山野穿梭，随心切换，从容驾驭，真正做到都市得心应手，户外从容安心。",
+      "旗舰智能 智享新境 乐道L80提供Coconut和Coconut+椰子两套智能系统选择，满足用户的差异化用车需求。Coconut拥有行业领先一代的数字架构和行业唯一面向AI的整车全域操作系统「SkyOS·天枢」，让家庭出行更从容。Coconut+在Coconut基础上，搭载蔚来自研全球首颗5nm车规级智驾芯片「神玑NX9031」，带来领先一代的旗舰智能体验。 Coconut和Coconut+搭载的AI助手小乐，依托蔚来自研NOMI Intelligence 4.0全场景情感智能架构，以原生座舱AI智能体底层打造，可提供安全守护、贴心建议、精准服务，是探索旅途的最佳帮手。 Coconut标配7颗行业最强的800万像素高清摄像头，4颗高感光环视摄像头，形成360度全向视觉感知，标配高性能4D成像毫米波雷达，最远探测距离达到370米，立体识别精准，穿透力强。Coconut+在Coconut基础上，搭载高精度激光雷达，凭借更敏锐的夜间远距离感知，为行车提供人眼难以企及的提前感知，更早给予安全预警。 Coconut+搭载的蔚来世界模型NWM，具备长时序的建模能力，可全量理解多元信息，能更好应对各种场景。配合闭环强化学习，让模型持续自学进化。结合蔚来首创、长期布局的多层数据闭环，为模型提供海量且丰富的高质量训练数据，持续提升全平台智能驾驶体验。Coconut+在其全栈赋能下，让每一次出行，都能兼顾安心与效率，实现解放精力，减少事故的智驾愿景。",
+      "尊享舒适 愉悦新境 乐道L80搭载展翼电动踏板、四门静音电吸门和智能迎宾灯语，让每一次上下车都轻松便捷，充满仪式感。 乐道L80搭载蔚来高端自研座椅平台，13层复合舒适结构，越级15mm软泡垫层与高密度回弹材质，能够最大程度均匀分散乘坐压力，座椅加热、通风、按摩等功能一应俱全，长途久坐也不易感到疲劳。 全舱四屏布局、温控Nappa真皮座椅、乐道之声・臻享音响系统、智能三区空调、8.8L 智能全电动冷暖箱、全系标配静音电吸门等领先配置，带来沉浸式全维度舒适体验。 乐道L80二排座椅宽度527mm，同级领先；靠背最大调节角度135°，可轻松进入舒享躺姿；二排中央超长宽适大扶手，10mm舒适海绵填充，柔软舒适不将就，放下扶手秒变尊享四座体验。",
+      "原创设计 美学新境 基于大型SUV的黄金尺寸，乐道L80采用原创设计，打造城市得体、郊野自在的出行质感。 乐道L80提供层峰绿、岩脊棕、辰辉银、静岳黑、雪峰白、凝夜紫六种外饰色。其中，全新配色层峰绿兼具金属光泽与珠光光感，层次感十足。丰富的配色，结合大气舒朗挺拔昂扬的前脸，流畅天成的侧面，彰显出乐道L80全场景下旗舰气场。浮光掠影曜黑套件，整车视觉更加修长，车身轮廓更加犀利。 乐道L80提供桂庭黄、云缦米、曜夜黑、月榕棕四种豪华内饰主题，旗舰级的环抱座舱设计，融合超纤绒顶棚、浮光真木饰板、星河幻境环舱氛围灯，尽显豪华内饰质感。其中全新的桂庭黄内饰主题，如同午后舒适的阳光，陪伴每个家庭的欢乐之路。",
+      "乐道汽车持续以技术创新，实现体验革新。乐道L80是大五座SUV的革新之作、旗舰之作，更是突破想象之作。以旗舰技术加持、空间体验全维升级，它将全面刷新大五座SUV出行体验，引领纯电大五座SUV进入黄金时代。"
+    ],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "蔚来",
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [],
+    "fetchedAt": "2026-09-14T04:07:18.387Z"
+  },
+  "https://www.onvo.cn/l90": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/l90",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:19.443Z"
+  },
+  "https://www.onvo.cn/videos": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/videos",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:20.342Z"
+  },
+  "https://www.onvo.cn/map?channel=officialMap": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/map?channel=officialMap",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:21.746Z"
+  },
+  "https://www.onvo.cn/news/20240831001": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "面向未来十年，NT.Coconut 椰子 乐道智能系统正式发布",
+    "url": "https://www.onvo.cn/news/20240831001",
+    "publishedAt": "2024-08-31",
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": "2024-08-31",
+    "contentParagraphs": [
+      "2024年8月31日，NT.Coconut 椰子 乐道智能系统（以下简称“乐道椰子智能系统”）正式发布，将首发搭载于乐道L60。",
+      "乐道椰子智能系统基于面向未来10年的智能硬件架构打造，首次全量应用行业唯一整车全域操作系统「SkyOS·天枢」，具备完全面向家庭、AI赋能的智能体验，将蔚来技术全栈研发成果带入主流家庭用车市场，树立家庭用车“3到5年领先，10年好用，越用越好用”的全新选购标准。",
+      "在智能硬件架构方面，乐道椰子智能系统通过打造六大关键的行业领先自研能力，为未来10年更高的计算需求、更快的控制响应、更智能的全车控制、长期的可持续迭代提供扎实基础，常用常新、持久弥新。",
+      "在整车全域操作系统方面，「SkyOS·天枢」具有高带宽、低时延、大算力与异构硬件、跨域融合、灵活持续进化、高可靠性、信息安全七大优势，能够最大化发挥乐道椰子智能系统面向未来的智能硬件架构的能力，确保其持续不断进化。",
+      "在智能应用方面，乐道椰子智能系统包括具备沉浸影音功能与舒适座舱体验的City Oasis 城市绿洲 AI智舱，具备多模态大模型的贴心AI家庭伙伴小乐，交付即可用、落地放心用的乐道智能驾驶OSD（ONVO Smart Driving），为家庭提供领先的智能体验。",
+      "2024年9月1日，乐道全国55座城市105家门店将同时开业，乐道L60也将首次向公众开放座舱。公众可前往附近乐道门店，体验乐道L60座舱及乐道椰子智能系统。"
+    ],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "蔚来",
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [],
+    "fetchedAt": "2026-09-14T04:07:21.908Z"
+  },
+  "https://www.onvo.cn/policies/community-management-practices": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://www.onvo.cn/policies/community-management-practices",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:23.210Z"
+  },
+  "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L90-user-manual-20250815.pdf": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L90-user-manual-20250815.pdf",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:28.900Z"
+  },
+  "https://www.avatr.com/news?id=c2b179716da2ba80ccf55bd019de050c": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/news?id=c2b179716da2ba80ccf55bd019de050c",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:30.783Z"
+  },
+  "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60-User-Manual-20251230.pdf": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60-User-Manual-20251230.pdf",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:32.706Z"
+  },
+  "https://www.avatr.com/newscenter": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/newscenter",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:33.581Z"
+  },
+  "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60-User-Manual-20251028.pdf": {
+    "sourceId": "onvo-about",
+    "sourceName": "乐道最新动态",
+    "sourceType": "official",
+    "title": "乐道相关信息",
+    "url": "https://cdn-up-public.onvo.cn/www-alps-cn/user-instructions/L60-User-Manual-20251028.pdf",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:乐道",
+    "discoveryBrand": "乐道",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "乐道"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:33.947Z"
+  },
+  "https://www.avatr.com/protocol?type=10181002": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/protocol?type=10181002",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:35.131Z"
+  },
+  "https://www.avatr.com/protocol?type=10181048": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/protocol?type=10181048",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:35.506Z"
+  },
+  "https://vision-car.avatr.com/": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://vision-car.avatr.com/",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:36.063Z"
+  },
+  "https://security.avatr.com/": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://security.avatr.com/",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "contentParagraphs": [],
+    "reviewReasons": [
+      "正文获取失败"
+    ],
+    "fetchError": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  "https://www.avatr.com/en/12": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/en/12",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:37.766Z"
+  },
+  "https://www.avatr.com/news?newsChId=2bde764450e9539d3a9710d6e9af5349&newsEngId=": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/news?newsChId=2bde764450e9539d3a9710d6e9af5349&newsEngId=",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [
+      "2026年4月24日（北京），阿维塔科技携全系产品亮相第十九届北京国际汽车展览会。阿维塔首款概念车VISION XPECTRA迎来亚洲首秀，成为“情感新奢”设计哲学的具象化呈现，将未来美学推向极致，引领全新一代设计语言。近期上市的新阿维塔12、阿维塔06T同步亮相，性能、智能、驾控、安全等全面进阶，满足用户更加极致的出行需求！",
+      "阿维塔科技董事长王辉在车展发布会上表示：“面向下一个五年，阿维塔将继续推动科技实力、产品实力、全球化布局不断进阶。到2030年，奋斗全球销量80万辆，海外销量占比超40%；产品上，到2030年，我们将推出17款全新产品，接下来我们将发布大六座旗舰SUV，并将首批搭载宁德时代麒麟凝聚态电池。”",
+      "阿维塔概念车VISION XPECTRA亚洲首秀，引领全新一代设计语言",
+      "中国品牌，世界审美。阿维塔概念车VISION XPECTRA一经亮相即成为本届北京车展当之无愧的焦点。概念车是阿维塔“情感新奢”设计哲学的具象化呈现，其灵感来源于中国文化中的“气”，以“能量”概念为核心，通过设计去创造能够建立深层情感连接与陪伴感的体验，让汽车不再是冰冷的交通工具，而是用户的“情感智能伙伴”。",
+      "阿维塔概念车VISION XPECTRA由阿维塔科技执行副总裁兼首席设计师Nader Faghihzadeh领衔打造。其极致通透的全景棱镜座舱，如同一座闪烁的玻璃温室，将内饰如展柜一般清晰呈现，诠释对未来设计的前瞻想象。中控屏后方的“情感涡流”作为车辆的灵魂中枢，不仅是交互界面，更能感知并预判用户需求，通过光影、律动和直觉实现情感互动。车内大量采用充气材质与3D针织工艺，通过形态的变化传递和谐感，营造出富有生命力的多维感官体验。",
+      "对于VISION XPECTRA所代表的“情感豪华”，Nader Faghihzadeh有着更深层次的理解：“阿维塔概念车VISION XPECTRA以具体的形式诠释了我们的设计哲学。这就是我们所说的‘情感新奢’：新的豪华并非仅有形式，更在于感受，是一种氛围，是彼此的连接。”",
+      "VISION XPECTRA还承载着阿维塔全新一代设计语言，从第二代产品开始，将延续XPECTRA的设计DNA。依托于长安汽车百年制造基因，阿维塔拥有一支能够百分之百还原设计概念的工程团队，确保将概念车设计落地现实。例如，极具辨识度的前脸灯光特征、雕塑感十足的车身侧面线条，以及座舱中的灵魂中枢“情感涡流”，这些视觉符号都将在全新量产车型上得到体现，让未来设计触手可及。",
+      "新阿维塔12、阿维塔06T上市即热销，阿维塔产品矩阵持续扩容",
+      "北京车展前夕，新阿维塔12、阿维塔06T接连上市，精准覆盖25万至50万级高端品牌核心价格带，形成“豪华旗舰+全场景运动”的双轿车布局。",
+      "作为华为乾崑与阿维塔战略合作2.0的开篇之作，新阿维塔12集成了华为全球量产最高规格的896线激光雷达、华为乾崑智驾、全维防碰撞系统，实现全天候、全方位的主动安全守护。值得一提的是，新阿维塔12还首次上车了“乾崑”LOGO，标志着华为乾崑将最新、最强的智能辅助驾驶技术与最严苛的质量标准，毫无保留地倾注于新阿维塔12之上。配置方面，新阿维塔12全系标配35.4英寸4K全景星环屏、25扬英国之宝音响、9安全气囊等顶格配置，并升级天鹅绒顶棚，重新定义50万内豪华轿车标准。",
+      "作为阿维塔高端轿车矩阵的关键拼图，阿维塔06T专为生活先锋打造，凭借“Taste品味、Tech智能、Twins双驱、Turbo性能、Turismo远行、Trust信任”6T产品价值，成为年轻人的第一台性能车，全面满足用户对运动轿车的全部想象。太行智控2.0技术为阿维塔06T最大核心亮点，不仅赋予了阿维塔06T最快2.78秒的巅峰性能，更通过太行分布式电驱，让安全为运动兜底。此外，阿维塔06T同样搭载华为顶级智能系统，以全维安全防护与百变大空间，兼顾无忧远行实力，全面覆盖城市通勤、户外出游、山路赛道等出行场景。",
+      "从0到1深耕五载，阿维塔迈入高质量发展新阶段",
+      "2026年，阿维塔迎来品牌成立五周年。五年时间，阿维塔完成了第一代四款产品布局，覆盖20-70万元价格区间。渠道与服务方面，阿维塔已在全国超200个城市布局超700家渠道触点，并进入超40个国家和地区，赢得了超过25万用户的认可和信任，逐步站稳新豪华阵营。",
+      "作为新央企高端化战略载体，阿维塔拥有长安百年制造底蕴铸就的技术底座。在国家企业技术中心评价中，长安汽车研发实力连续14年名列行业第一，基于此，阿维塔全栈自研了太行智控底盘、昆仑智慧增程两大尖端技术。其中，太行智控底盘于今年3月迎来技术革新，引入太行分布式电驱技术，带来更快、更稳、更安全的驾控体验，让安全为运动兜底。",
+      "在自研实力基础之上，阿维塔还成为了华为和宁德时代的技术股东，同时兼顾高端智能化和电动化。阿维塔不仅享有华为、宁德时代最新技术的优先搭载权，更携手双方从源头定义每一项新技术。阿维塔是华为引望的最大外部股东，双方已经形成“一个团队、一套打法、一个目标”的融合发展，最新的华为乾崑ADS 5、鸿蒙座舱HarmonySpace 6都将首批搭载于阿维塔车型之上。宁德时代是阿维塔的第二大股东，从超充到凝聚态电池，宁德时代每一项新技术，阿维塔均为首发搭载。",
+      "全球化方面，阿维塔自2024年开启出海至今，海外布局不断提速。目前，阿维塔已进入全球40多个国家和地区，海外触点超80个。在泰国市场，阿维塔11长期稳居高端电动汽车销量第一；在阿联酋市场，阿维塔已占据高端电动汽车10%的市场份额。2026年，阿维塔将进入欧洲市场；预计2030年，阿维塔将进入超80个国家和地区，建立超700个海外触点，让更多全球用户感受到中国新豪华品牌的独特魅力。",
+      "从概念车VISION XPECTRA亚洲首秀，到全系产品矩阵的集结亮相，阿维塔交出了一份面向未来的新豪华答卷。站在五周年的新起点，阿维塔将继续以原创设计为驱动、以智能科技为底色，向着“全球新豪华智能电动汽车领导品牌”的目标笃定前行。接下来，阿维塔将推出大六座旗舰SUV，到2030年计划累计推出17款车型，形成覆盖轿车、SUV、MPV的完善产品矩阵。"
+    ],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期"
+    ],
+    "fetchedAt": "2026-09-14T04:07:38.357Z"
+  },
+  "https://www.avatr.com/news?newsChId=812d41cefb736e7c39fbb47bf3d60869&newsEngId=": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/news?newsChId=812d41cefb736e7c39fbb47bf3d60869&newsEngId=",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [
+      "近日，长安汽车第二十四届技术技能运动会“一号工程”客户体验提升竞赛进入白热化阶段。作为长安汽车高端化的代表，阿维塔深度参与此次赛事，凭借扎实的服务能力与专业素养，5名员工从激烈角逐中脱颖而出，成功晋级决赛。在决赛赛场上斩获多项荣誉——商端销售选手荣获卓越服务一等奖；厂端选手分别荣获二等奖、先锋奖；其中洞见思辨团队奖更有阿维塔选手提名。",
+      "本次竞赛以厂端及商端分别进行，聚焦理论测评与案例实操两大核心模块，全方位考核参赛选手及团队的专业功底、服务思维与应变能力。对阿维塔而言，本场赛事意义深远：一方面以集团统一标准校准自身服务体系，对标长安全系优秀服务案例补齐优化服务细节；另一方面以赛事为练兵场完成全员服务意识淬炼，自上而下统一 “以用户为中心” 服务价值观，完成一次客户意识与服务标准的深度检验。阿维塔始终秉持以赛促学、学以致用的理念，以赛事练兵夯实服务根基，持续搭建长效服务提升机制，推动“智美七星”高端服务体系持续迭代进阶。",
+      "作为阿维塔标志性的新豪华服务体系，“智美七星”服务在2026年迎来多项落地升级，持续重塑高端智能电动汽车行业的服务新标准。今年4月，阿维塔与华为慧通签署深度战略合作，双方将围绕四大板块，共同打造高端智能电动汽车领域的服务新标杆。",
+      "聚焦“智”，阿维塔推出全场景智慧服务，深度升级智能诊断技术与车端管理模型，实现从“被动响应”到“主动预判”的跨越，旨在让服务更精准、更高效。通过全方位智能诊断提前识别潜在隐患，将服务前置、风险前置，从源头保障用户用车安全。2026年底，阿维塔预计将上线超百个主动智慧服务场景，为用户全时段出行保驾护航，让用户的每一次出行都充满安全感与笃定感。",
+      "聚焦“美”，阿维塔全新S级旗舰店给出了关于服务空间的完整答案——采用最新SI 2.0 (Store Identity 2.0) 形象标准，凭借“硬件+服务+产品”三重势能与顶尖竞争力，打造集质感、情感与科技于一体的沉浸式“智美七星”服务生态。单店建筑面积不小于5000㎡，围绕“人员形象、展车鉴赏、销售洽谈、惊喜交付、维保服务、客休生活”等6大场景进行系统性升级。预计2026年底前，全国超20座城市将迎来全新S级旗舰店开业，完善全国高端服务布局。",
+      "聚焦“七星”，阿维塔打造七星级专属服务矩阵，包含：“七星级护卫队”上门服务、全场景“七星级暖心服务”，还有一对一专属“七星级大管家”模式，为用户提供定制化、全周期的专属对接，把新豪华服务的温度落到实处。同时还有七星级塔友会，各地塔友会丰富活动让“用车”更延伸至“生活”。除此之外，每月25日—27日的智美七星服务日以及每周三的星悦延时服务，以 “每月必有专属服务、每周皆有延时守护” 的常态化形式，把贴心服务融入用户日常生活之中。阿维塔用一张覆盖全年、响应全场景的服务网络，诠释着新豪华品牌应有的担当与温度。",
+      "从服务人员在“一号工程”竞赛中的专业突围，到“智美七星”服务软硬件的全面进阶，阿维塔正稳步将“以用户为中心”的核心理念，转化为用户可感知、品牌可落地、未来可延续的高端服务生态。未来，阿维塔将继续全力承接集团“向新向上”的战略使命，不断刷新新豪华服务标准，坚定不移打造世界级新豪华智能电动汽车品牌。"
+    ],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期"
+    ],
+    "fetchedAt": "2026-09-14T04:07:38.964Z"
+  },
+  "https://www.avatr.com/en/news?newsChId=7d46ad1ab2e29998094e09d77d07f26c&newsEngId=": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://www.avatr.com/en/news?newsChId=7d46ad1ab2e29998094e09d77d07f26c&newsEngId=",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [
+      "2025年12月10日上午，在重庆阿维塔数智工厂总装车间，一辆全新阿维塔12四激光版从生产线驶出，中国长安正式迎来了中国品牌汽车第3000万辆下线的历史性里程碑。作为中国长安打造新豪华智能电动汽车品牌的旗舰力作，阿维塔12承载这一历史性里程碑时刻，突显了阿维塔作为集团高端化王牌的战略地位。",
+      "3000万辆里程碑的达成，是长安汽车四十余年技术积淀与清晰战略布局的必然结果。2017年，长安汽车开启以高端化、智能化、绿色化为方向的“第三次创业”，明确向智能低碳出行科技公司转型的发展目标。阿维塔，正是这一高端化梦想的战略核心载体，自诞生起便肩负着引领长安乃至中国品牌实现价值突破的使命，致力于以原创设计和前沿智能科技，创造引领未来的出行体验，全力冲刺全球新豪华智能电动汽车领导品牌。",
+      "作为长安汽车、华为、宁德时代三方深度共创的原创、智能新豪华电动汽车品牌，阿维塔凭借独特的协同优势构建了不可复制的核心竞争力。长安汽车在整车研发、制造和质量控制等方面提供坚实基础；华为在智能辅助驾驶、智能座舱等领域全面赋能；宁德时代在智慧能源生态领域提供支持。通过资源聚合的创新模式，阿维塔高效整合三方顶尖资源，成功构建起\"高颜值、高智能、高价值\"的差异化优势，为用户打造极致的豪华拥车生活体验。",
+      "目前，阿维塔已完成\"三年四车\"产品布局，形成纯电与增程双动力全覆盖的产品矩阵，全面覆盖20万至70万元价格区间的主流豪华市场。截至目前，阿维塔已赢得超过22万用户的青睐，在刚刚过去的11月，单月销量达14,057辆，同比增长21%，已实现连续9个月销量破万，增长势能持续强劲。同时，阿维塔正加速推进全球化布局，目前已成功进入38个国家和地区，赢得了包括不丹国王、卡塔尔皇室在内的全球用户认可。",
+      "面向未来，阿维塔将进一步深化与华为、宁德时代的战略合作，实现更多全新黑科技行业首发。产品矩阵将迎来加速扩张，计划于2026年推出4款与华为的全面联创车型；至2030年，将累计推出多达17款全新车型，全面覆盖轿车、SUV、MPV等细分市场。全球化进程将同步提速，剑指2030年进入全球超80个国家和地区，布局超过700个销售渠道，目标实现80万辆全球销量。",
+      "站在长安3000万辆的新起点上，阿维塔已整装待发。作为长安品牌向上的核心先锋与中国新豪华电动车的标杆代表，阿维塔将凭借持续的科技创新与极致的用户体验，加速向全球新豪华智能电动汽车领导品牌迈进，为\"汽车强国\"战略贡献核心力量。"
+    ],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期"
+    ],
+    "fetchedAt": "2026-09-14T04:07:40.606Z"
+  },
+  "https://m.avatr.com/download": {
+    "sourceId": "avatr-news",
+    "sourceName": "阿维塔新闻中心",
+    "sourceType": "official",
+    "title": "阿维塔相关信息",
+    "url": "https://m.avatr.com/download",
+    "publishedAt": null,
+    "discoveryProvider": "openai-web-search",
+    "discoveryQuery": "brand:阿维塔",
+    "discoveryBrand": "阿维塔",
+    "publishedTime": null,
+    "contentParagraphs": [],
+    "author": "",
+    "mediaOriginal": false,
+    "linkedSources": [],
+    "brands": [
+      "阿维塔"
+    ],
+    "industry": false,
+    "evidenceStatus": "official",
+    "reviewReasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功"
+    ],
+    "fetchedAt": "2026-09-14T04:07:41.560Z"
   }
 }
