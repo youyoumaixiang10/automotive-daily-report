@@ -80,6 +80,7 @@ const expandExpression = `(() => {
   return buttons.length;
 })()`;
 const scrollScreens = Math.max(3, Math.min(18, Number(process.env.SOCIAL_SCROLL_SCREENS) || 3));
+const initialReadAttempts = Math.max(3, Math.min(20, Number(process.env.SOCIAL_INITIAL_READ_ATTEMPTS) || 6));
 
 async function proxy(path, body) {
   const response = await fetch(`http://localhost:3456${path}`, {
@@ -114,7 +115,7 @@ async function collectAccount(account) {
     ({ targetId } = await proxy('/new', account.url));
     if (!targetId) throw new Error('未能创建官方微博读取页面');
     let snapshot;
-    for (let attempt = 0; attempt < 20; attempt++) {
+    for (let attempt = 0; attempt < initialReadAttempts; attempt++) {
       const { value } = await evaluateAfterNavigation(targetId, snapshotExpression);
       snapshot = typeof value === 'string' ? JSON.parse(value) : value;
       if (snapshot?.items?.length) break;
