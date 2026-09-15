@@ -1,382 +1,147 @@
 {
-  "collectedAt": "2026-09-14T11:47:09.390Z",
+  "collectedAt": "2026-09-15T04:09:55.973Z",
   "discoveryVersion": 7,
   "targetDates": [
-    "2026-09-13",
-    "2026-09-14"
+    "2026-09-14",
+    "2026-09-15"
   ],
   "providerStatus": "partial",
   "model": "gpt-5.5",
   "queryRuns": [
     {
-      "id": "brand:蔚来",
-      "brand": "蔚来",
-      "status": "completed",
-      "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_03024286e24b7912016aa7de7703b887d19ebc19c691fe456c"
-    },
-    {
       "id": "brand:乐道",
       "brand": "乐道",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_0886904b201d1030016aa7de77172487d1bf7111863b29dae5"
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:理想",
       "brand": "理想",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_05b32afe02484c7a016aa7de7717fc87d188494d2e972258da"
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:比亚迪",
       "brand": "比亚迪",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_09defcefb650049f016aa7de770aa887d19621712d9d03bbc9"
-    },
-    {
-      "id": "brand:零跑",
-      "brand": "零跑",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_089c7d1515851e5a016aa7de77105887d1863e8976431b5912"
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:鸿蒙智行",
       "brand": "鸿蒙智行",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_0842a17185ae1ace016aa7de79547c87d1acf2b3d113e5d705"
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
-      "id": "brand:小米",
-      "brand": "小米",
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_028c8a12199a04e5016aa7de87b6e887d1b52dde00e938eaee"
+      "id": "brand:蔚来",
+      "brand": "蔚来",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "id": "brand:零跑",
+      "brand": "零跑",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
     },
     {
       "id": "brand:极氪",
       "brand": "极氪",
-      "status": "completed",
-      "sourceCount": 2,
-      "structuredCount": 2,
-      "responseId": "resp_004e32ef2b2ec714016aa7de825d8887d1a87b3ebcb9250ea3"
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
-      "id": "brand:阿维塔",
-      "brand": "阿维塔",
-      "status": "completed",
+      "id": "brand:小米",
+      "brand": "小米",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0074488c9a6a6c7b016aa7de88c70c87d1a13f150eaab46eb8"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:岚图",
       "brand": "岚图",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_01cfbec2ff7cd702016aa7de8899fc87d1854c8049c6be5560"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
+    },
+    {
+      "id": "brand:阿维塔",
+      "brand": "阿维塔",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:深蓝",
       "brand": "深蓝",
-      "status": "completed",
-      "sourceCount": 7,
-      "structuredCount": 7,
-      "responseId": "resp_065607836d14da0d016aa7de8a52ac87d1a1c991a59240cc6b"
-    },
-    {
-      "id": "brand:吉利银河",
-      "brand": "吉利银河",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0234ae42b95736b4016aa7de934e0087d18e20fdb89a028fd8"
-    },
-    {
-      "id": "brand:特斯拉",
-      "brand": "特斯拉",
-      "status": "completed",
-      "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_0036ef9c0331ff32016aa7de95125887d1ab2f99cb209fbb56"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:腾势",
       "brand": "腾势",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_041003e45396c1e5016aa7de8b713887d1abf0d48ec73b80ed"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
+    },
+    {
+      "id": "brand:吉利银河",
+      "brand": "吉利银河",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
+    },
+    {
+      "id": "brand:特斯拉",
+      "brand": "特斯拉",
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "brand:启源",
       "brand": "启源",
-      "status": "completed",
+      "status": "failed",
       "sourceCount": 0,
-      "structuredCount": 0,
-      "responseId": "resp_04e547959c69c18c016aa7de97222087d19ef92ecbc61db7fe"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "media-sweep:1",
       "brand": null,
-      "status": "completed",
-      "sourceCount": 3,
-      "structuredCount": 3,
-      "responseId": "resp_0a441c8f94ef0a9e016aa7de99a1b487d195e030c4115aa0a1"
-    },
-    {
-      "id": "industry",
-      "brand": null,
-      "status": "completed",
-      "sourceCount": 1,
-      "structuredCount": 1,
-      "responseId": "resp_0b9f294f557211c0016aa7dea18ff087d1975569d998d4150d"
-    },
-    {
-      "id": "media-sweep:3",
-      "brand": null,
-      "status": "completed",
-      "sourceCount": 2,
-      "structuredCount": 2,
-      "responseId": "resp_0712e6f5b1491b2f016aa7dea0b08887d195371d9db3a31370"
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     },
     {
       "id": "media-sweep:2",
       "brand": null,
       "status": "failed",
       "sourceCount": 0,
-      "reason": "网页检索未返回完整结构化结果（incomplete）"
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
+    },
+    {
+      "id": "media-sweep:3",
+      "brand": null,
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
+    },
+    {
+      "id": "industry",
+      "brand": null,
+      "status": "failed",
+      "sourceCount": 0,
+      "reason": "OpenAI API 余额不足，本轮未继续请求"
     }
   ],
-  "candidates": [
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "八月新势力品牌销量排名确认：零跑、小鹏和理想包揽前三名（文中提及乐道8月销量8810辆）",
-      "url": "https://chejiahao.m.autohome.com.cn/info/26361137",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 00:34:00",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:乐道",
-      "discoveryBrand": "乐道"
-    },
-    {
-      "sourceId": "pcauto-news",
-      "sourceName": "太平洋汽车",
-      "sourceType": "vertical-media",
-      "title": "太平洋汽车汇总9月上市新车：小米澎程系列、海狮08、腾势N8L纯电、方程S系列、ID.AURA T6等车型上市/预售信息",
-      "url": "https://www.pcauto.com.cn/nation/5181/51817027.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 00:00",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "media-sweep:1",
-      "discoveryBrand": null
-    },
-    {
-      "sourceId": "ithome-auto",
-      "sourceName": "IT之家",
-      "sourceType": "vertical-media",
-      "title": "华为智选车产品总监彭磊详解享界 G9 无网通信黑科技，支持三张通信网保障户外出行",
-      "url": "https://m.ithome.com/html/1001684.htm",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 07:38",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:鸿蒙智行",
-      "discoveryBrand": "鸿蒙智行"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "小米澎程正式开启交付，雷军亲自为车主开门又上热搜",
-      "url": "https://chejiahao.m.autohome.com.cn/pingan/chejiahao/detailinfo/26435564",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 01:26",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:小米",
-      "discoveryBrand": "小米"
-    },
-    {
-      "sourceId": "pcauto-news",
-      "sourceName": "太平洋汽车",
-      "sourceType": "vertical-media",
-      "title": "黄冈极氪X最新报价：2026款Max五座版本地最低报价14.58万元起",
-      "url": "https://www.pcauto.com.cn/hq/1469703.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 10:33:56",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:极氪",
-      "discoveryBrand": "极氪"
-    },
-    {
-      "sourceId": "pcauto-news",
-      "sourceName": "太平洋汽车",
-      "sourceType": "vertical-media",
-      "title": "南平极氪9X现款价格：2026款Ultra版55kWh五座本地报价47.19万元起",
-      "url": "https://www.pcauto.com.cn/hq/1473157.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 13:14:01",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:极氪",
-      "discoveryBrand": "极氪"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "洛阳地区深蓝S05最高优惠0.7万元，最低起售11.59万元",
-      "url": "https://www.autohome.com.cn/x/hq-32616265.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 01:04:34",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "杭州地区深蓝S05最高优惠0.9万元，最低起售11.59万元",
-      "url": "https://www.autohome.com.cn/x/hq-32617016.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 02:17:42",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "北海地区深蓝S09最高优惠1万元，最低起售24.99万元",
-      "url": "https://www.autohome.com.cn/x/hq-32617402.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 02:55:37",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "桂林地区深蓝L07最高优惠1万元，最低起售13.59万元",
-      "url": "https://www.autohome.com.cn/x/hq-32617993.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 03:53:21",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "临沂地区深蓝L07最高优惠1.3万元，最低起售13.59万元",
-      "url": "https://www.autohome.com.cn/x/hq-32618088.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 04:02:42",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "沈阳地区深蓝S05最高优惠1.3万元，最低起售10.39万元",
-      "url": "https://www.autohome.com.cn/x/hq-32619613.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 06:30:53",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "autohome-news",
-      "sourceName": "汽车之家资讯",
-      "sourceType": "vertical-media",
-      "title": "杭州地区深蓝L07最高优惠1.3万元，最低起售13.59万元",
-      "url": "https://www.autohome.com.cn/x/hq-32621143.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 08:59:24",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "brand:深蓝",
-      "discoveryBrand": "深蓝"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "sourceName": "网通社",
-      "sourceType": "vertical-media",
-      "title": "网通社：小米澎程在上海开启首批车主交付，雷军为30位车主及家人交付新车",
-      "url": "https://www.news18a.com/news/storys_296073.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 12:21",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "media-sweep:1",
-      "discoveryBrand": null
-    },
-    {
-      "sourceId": "news18a-auto",
-      "sourceName": "网通社",
-      "sourceType": "vertical-media",
-      "title": "网通社：问界M9 Ultimate领世加长版在赛力斯超级工厂开启全国交付，阔五座64.98万元、享六座65.98万元",
-      "url": "https://www.news18a.com/news/storys_296092.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 16:21",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "media-sweep:1",
-      "discoveryBrand": null
-    },
-    {
-      "sourceId": "gasgoo-auto",
-      "sourceName": "盖世汽车",
-      "sourceType": "vertical-media",
-      "title": "太乙圣莲拟出资30亿元入主哪吒汽车；工信部称将从规范竞争秩序、标准引领、质量安全、制度机制四方面保障汽车产业高质量发展",
-      "url": "https://auto.gasgoo.com/news/202609/14I70471929C501.shtml",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-14 07:00:54",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "industry",
-      "discoveryBrand": null
-    },
-    {
-      "sourceId": "nbd-auto",
-      "sourceName": "每日经济新闻",
-      "sourceType": "vertical-media",
-      "title": "每日经济新闻：九部门《智能网联新能源汽车产业发展“十五五”规划》提出到2030年部分场景实现高度自动驾驶",
-      "url": "https://m.nbd.com.cn/articles/2026-09-13/4580162.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13 18:55",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "media-sweep:3",
-      "discoveryBrand": null
-    },
-    {
-      "sourceId": "nbd-auto",
-      "sourceName": "每日经济新闻",
-      "sourceType": "vertical-media",
-      "title": "每日经济新闻汽车早参：太乙圣莲拟30亿元入主哪吒汽车，小米澎程系列全国交付首站落地徐州",
-      "url": "https://www.nbd.com.cn/articles/2026-09-13/4580069.html",
-      "publishedAt": null,
-      "discoveryPublishedAt": "2026-09-13",
-      "discoveryProvider": "openai-web-search",
-      "discoveryQuery": "media-sweep:3",
-      "discoveryBrand": null
-    }
-  ],
+  "candidates": [],
   "publicationRule": "网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。"
 }
