@@ -1,6 +1,10 @@
 name: 更新汽车日报
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-report.yml'
   schedule:
     # 00:17/02:17 UTC = 08:17/10:17 Asia/Shanghai. The second run retries
     # transient source and GitHub schedule delays without changing the issue window.
