@@ -71,7 +71,7 @@ export function isSpecificContentUrl(value, source) {
     const sourceBase = `${sourceUrl.origin}${sourceUrl.pathname}`.replace(/\/+$/u, '');
     if (normalized === sourceBase) return false;
     if (/\/(?:news|information|newscenter|zwgk|about|newbrand|new_car|cars|hangye)?\/?$/iu.test(url.pathname)) return false;
-    if (/\/(?:search|query|channel|list|index)(?:[/.]|$)/iu.test(url.pathname)) return false; if (/\/(?:price|dealer|library-brand|testimonials|user-instructions|latest-preview-config)(?:[/.]|$)/iu.test(url.pathname)) return false;
+    if (/\/(?:search|query|channel|list|index)(?:[/.]|$)/iu.test(url.pathname)) return false; if (/\/(?:price|dealer|library-brand|testimonials|user-instructions|latest-preview-config|hq|pingan)(?:[/.]|$)/iu.test(url.pathname)) return false;
     if (source.sourceType === 'official-social' && /^\/(?:u\/)?\d+\/?$/u.test(url.pathname)) return false;
     return /\d{3,}|\.(?:s?html?|php)$/iu.test(`${url.pathname}${url.search}`);
   } catch { return false; }
