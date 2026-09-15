@@ -126,7 +126,7 @@ export async function searchJob(job, options = {}) {
     method: 'POST',
     headers: { authorization: `Bearer ${apiKey}`, 'content-type': 'application/json' },
     body: JSON.stringify({
-      model: options.model || process.env.SEARCH_MODEL || 'gpt-5.5',
+      model: options.model || process.env.SEARCH_MODEL || 'gpt-5-mini',
       reasoning: { effort: 'low' },
       tools: [{
         type: 'web_search',
