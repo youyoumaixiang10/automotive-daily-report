@@ -8,7 +8,7 @@ on:
   schedule:
     # 00:17/02:17 UTC = 08:17/10:17 Asia/Shanghai. The second run retries
     # transient source and GitHub schedule delays without changing the issue window.
-    - cron: '17 0,2 * * *'
+    - cron: '17 0-3 * * *'
   workflow_dispatch:
 
 permissions:
