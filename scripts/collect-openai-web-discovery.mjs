@@ -22,7 +22,8 @@ if (!process.env.OPENAI_API_KEY) {
   process.exit(0);
 }
 
-const pendingJobs = jobs.filter(job => priorRuns.get(job.id)?.status !== 'completed');
+const quotaBlocked = sameIssue && previous.fatalReason;
+const pendingJobs = quotaBlocked ? [] : jobs.filter(job => priorRuns.get(job.id)?.status !== 'completed');
 let nextJob = 0;
 function saveRun(run) {
   const index = queryRuns.findIndex(item => item.id === run.id);
@@ -56,9 +57,9 @@ const retained = sameIssue ? (previous.candidates || []) : [];
 const candidates = [...new Map([...retained, ...collected].map(item => [item.url, item])).values()];
 const failed = queryRuns.filter(run => run.status === 'failed');
 writeJson(file, {
-  collectedAt: new Date().toISOString(), discoveryVersion, targetDates, providerStatus: failed.length ? 'partial' : 'completed',
+  collectedAt: new Date().toISOString(), discoveryVersion, targetDates, providerStatus: failed.length ? 'partial' : 'completed', fatalReason: fatalReason || previous.fatalReason || '',
   model: process.env.SEARCH_MODEL || 'gpt-5.5', queryRuns, candidates,
   publicationRule: '网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。'
 });
-console.log(`OpenAI 网页检索：完成 ${queryRuns.length - failed.length}/${queryRuns.length} 个品牌与行业任务，发现 ${collected.length} 条已登记来源线索。`);
+console.log(quotaBlocked ? 'OpenAI 网页检索：本期已因余额不足暂停，等待充值后下一期再试。' : `OpenAI 网页检索：完成 ${queryRuns.length - failed.length}/${queryRuns.length} 个品牌与行业任务，发现 ${collected.length} 条已登记来源线索。`);
 if (failed.length === queryRuns.length) process.exitCode = 1;
