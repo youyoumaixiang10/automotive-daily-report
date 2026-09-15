@@ -12,6 +12,11 @@ const candidates = [...new Map(inputs.map(item => [item.url, item])).values()];
 const failures = [];
 let next = 0;
 let fetched = 0;
+function verifiedDiscoveryDate(value) {
+  const match = String(value || '').match(/^(20\d{2}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}))?$/u);
+  if (!match || match[1] > chinaDate()) return null;
+  return { publishedAt: match[1], publishedTime: match[2] ? `${match[1]} ${match[2]}` : match[1] };
+}
 function deriveBrands(source, detail) {
   // A verified brand-owned social account is itself the attribution boundary.
   // Its posts may mention partner brands or unrelated hashtags, which must not
@@ -38,7 +43,13 @@ async function worker() {
       const articleUrl = new URL(item.url);
       const articleHost = articleUrl.hostname.replace(/^www\./, '');
       if (articleUrl.protocol !== 'https:' || !expectedHosts.some(expectedHost => articleHost === expectedHost || articleHost.endsWith(`.${expectedHost}`) || expectedHost.endsWith(`.${articleHost}`))) throw new Error('原文链接不属于已登记的来源');
-      const detail = item.contentParagraphs?.length ? { ...item, title: item.title, publishedAt: item.publishedAt, contentParagraphs: item.contentParagraphs } : extractArticle(await collectBrowserHtml(item.url), item);
+      const extracted = item.contentParagraphs?.length ? { ...item, title: item.title, publishedAt: item.publishedAt, contentParagraphs: item.contentParagraphs } : extractArticle(await collectBrowserHtml(item.url), item);
+      const discoveryDate = verifiedDiscoveryDate(item.discoveryPublishedAt);
+      const detail = {
+        ...extracted,
+        publishedAt: extracted.publishedAt || discoveryDate?.publishedAt || null,
+        publishedTime: extracted.publishedTime || discoveryDate?.publishedTime || null
+      };
       const reasons = [];
       if (!detail.publishedAt) reasons.push('缺少原文发布日期');
       if (detail.publishedAt > chinaDate()) reasons.push('原文发布日期晚于当前日期');
